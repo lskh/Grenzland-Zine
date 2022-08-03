@@ -1,4 +1,4 @@
-all: demo.pdf
+all: Grenzland1.pdf
 
 %.pdf: %.tex coverart.png Makefile
 	pdflatex $<
