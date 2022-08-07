@@ -17,6 +17,7 @@
 \RequirePackage{graphicx}
 \RequirePackage{tabularx}
 \newcolumntype{Z}{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}X}
+\newcolumntype{Y}{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}X}
 \RequirePackage[table]{xcolor}    % loads also »colortbl«
 \rowcolors{2}{gray!25}{white}
 \RequirePackage{tcolorbox}
@@ -72,6 +73,14 @@
 %\begin{figure*}
 \noindent
 \includegraphics[width=\textwidth]{#1}
+%\end{figure*}
+\begin{multicols}{2}}
+
+\newcommand{\landscapemap}[1]{
+\end{multicols}
+%\begin{figure*}
+\noindent
+\includegraphics[width=\textheight,angle=90,origin=c]{#1}
 %\end{figure*}
 \begin{multicols}{2}}
 
