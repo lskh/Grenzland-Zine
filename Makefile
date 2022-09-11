@@ -3,6 +3,8 @@ all: Grenzland1.pdf
 GENPNG=Grenzland-postapo.gen.png Grenzland-praeapo.gen.png\
 	Grenzland-Startarea.gen.png Inseln-Startarea.gen.png
 
+.PRECIOUS: $(GENPNG)
+
 %.pdf: %.tex License.tex $(GENPNG) Coverimage.png Makefile
 	pdflatex $<
 
