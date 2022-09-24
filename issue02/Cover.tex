@@ -1,0 +1,22 @@
+\documentclass[coverwidth=151mm, 
+	       coverheight=216mm,
+               spinewidth=1mm,
+               bleedwidth=4mm,
+               marklength=1mm,
+               12pt]{bookcover}
+\usepackage[osf]{coelacanth}
+\definecolor{background}{HTML}{FF7755}
+\setlength{\textwidth}{\coverwidth}
+\begin{document}
+\begin{bookcover}
+\bookcovercomponent{color}{bg whole}{color=background}
+\bookcovercomponent{normal}{front}{
+
+\vspace{10mm}
+
+\input{Titlepage.tex}
+
+}
+
+\end{bookcover}
+\end{document}
