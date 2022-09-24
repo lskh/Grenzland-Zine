@@ -7,7 +7,7 @@ GENPNG=Grenzland-postapo.gen.png Grenzland-praeapo.gen.png\
 
 all: $(PDF)
 
-%.pdf: %.tex License.tex $(GENPNG) Coverimage.png 
+%.pdf: %.tex License.tex $(GENPNG) Coverimage.png wbzine.cls Makefile
 	pdflatex $<
 
 %.gen.png: %.gen.svg Makefile
@@ -19,14 +19,14 @@ coverart.png: coverart.cfdg Makefile
 License.tex: License.md Makefile
 	pandoc -o $@ $<
 
-Frontcover.png: $(PDF) Makefile 
-	pdftoppm -f 1 -l 1 $< > tmp.png
-	convert +level-colors "#000000","#ff00bb" \
+Frontcover.png: Makefile 
+	pdftoppm -f 1 -l 1 $(PDF) > tmp.png
+	convert +level-colors "#000000","#ff44bb" \
 	tmp.png $@
 
-Backcover.png: $(PDF) Makefile
-	pdftoppm -f 1 -l 1 $< > tmp.png
-	convert +level-colors "#ff00bb","#ff00bb" \
+Backcover.png: Makefile
+	pdftoppm -f 1 -l 1 $(PDF) > tmp.png
+	convert +level-colors "#ff44bb","#ff44bb" \
 	-fuzz 100% tmp.png $@
 	rm -f tmp.png
 

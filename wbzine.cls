@@ -11,6 +11,7 @@
 
 \RequirePackage[a5paper]{geometry}
 \geometry{inner=10mm, outer=10mm, top=10mm, bottom=16mm}
+\geometry{footskip=6mm}
 \setlength{\parindent}{0mm}
 \setlength{\parskip}{3mm}
 \RequirePackage{multicol}
