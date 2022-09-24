@@ -11,3 +11,5 @@ Redaktion und Layout sowie Kartografie und alle Texte ohne
 Autorenangabe: Laurens Kils-Hütten, a.k.a *Wanderer Bill*,
 E-Mail: wandererbill@betola.de
 
+Das Grenzland Zine ist ein Open Source Projekt. Die Quelldateien
+finden sich unter https://github.com/lskh/Grenzland-Zine

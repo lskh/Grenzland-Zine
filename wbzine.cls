@@ -10,7 +10,7 @@
 \LoadClass{article}
 
 \RequirePackage[a5paper]{geometry}
-\geometry{inner=9mm, outer=9mm, top=9mm, bottom=15mm}
+\geometry{inner=10mm, outer=10mm, top=10mm, bottom=16mm}
 \setlength{\parindent}{0mm}
 \setlength{\parskip}{3mm}
 \RequirePackage{multicol}
@@ -72,8 +72,10 @@
 \end{multicols}
 %\begin{figure*}
 \noindent
+\vfill
 \includegraphics[width=\textwidth]{#1}
 %\end{figure*}
+\vfill
 \begin{multicols}{2}}
 
 \newcommand{\landscapemap}[1]{
