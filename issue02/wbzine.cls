@@ -35,7 +35,7 @@
 }
 
 \newcommand{\by}[1]{
-\hfill\textit{#1}}
+\hfill\---\textit{#1}}
 
 
 % Do I really need this?
