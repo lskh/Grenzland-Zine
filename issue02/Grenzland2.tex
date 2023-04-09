@@ -6,13 +6,16 @@
 \usepackage[ngerman]{babel}
 \usepackage{coelacanth}
 \usepackage{pdfpages}
-
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\mdseries}
+\renewcommand{\cftsecpagefont}{\mdseries}
 % needed for phf session form article
 \usepackage{fourier-orns}
 \usepackage{wasysym}
 \newcommand{\monster}{\textxswup}
 \newcommand{\torch}{\sun}
 \newcommand{\lantern}{\CIRCLE}
+%
 \setlength{\leftmargini}{1em}
 \begin{document}
 
@@ -170,6 +173,8 @@ The initial Wind Speed may be determined by rolling on this table:
 A Trireme or Quadrireme, ships with three to four rowing benches and
 probably more then one lateen rigged mast:
 
+\smallmap{img/Trireme.jpg}
+
 \begin{tabularx}{\columnwidth}{Zc}
 Bearing & Bearing Number (BN) \\
 Running & 9 \\
@@ -197,6 +202,8 @@ Luffing & 1 (backwards) \\
 
 A fast square rigged sailer, one mast:
 
+\smallmap{img/Longship.png}
+
 \begin{tabularx}{\columnwidth}{Zc}
 Bearing & Bearing Number (BN) \\
 Running & 11 \\
@@ -211,6 +218,8 @@ Backing & 2 (backwards) \\
 A square rigged trading vessel with full lines and two to three masts. A
 Hulk, Carrack or Caravel.
 
+\smallmap{img/Galleon.png}
+
 \begin{tabularx}{\columnwidth}{Zc}
 Bearing & Bearing Number (BN) \\
 Running & 9 \\
@@ -224,6 +233,8 @@ Backing & 1 (backwards) \\
 
 A small trading vessel with full lines, and usually just one mast. A
 Cog.
+
+\smallmap{img/Cog.jpg}
 
 \begin{tabularx}{\columnwidth}{Zc}
 Bearing & Bearing Number (BN) \\
@@ -240,6 +251,8 @@ A Galleon or Man-'o-War, a massive ship with three or four masts, the
 fore- and mainmast are always square rigged. One or more gun decks or at
 least multiple catapults.
 
+\smallmap{img/Carrack.png}
+
 \begin{tabularx}{\columnwidth}{Zc}
 Bearing & Bearing Number (BN) \\
 Running & 10 \\
@@ -252,6 +265,8 @@ Backing & 1 (backwards) \\
 \subsubsection{Cutter}
 
 A fore-n-aft rigged single masted boat.
+
+\smallmap{img/Cutter.jpg}
 
 \begin{tabularx}{\columnwidth}{Zc}
 Bearing & Bearing Number (BN) \\
@@ -267,6 +282,8 @@ Luffing & 1 (backwards) \\
 A fore-n-aft rigged boat with two or more masts. The foremast may have
 square sails.
 
+\smallmap{img/Schooner.jpg}
+
 \begin{tabularx}{\columnwidth}{Zc}
 Bearing & Bearing Number (BN) \\
 Running & 10 \\
@@ -276,8 +293,6 @@ Beating & 8 \\
 Luffing & 1 (backwards) \\
 \end{tabularx}
 
-\end{multicols}
-
 \subsection{Movement}
 
 Each ships speed in tabletop inches is derived by multiplying Wind Speed
@@ -286,37 +301,17 @@ relative to the direction of the wind:
 
 Bearings in the 8 point wind system:
 
-\begin{verbatim}
-                             Quarter Reaching
-                                    |
-                         Beating \  |  / Broad Reaching
-   Direction                      \ | /
------------------->   Luffing ------O----- Running
-   of Wind                        / | \
-                         Beating /  |  \ Broad Reaching
-                                    |
-                              Quarter Reaching
-\end{verbatim}
+\smallmap{img/movemnt8pt.png}
 
 Bearings in the 6 point wind system:
 
-\begin{verbatim}
-                         Beating \     / Broad Reaching
-   Direction                      \   /
------------------->   Luffing ------O----- Running
-   of Wind                        /   \
-                         Beating /     \ Broad Reaching
-
-Ships Speed ["] = WS * BN
-
-\end{verbatim}
+\smallmap{img/movemnt6pt.png}
 
 
 When moving ships may normally change direction by one point per turn.
 Changing direction by two points per turn is dangerous and causes Strain
 (see below).
 
-\begin{multicols}{2}
 
 \subsubsection{Examples}
 
@@ -485,6 +480,14 @@ downwind at Wind Speed.
 \input{sessionform}
 
 \section{Impressum}
+
+\textbf{Autoren}:
+
+phf -- Peter H. Fröhlich, @phf@tabletop.social
+
+alex -- Alex Schröder, @kensanata@tabletop.social 
+
+lkh -- Laurens Kils-Hütten, @wandererbill@tabletop.social 
 
 \textit{Grenzland} wird editiert und
 herausgegeben von Laurens Kils-Hütten,
