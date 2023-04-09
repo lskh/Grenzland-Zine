@@ -11,7 +11,7 @@ Backcover.pdf: Backcover.png
 	mogrify -format pdf $<
 
 view: all
-	zathura *.pdf &
+	zathura Grenzland2.pdf &
 
 clean: 
 	rm -f *~ *.log *.aux *.toc
