@@ -1,6 +1,6 @@
-all: Grenzland2.pdf 
+all: Grenzland2.pdf
 
-%.pdf: %.tex Frontcover.pdf Backcover.pdf Makefile halloween.tex wbzine.cls
+%.pdf: %.tex Frontcover.pdf Backcover.pdf Makefile halloween.tex wbzine.cls sessionform.tex
 	pdflatex -draftmode $<
 	pdflatex $<
 
@@ -13,7 +13,7 @@ Backcover.pdf: Backcover.png
 view: all
 	zathura Grenzland2.pdf &
 
-clean: 
+clean:
 	rm -f *~ *.log *.aux *.toc
 
 realclean: clean
