@@ -90,7 +90,8 @@
 %\renewcommand*\sfdefault{ugq}
 
 \RequirePackage{titlesec}
-\titlespacing{\section}{0pt}{*4}{*0.2}
+\titlespacing{\section}{0pt}{*2}{*0.2}
+\titlespacing{\subsection}{0pt}{1ex}{*0}
 \titleformat{\section}[frame]
  {\normalfont}
  {\filright\enspace\thesection\enspace}
