@@ -1,6 +1,6 @@
 all: Grenzland2.pdf
 
-%.pdf: %.tex Frontcover.pdf Backcover.pdf Makefile halloween.tex wbzine.cls sessionform.tex
+%.pdf: %.tex Frontcover.pdf Backcover.pdf Makefile halloween.tex zisterne.tex wbzine.cls sessionform.tex
 	pdflatex -draftmode $<
 	pdflatex $<
 
