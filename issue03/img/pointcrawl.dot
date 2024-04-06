@@ -1,0 +1,31 @@
+digraph pointcrawl {
+	a [label="Vier dunkle Zellen"];
+	b [label="Die ungewisse\n Kreuzung"];
+	c [label="Die Schatz-\nkammer"];
+	d [label="Piraten!"];
+	e [label="Das Piratenlager"];
+	f [label="Das Schiff"];
+	g [label="Eine Höhle,\n ein Schwarm"];
+	h [label="Das Grab des\n alten Piraten"];
+	i [label="Die geheime\nBucht"];
+	j [label="Ziegen!"];
+	k [label="Die dunkle\n See"];
+        l [label="Der Kraken"];
+
+	a -> b;
+	b -> {c d};
+	c -> b;
+	d -> e;
+	e -> f;
+	a -> g;
+	g -> h;
+	h -> i;
+	i -> j;
+	j -> e;
+	i -> k;
+	k -> f;
+	f -> l;
+	k -> l;
+        a -> f;
+}
+

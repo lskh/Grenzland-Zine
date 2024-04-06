@@ -1,0 +1,144 @@
+.H1
+The Anointed of Abyssal Slaughter (NPC class)
+.PP
+.ft NI
+Thence came the dread pirate Stinkebarter, who had been making the shipping
+lanes in this part of the world unsafe for close to a century. Like ravenous
+beasts these monsters threw themselves at their victims. They stank of the sea,
+their skins were full of scales, and their beards were mottled with seaweed and
+barnacles. They stared lifelessly from big bulging fish eyes as they cut down
+anyone in their path and threw their bodies to the sharks. That was the way of
+the pirates that had laired in those islands for generations. Some said they
+were the cursed of the sea.
+.ft
+     - from the anonymous (and justifiably forgotten) novel Scourge of the Sea
+       Beasts
+.PP 
+In the depths there are things sleeping for untold aeons. Occasionally one of
+them reaches up from the darkest reaches and touches the existence of the light
+dwellers. They call it the curse of the Sea God, the Bane of the Depths, or the
+Aquatic Disease. Most air-breathing sailors are unaware  the aquatic races are
+afflicted with it as well. It is rare, but on the surface it affects mostly
+fishermen and pirates, seldom others. It causes them to change. The first sign
+is lethargy except when in water. They start growing gills, their skin hardens,
+and their fingers elongate. And with times they start looking more and more...
+fishy. Soon they only can be roused by aggression, often fighting in wild
+frenzies, biting and gurgling inhuman chants. As of today nobody knows how to
+cure this condition. No cleric has succeeded in removing this curse, no
+physician seems competent to cure this malady. Some people will live with it
+until the end of their unnaturally long life, but many will perish before, or
+just go into the water, never to reappear.
+.PP
+There is a reason for this condition and for it's incurability: that is, it's
+not a disease, and it's not a curse. It is a blessing. Even more, it’s victim
+are anointed into a holy office. A blessing though by an eldritch aquatic deity
+that no human knows, and which even the aquatic people might only whisper about
+in half-forgotten stories. The god of abyssal slaughter (the actual name is
+forgotten and was unpronounceable anyway) was first venerated by a
+now-forgotten race of Coelacanthi-men, and it was a god of blood, murder, and
+combat. None of their old temples remain even under the sea, but in some of the
+places they once stood, at the right time, with the right sacrifices (we are of
+course talking about blood and gore), the deity will bestow their greatest gift
+on those that bring them: the gift of their form. No-one is aware of this fact,
+as it is mostly pirates and raiders that just happen to massacre enough victims
+in exactly the right spot that are bestowed this honor, with the occasional
+whaler or fisherman caught in between. Most of them see it as a curse by the
+gods of the sea. And of course they are only half-wrong.
+.PP
+.B Mechanically: 
+if intelligent beings are killed and given to the sea in one of
+the holy places of the Coelacanth god, they are counted as sacrifices. The ways
+of the god are unknownable, but in general about 1000 unintelligent beings, 100
+intelligent ones, or 10 Anointed of the Coelacanth god1 will be enough to grant
+the Blessing of Form. It does not matter if they are killed in the water or
+outside, as long as their fresh blood and meat ends as a feast for the ocean
+dwellers. 
+.H2
+The Anointed NPC class
+.PP
+Those anointed and given the blessing take the Anointed class instead of their
+original class. They keep their hit dice, saving throws, and attack bonus, and
+all other class features, until the Anointed class gives them a better value.
+.PP
+XP for Anointed can only be gained for killing and/or technically also for
+performing quests. Quests will come by the blubbering of the god in the
+character’s dreams and consist mostly of acts of carnage. (like a Quest spell). 
+.PP
+The status can not be cured by Cure Disease spells or Remove curse spells (as
+it is neither), but performing actions that are anathema to the Coelocanth god
+might revoke the Anointed status. The mind of the deep god is difficult to
+measure though, so nobody is quite sure what is anathema or not. Selling your
+soul to a demon or other being is a surefire way though, so there's that.  The
+blessing of form also grants the character an unnaturally long life-span,
+however useful that is. Most afflicted disappear after a few years, some hold
+on for a few hundred years, but ultimately most disappear into the waves.
+(mechanically their lifespan increases to natural lifespan * level of Anointed)
+.PP
+                  Saving Throws 
+   Level XP HD THAC0 D W P B S 
+   1 0 1d6 19 [0] 11 12 14 16 15 
+   2 2000 2d6 19 [0] 11 12 14 16 15 
+   3 4000 3d6 19 [0] 11 12 14 16 15 
+   4 8000 4d6 19 [0] 11 12 14 16 15 
+   5 16,000 5d6 17 [+2] 9 10 12 14 12 
+   6 30,000 6d6 17 [+2] 9 10 12 14 12 
+   7 60,000 7d6 17 [+2] 9 10 12 14 12 
+   8 120,000 8d6 17 [+2] 9 10 12 14 12 
+.LP
+Every level roll 1 ability of Coelacanth form, also following changes
+.IP "Level 1:"
+ability to breathe underwater
+.IP "Level 3:"
+cannot enter dry land anymore (100 paces past the shore)
+.IP "Level 4:"
+needs to spend half of time breathing water
+.IP "Level 8:"
+cannot breathe air anymore, unavoidable urge to travel to Coelacanth god
+.PP
+Every level past the first a character has to make a saving roll against
+Spells or be drawn to the next holy site of the Coelacanth god. (if not yet
+they will become an NPC and spend the rest of their time in the vicinity
+"guarding" the non-existent site. Most of the rare Anointed are just living
+there as hermits, only going out for hunting, some of the larger sites have
+small villages or the equivalent to monasteries of these blood-thirsty
+hermits, others might be more enterprising (raiding the surrounding
+settlements and trade routes as pirates).
+.PP
+At level 8 they are drawn to the depths where the Coelacanth god dwells. This
+is an ancient, near-ruined city of the elder adherents of the god, and there
+they are matched against other Anointed ones until they either die a
+sacrifice, or gain the right to challenge the god himself. What happens if
+they kill the god is not quite clear. It might be this already has happened. 
+
+
+Traits of Form (1d8) 
+1. Silvery Scales AC +1
+2. Bulbous Eyes Cha -1, darksight if underwater
+3. Pointy Teeth Bite 1d6 damage
+4. Extra Fins - Double Swim Speed (when undressed)
+5. Webbed hands  Swimming speed like land movement
+6.  Unhinged Jaw
+7. Aquatic Predator Smell Cha -1 (except for cats)
+8. Hollow Spine: +1 attack if in water
+
+Quests of the Abyssal Slaughter God (1d10)
+1. Destroy shrine of other religion
+2. Destroy heretics of the Slaughter God
+3. Slaughter criminals
+4. Slaughter innocents
+5. Feast on raw meat
+6. Slaughter land dwellers
+7. Slaughter sea dwellers
+8. Slaughter air dwellers
+9. Challenge other Anointed
+10. Challenge higher level Anointed
+
+.PP
+Note: I recently have come to reevaluate NPC classes as a useful concept. My
+main idea is to see them as the equivalent for specific monsters, but in
+social settings. The idea of the Anointed is similar to the presentation of
+Werewolf and Vampire classes in various places (e.g. Imagine magazine #28),
+but in this case trying to emulate the picture of damned sailors cursed to
+sail the seas, crossed with some good old Lovecraftian transformation into
+fish people. 
+.Au Kyonshi

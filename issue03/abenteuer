@@ -1,0 +1,125 @@
+.\" vim: filetype=groff nu relativenumber
+.bp
+.1C
+.H1
+Jailed!
+.PP
+This is a pirate themed escape dungeon. The player characters wake up,
+each in an individual cell just with normal clothes one. Obviously they
+have been captured by pirates and are held prisoners. It's designed for
+four player characters. The GM should assign, which character starts in 
+which prison cell. If there are more than four characters, double
+occupancy would be an option. It was originally written with classic D&D
+in mind, but then play tested with GURPS 3rd Edition. I reproduce it 
+here system agnostic. It's all not that complicated.
+.LP
+\X'pdf: pdfpic img/dungeon.pdf -L 12.8c 
+
+.bp
+.2C
+.H2
+The Prison Cells
+.IP 1
+A dark and dank prison cell. Nothing special here, no loose stones 
+or anything.
+The door is made from wood and has a small barred opening, through which 
+the player character who's incarcerated here can 
+.B "see the guards and talk to them" .
+.IP 2
+Another simple jail call. When the guards talk, they can still be 
+overheard clearly from here. In the dirt under the simple wooden
+bed a 
+.B "rusty dagger"
+can be found.
+.IP 3
+This cell seems to be just the same as the first, however when the 
+character closely examines the door they find that the upper hinge is 
+quite loose. This 
+.B "door could be broken open"
+with some moderate force.
+.IP 4
+This is the darkest cell. In northeastern corner of the wall are some
+conspicuously loose stones. Careful removal of the stones will reveal
+a low 
+.B "crawlspace that leads to a natural cave system" .
+.IP 5
+An 
+.B "orcish guard" , 
+armed with an axe and clad in chainmail always sits 
+here to have an eye on the prisoners. Though 30% of the time he 
+is asleep and snores loudly.
+.IP 6
+Quarter of the orcish guards. There's some roughly made wooden 
+furniture, two beds, some stale, greasy 
+.B provisions , 
+rope, some 
+.B torches , 
+flint and steel. 30% of the time a second orcish 
+guard sleeps here. He's got a rusty sabre, and leather armor.
+.H2
+The Hallway
+.IP *
+Everytime the character arrive at the marked part of the hallway 
+roll the encounter die: 1 in 6, the characters hear 
+noises from somewhere up the stairs: a
+door opening and closing, and then footsteps. Moments later
+.B "1d3 Pirates"
+and one orcisch guard come down the corridor.
+.IP 7
+.B "The Treasure Room" 
+Here's where the pirates keep their treasure. In any case, there's 
+more than the PCs could possibly carry. Look at 
+.B "treasure type E" 
+for ideas. Notably there are 
+.B "two swords and two shields"
+in the hoard.
+Each of which have a 10% chance of being magical.
+.IP
+In front of the door there are some conspicuous holes in the walls 
+hinting quite obviously at a 
+.B "spear trap" .
+.H2
+The Pirates Hideout
+.IP 8
+.B "Empty Attic"
+This room is empty, both doors open according to the usual rules.
+.IP 9
+.B "Pirates Bedroom"
+Here is where the pirates sleep. 30% of the time a drowsy pirate sleeps
+here. There are some woolen blankets and two usable rucksacks here.
+.IP 10 
+.B "The Mess"
+This is the main room of the pirate hideout. The building is stands at
+top of a small beach, partly build into the cliffs. There's jungle all
+around the beach. 
+.IP 
+There are always two pirates present plus the cook. On the walls there
+are various and sundry sabres, spears and three crossbows.
+.IP 
+The simple landing pier is where the pirate ship will be docked 20% of 
+the time. There are 10 Pirates aboard. If the ship is here, it will 
+leave in 6 hours and return in two days.
+.IP 11
+.B "Storage Room"
+here are various pieces of wood, large coils of rope and a few boxes with 
+iron spikes and nails.
+.H2
+.1C
+.SH
+The Caves
+.LP
+\X'pdf: pdfpic img/caves.pdf -L 12.8c 
+
+.bp
+.2C
+.IP 12
+.B "Pool Slide"
+.B1
+The crawlway from the fourth prison cell leads to a natural tunnel that
+slopes downward for about 70 feet in a southerly direction. The floor is
+very slippery. At the end of the slope is a large irregular shaped water 
+filled cave, about 40 x 50 feet large. Characters who fall and slip down
+the slope plunge into the water which is cold and salty. Some 3 to 6 feet 
+above the water surface is a domed cave ceiling. There are two exits
+.B2
+

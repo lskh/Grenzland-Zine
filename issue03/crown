@@ -1,0 +1,26 @@
+.1C
+\X'pdf: pdfpic img/title.pdf -L 8c
+.sp .5cm
+
+by Alex Schröder, CC BY-SA 3.0
+
+\X'pdf: pdfpic img/map.pdf -L 12.8c
+
+.bp
+
+.SH
+Encounters
+
+\X'pdf: pdfpic img/encounters1.pdf -L 12.8c
+
+.bp
+\X'pdf: pdfpic img/encounters2.pdf -L 12.8c
+
+.sp 12cm 
+
+\X'pdf: pdfpic img/npc.pdf -L 12.8c
+
+.bp
+
+\X'pdf: pdfpic img/treasure.pdf -L 12.8c
+

@@ -1,0 +1,4386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="128.45021mm"
+   height="148.69583mm"
+   class="grid"
+   id="svg176"
+   sodipodi:docname="caves.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview176"
+     pagecolor="#eeeeee"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#9c9c9c"
+     inkscape:current-layer="level0"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs176">
+    <pattern
+       id="grid"
+       width="20"
+       height="20"
+       patternUnits="userSpaceOnUse">
+      <rect
+         width="20"
+         height="20"
+         fill="none"
+         stroke="lightgrey"
+         stroke-width="1"
+         id="rect1" />
+    </pattern>
+    <rect
+       id="cursor"
+       width="10"
+       height="10"
+       fill="#228b22"
+       opacity="0.2"
+       transform="scale(2)"
+       x="0"
+       y="0" />
+    <rect
+       id="others"
+       width="10"
+       height="10"
+       fill="#0000ff"
+       opacity="0.2"
+       transform="scale(2)"
+       x="0"
+       y="0" />
+    <rect
+       id="empty"
+       width="10"
+       height="10"
+       class="background"
+       stroke="#000000"
+       stroke-width="1"
+       transform="scale(2)"
+       x="0"
+       y="0" />
+    <rect
+       id="void"
+       width="10"
+       height="10"
+       fill="none"
+       stroke="#000000"
+       stroke-width="1"
+       transform="scale(2)"
+       x="0"
+       y="0" />
+    <g
+       id="water"
+       width="20">
+      <rect
+         width="20"
+         height="20"
+         class="background"
+         stroke="#000000"
+         stroke-width="2"
+         id="rect2"
+         x="0"
+         y="0" />
+      <path
+         id="waves"
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         d="M 3,5 V 4 a 1,1 0 0 1 2,0 1,1 0 1 0 2,0 1,1 0 0 1 2,0 1,1 0 1 0 2,0 1,1 0 0 1 2,0 1,1 0 1 0 2,0 1,1 0 0 1 2,0 v 1" />
+      <use
+         xlink:href="#waves"
+         transform="translate(0,6)"
+         id="use2" />
+      <use
+         xlink:href="#waves"
+         transform="translate(0,12)"
+         id="use3" />
+    </g>
+    <g
+       id="wall"
+       width="10"
+       transform="scale(2)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="10"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line3" />
+    </g>
+    <g
+       id="curtain"
+       width="20">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         d="M 5,3 H 4 a 1,1 0 0 0 0,2 1,1 0 0 1 0,2 1,1 0 0 0 0,2 1,1 0 0 1 0,2 1,1 0 0 0 0,2 1,1 0 0 1 0,2 1,1 0 0 0 0,2 h 1"
+         id="path3" />
+    </g>
+    <g
+       id="portcullis"
+       width="10"
+       transform="scale(2)">
+      <circle
+         cx="2"
+         cy="2"
+         r="1"
+         fill="#000000"
+         id="circle3" />
+      <circle
+         cx="2"
+         cy="5"
+         r="1"
+         fill="#000000"
+         id="circle4" />
+      <circle
+         cx="2"
+         cy="8"
+         r="1"
+         fill="#000000"
+         id="circle5" />
+    </g>
+    <g
+       id="window"
+       width="10"
+       transform="scale(2)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="2"
+         stroke="#000000"
+         stroke-width="3"
+         id="line5" />
+      <line
+         x1="0"
+         y1="8"
+         x2="0"
+         y2="10"
+         stroke="#000000"
+         stroke-width="3"
+         id="line6" />
+      <rect
+         x="-0.75"
+         y="2"
+         width="1.5"
+         height="6"
+         class="background"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect6" />
+    </g>
+    <g
+       id="gap"
+       width="10"
+       transform="scale(2)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="2"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line7" />
+      <line
+         x1="0"
+         y1="8"
+         x2="0"
+         y2="10"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line8" />
+      <circle
+         cx="2.5"
+         cy="2"
+         r="0.5"
+         fill="#000000"
+         id="circle8" />
+      <circle
+         cx="-3"
+         cy="3"
+         r="0.5"
+         fill="#000000"
+         id="circle9" />
+      <circle
+         cx="3"
+         cy="4"
+         r="0.60000002"
+         fill="#000000"
+         id="circle10" />
+      <circle
+         cx="1.5"
+         cy="4.5"
+         r="0.5"
+         fill="#000000"
+         id="circle11" />
+      <circle
+         cx="-1.5"
+         cy="5"
+         r="0.5"
+         fill="#000000"
+         id="circle12" />
+      <circle
+         cx="2"
+         cy="6"
+         r="0.5"
+         fill="#000000"
+         id="circle13" />
+      <circle
+         cx="5"
+         cy="6"
+         r="0.5"
+         fill="#000000"
+         id="circle14" />
+      <circle
+         cx="-2"
+         cy="6.5"
+         r="0.5"
+         fill="#000000"
+         id="circle15" />
+      <circle
+         cx="3"
+         cy="8"
+         r="0.5"
+         fill="#000000"
+         id="circle16" />
+    </g>
+    <g
+       id="corner-pillar"
+       width="10"
+       transform="scale(2)">
+      <circle
+         cx="0"
+         cy="0"
+         r="2"
+         fill="#000000"
+         id="circle17" />
+    </g>
+    <g
+       id="arrow-slit"
+       width="10"
+       transform="scale(2)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="10"
+         stroke="#000000"
+         stroke-width="3"
+         id="line17" />
+      <polygon
+         points="-1.5,5 3,2 3,8 "
+         stroke="none"
+         stroke-width="0"
+         fill="#ffffff"
+         id="polygon17" />
+    </g>
+    <g
+       id="ledge"
+       width="100"
+       transform="scale(0.2)">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="15"
+         d="M 0,0 C 0,20 9,27 11,47 10,80 0,80 0,100 M 6,27 38,21 M 11,49 46,50 M 8,71 32,86"
+         id="path17" />
+    </g>
+    <g
+       id="ledge-r"
+       width="100"
+       transform="scale(0.2)">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="15"
+         d="M 0,0 C 2,18 -8,34 6,48 19,70 -1,83 0,100 M -2,20 -34,14 M 6,48 -31,47 m 9,27 30,1"
+         id="path18" />
+    </g>
+    <g
+       id="door"
+       width="10"
+       transform="scale(2)">
+      <rect
+         x="-1.5"
+         y="2"
+         width="3"
+         height="6"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect18" />
+    </g>
+    <g
+       id="secret"
+       width="10"
+       transform="scale(2)">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         d="M 2,3 C -2,1 -3,5 0,5 3,5 2,9 -2,7"
+         id="path19" />
+    </g>
+    <g
+       id="secret-dm-shown"
+       width="10"
+       transform="scale(2)">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         d="M 2,3 C -2,1 -3,5 0,5 3,5 2,9 -2,7"
+         id="path20" />
+    </g>
+    <g
+       id="secret-p-hidden"
+       width="10"
+       transform="scale(2)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="10"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line20" />
+    </g>
+    <g
+       id="concealed"
+       width="10"
+       transform="scale(2)">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         d="M 2,3 C -3,1 -3,9 2,7"
+         id="path21" />
+    </g>
+    <g
+       id="concealed-dm-shown"
+       width="10"
+       transform="scale(2)">
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         d="M 2,3 C -3,1 -3,9 2,7"
+         id="path22" />
+    </g>
+    <g
+       id="concealed-p-hidden"
+       width="10"
+       transform="scale(2)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="10"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line22" />
+    </g>
+    <g
+       id="gate"
+       width="10"
+       transform="scale(2)">
+      <rect
+         x="-2"
+         y="4"
+         width="4"
+         height="12"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect22" />
+    </g>
+    <g
+       id="archway"
+       width="10"
+       transform="scale(2)">
+      <path
+         fill="#000000"
+         stroke="#000000"
+         stroke-width="1"
+         d="M -1,0 A 1,1 0 0 0 1,0"
+         id="path23" />
+      <path
+         fill="#000000"
+         stroke="#000000"
+         stroke-width="1"
+         d="m -1,10 a 1,1 0 0 1 2,0"
+         id="path24" />
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="2.5"
+         stroke="#000000"
+         stroke-width="1.5"
+         id="line24" />
+      <line
+         x1="-1.5"
+         y1="2.5"
+         x2="1.5"
+         y2="2.5"
+         stroke="#000000"
+         stroke-width="1"
+         id="line25" />
+      <line
+         x1="0"
+         y1="7.5"
+         x2="0"
+         y2="10"
+         stroke="#000000"
+         stroke-width="1.5"
+         id="line26" />
+      <line
+         x1="-1.5"
+         y1="7.5"
+         x2="1.5"
+         y2="7.5"
+         stroke="#000000"
+         stroke-width="1"
+         id="line27" />
+    </g>
+    <g
+       id="one-way-door"
+       width="10"
+       transform="scale(2)">
+      <rect
+         x="0"
+         y="2"
+         width="2"
+         height="6"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect27" />
+      <line
+         x1="0"
+         y1="5"
+         x2="-3"
+         y2="5"
+         stroke="#000000"
+         stroke-width="1"
+         id="line28" />
+      <line
+         x1="-3"
+         y1="5"
+         x2="-1.5"
+         y2="3"
+         stroke="#000000"
+         stroke-width="1"
+         id="line29" />
+      <line
+         x1="-3"
+         y1="5"
+         x2="-1.5"
+         y2="7"
+         stroke="#000000"
+         stroke-width="1"
+         id="line30" />
+    </g>
+    <g
+       id="one-way-door-dm-shown"
+       width="10"
+       transform="scale(2)">
+      <rect
+         x="0"
+         y="2"
+         width="2"
+         height="6"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect30" />
+      <line
+         x1="0"
+         y1="5"
+         x2="-3"
+         y2="5"
+         stroke="#000000"
+         stroke-width="1"
+         id="line31" />
+      <line
+         x1="-3"
+         y1="5"
+         x2="-1.5"
+         y2="3"
+         stroke="#000000"
+         stroke-width="1"
+         id="line32" />
+      <line
+         x1="-3"
+         y1="5"
+         x2="-1.5"
+         y2="7"
+         stroke="#000000"
+         stroke-width="1"
+         id="line33" />
+    </g>
+    <g
+       id="one-way-door-p-hidden"
+       width="10"
+       transform="scale(2)">
+      <rect
+         x="0"
+         y="2"
+         width="2"
+         height="6"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect33" />
+    </g>
+    <g
+       id="pillar"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect34"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="2"
+         fill="#000000"
+         id="circle34" />
+    </g>
+    <g
+       id="altar"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect35"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="3"
+         width="6"
+         height="4"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect36" />
+      <circle
+         cx="3.5"
+         cy="5"
+         r="0.5"
+         fill="#000000"
+         id="circle36" />
+      <circle
+         cx="6.5"
+         cy="5"
+         r="0.5"
+         fill="#000000"
+         id="circle37" />
+    </g>
+    <g
+       id="dais"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect37"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="2"
+         width="6"
+         height="6"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect38" />
+      <rect
+         x="3"
+         y="3"
+         width="4"
+         height="4"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect39" />
+      <rect
+         x="4"
+         y="4"
+         width="2"
+         height="2"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect40" />
+    </g>
+    <g
+       id="dais-round"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect41"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="3"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle41" />
+      <circle
+         cx="5"
+         cy="5"
+         r="2"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle42" />
+      <circle
+         cx="5"
+         cy="5"
+         r="1"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle43" />
+    </g>
+    <g
+       id="rubble"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect43"
+         x="0"
+         y="0" />
+      <circle
+         cx="7"
+         cy="2"
+         r="0.5"
+         fill="#000000"
+         id="circle44" />
+      <circle
+         cx="2"
+         cy="3"
+         r="0.5"
+         fill="#000000"
+         id="circle45" />
+      <circle
+         cx="4"
+         cy="3"
+         r="0.69999999"
+         fill="#000000"
+         id="circle46" />
+      <circle
+         cx="8"
+         cy="4"
+         r="0.60000002"
+         fill="#000000"
+         id="circle47" />
+      <circle
+         cx="6"
+         cy="4"
+         r="0.5"
+         fill="#000000"
+         id="circle48" />
+      <circle
+         cx="3"
+         cy="5"
+         r="0.69999999"
+         fill="#000000"
+         id="circle49" />
+      <circle
+         cx="5"
+         cy="6"
+         r="0.5"
+         fill="#000000"
+         id="circle50" />
+      <circle
+         cx="7"
+         cy="6"
+         r="0.69999999"
+         fill="#000000"
+         id="circle51" />
+      <circle
+         cx="4"
+         cy="7"
+         r="0.5"
+         fill="#000000"
+         id="circle52" />
+      <circle
+         cx="8"
+         cy="8"
+         r="0.5"
+         fill="#000000"
+         id="circle53" />
+    </g>
+    <g
+       id="statue"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect53"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="3.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle54" />
+      <path
+         fill="#000000"
+         d="M 2,4 H 8 L 3,7.5 5,2 7,7.5 Z"
+         id="path54" />
+    </g>
+    <g
+       id="well"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect54"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="2.25"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle55" />
+      <circle
+         cx="5"
+         cy="5"
+         r="1"
+         fill="#000000"
+         id="circle56" />
+    </g>
+    <g
+       id="fountain"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect56"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="2.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle57" />
+      <circle
+         cx="5"
+         cy="4"
+         r="1.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle58" />
+    </g>
+    <g
+       id="trap"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect58"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="2"
+         width="6"
+         height="6"
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect59" />
+      <line
+         x1="2"
+         y1="2"
+         x2="8"
+         y2="8"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line59" />
+      <line
+         x1="2"
+         y1="8"
+         x2="8"
+         y2="2"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line60" />
+    </g>
+    <g
+       id="trap-dm-shown"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect60"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="2"
+         width="6"
+         height="6"
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect61" />
+      <line
+         x1="2"
+         y1="2"
+         x2="8"
+         y2="8"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line61" />
+      <line
+         x1="2"
+         y1="8"
+         x2="8"
+         y2="2"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line62" />
+    </g>
+    <g
+       id="trap-p-hidden"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect62"
+         x="0"
+         y="0" />
+    </g>
+    <g
+       id="pit"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect63"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="2"
+         width="6"
+         height="6"
+         fill="none"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect64" />
+      <line
+         x1="2"
+         y1="2"
+         x2="8"
+         y2="8"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="line64" />
+      <line
+         x1="2"
+         y1="8"
+         x2="8"
+         y2="2"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="line65" />
+      <rect
+         x="3.5"
+         y="3.5"
+         width="3"
+         height="3"
+         fill="#000000"
+         id="rect65" />
+    </g>
+    <g
+       id="trap-door-ceiling"
+       width="10"
+       class="labels"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect66"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="3.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle66" />
+      <text
+         x="8.3000002"
+         y="12"
+         fill="black"
+         transform="scale(0.6)"
+         id="text66"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">C</text>
+    </g>
+    <g
+       id="trap-door-floor"
+       width="10"
+       class="labels"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect67"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="3.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle67" />
+      <text
+         x="8.3000002"
+         y="12"
+         fill="black"
+         transform="scale(0.6)"
+         id="text67"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">F</text>
+    </g>
+    <g
+       id="trap-door-secret"
+       width="10"
+       class="labels"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect68"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="3.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle68" />
+      <text
+         x="8.3000002"
+         y="12"
+         fill="black"
+         transform="scale(0.6)"
+         id="text68"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">S</text>
+    </g>
+    <g
+       id="trap-door-secret-dm-shown"
+       width="10"
+       class="labels"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect69"
+         x="0"
+         y="0" />
+      <circle
+         cx="5"
+         cy="5"
+         r="3.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="circle69" />
+      <text
+         x="8.3000002"
+         y="12"
+         fill="black"
+         transform="scale(0.6)"
+         id="text69"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">S</text>
+    </g>
+    <g
+       id="trap-door-secret-p-hidden"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect70"
+         x="0"
+         y="0" />
+    </g>
+    <g
+       id="generic-trap"
+       width="10"
+       class="labels"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect71"
+         x="0"
+         y="0" />
+      <text
+         x="8.3000002"
+         y="12"
+         fill="black"
+         transform="scale(0.6)"
+         id="text71"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">T</text>
+    </g>
+    <g
+       id="generic-trap-dm-shown"
+       width="10"
+       class="labels"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect72"
+         x="0"
+         y="0" />
+      <text
+         x="8.3000002"
+         y="12"
+         fill="black"
+         transform="scale(0.6)"
+         id="text72"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">T</text>
+    </g>
+    <g
+       id="generic-trap-p-hidden"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect73"
+         x="0"
+         y="0" />
+    </g>
+    <g
+       id="chest"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect74"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="3"
+         width="6"
+         height="4"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect75" />
+      <line
+         x1="3.5"
+         y1="2"
+         x2="3.5"
+         y2="8"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="line75" />
+      <line
+         x1="6.5"
+         y1="2"
+         x2="6.5"
+         y2="8"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="line76" />
+    </g>
+    <g
+       id="bed"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect76"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="3"
+         width="6"
+         height="4"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect77" />
+      <line
+         x1="4"
+         y1="3"
+         x2="4"
+         y2="7"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="line77" />
+    </g>
+    <g
+       id="table"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect78"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="3"
+         width="6"
+         height="4"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect79" />
+      <circle
+         cx="3.5"
+         cy="4"
+         r="0.5"
+         fill="#000000"
+         id="circle79" />
+      <circle
+         cx="3.5"
+         cy="6"
+         r="0.5"
+         fill="#000000"
+         id="circle80" />
+      <circle
+         cx="6.5"
+         cy="4"
+         r="0.5"
+         fill="#000000"
+         id="circle81" />
+      <circle
+         cx="6.5"
+         cy="6"
+         r="0.5"
+         fill="#000000"
+         id="circle82" />
+    </g>
+    <g
+       id="chair"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect82"
+         x="0"
+         y="0" />
+      <rect
+         x="2.5"
+         y="3.5"
+         width="5"
+         height="3.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect83" />
+      <rect
+         x="3.5"
+         y="3.5"
+         width="3"
+         height="2.5"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect84" />
+    </g>
+    <g
+       id="screen"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect85"
+         x="0"
+         y="0" />
+      <rect
+         x="2"
+         y="3"
+         width="6"
+         height="4"
+         fill="none"
+         stroke="#000000"
+         stroke-width="0.5"
+         id="rect86" />
+    </g>
+    <g
+       id="diagonal"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         stroke-linejoin="bevel"
+         d="M 0,10 H 10 V 0 Z"
+         id="path86" />
+    </g>
+    <g
+       id="walled-diagonal"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         stroke-linejoin="bevel"
+         d="M 0,10 H 10 V 0 Z"
+         id="path87" />
+      <line
+         x1="0"
+         y1="10"
+         x2="10"
+         y2="0"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line87" />
+    </g>
+    <g
+       id="diagonal-wall"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect87"
+         x="0"
+         y="0" />
+      <line
+         x1="0"
+         y1="10"
+         x2="10"
+         y2="0"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line88" />
+    </g>
+    <g
+       id="diagonal-line"
+       width="10"
+       transform="scale(2)">
+      <line
+         x1="0"
+         y1="10"
+         x2="10"
+         y2="0"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line89" />
+    </g>
+    <g
+       id="diagonal-door"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect89"
+         x="0"
+         y="0" />
+      <line
+         x1="0"
+         y1="10"
+         x2="10"
+         y2="0"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="line90" />
+      <rect
+         x="-1.5"
+         y="2"
+         width="3"
+         height="6"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         transform="rotate(45,2.4036797,11.096499)"
+         id="rect90" />
+    </g>
+    <g
+       id="diagonal-ledge"
+       width="100"
+       transform="scale(0.2)">
+      <rect
+         width="100"
+         height="100"
+         class="background"
+         stroke="#000000"
+         stroke-width="10"
+         id="rect91"
+         x="0"
+         y="0" />
+      <path
+         fill="none"
+         stroke="#000000"
+         stroke-width="15"
+         d="M 100,0 C 93,8 88,30 73,45 53,56 79,81 1,100 M 43,33 65,52 M 43,84 22,65 M 85,29 64,12"
+         id="path91" />
+    </g>
+    <g
+       id="arc"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         d="M 0,10 A 10,10 0 0 1 10,0 v 10 z"
+         stroke="#000000"
+         stroke-width="1"
+         id="path92" />
+    </g>
+    <g
+       id="arc2"
+       class="center"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         d="M 0,20 A 20,20 0 0 1 20,0 v 20 z"
+         stroke="#000000"
+         stroke-width="1"
+         id="path93" />
+      <line
+         x1="2.7"
+         y1="10"
+         x2="20"
+         y2="10"
+         stroke="#000000"
+         stroke-width="1"
+         id="line93" />
+      <line
+         x1="10"
+         y1="2.7"
+         x2="10"
+         y2="20"
+         stroke="#000000"
+         stroke-width="1"
+         id="line94" />
+      <circle
+         class="dot"
+         cx="5"
+         cy="5"
+         r="1"
+         fill="#ff0000"
+         opacity="0"
+         id="circle94" />
+    </g>
+    <g
+       id="arc3"
+       class="center"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         d="M 0,30 A 30,30 0 0 1 30,0 v 30 z"
+         stroke="#000000"
+         stroke-width="1"
+         id="path94" />
+      <line
+         x1="7.5999999"
+         y1="10"
+         x2="30"
+         y2="10"
+         stroke="#000000"
+         stroke-width="1"
+         id="line95" />
+      <line
+         x1="1.7"
+         y1="20"
+         x2="30"
+         y2="20"
+         stroke="#000000"
+         stroke-width="1"
+         id="line96" />
+      <line
+         x1="10"
+         y1="7.5999999"
+         x2="10"
+         y2="30"
+         stroke="#000000"
+         stroke-width="1"
+         id="line97" />
+      <line
+         x1="20"
+         y1="1.7"
+         x2="20"
+         y2="30"
+         stroke="#000000"
+         stroke-width="1"
+         id="line98" />
+      <circle
+         class="dot"
+         cx="5"
+         cy="5"
+         r="1"
+         fill="#ff0000"
+         opacity="0"
+         id="circle98" />
+    </g>
+    <g
+       id="arc4"
+       class="center"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         d="M 0,40 A 40,40 0 0 1 40,0 v 40 z"
+         stroke="#000000"
+         stroke-width="1"
+         id="path98" />
+      <line
+         x1="13.5"
+         y1="10"
+         x2="40"
+         y2="10"
+         stroke="#000000"
+         stroke-width="1"
+         id="line99" />
+      <line
+         x1="5"
+         y1="20"
+         x2="40"
+         y2="20"
+         stroke="#000000"
+         stroke-width="1"
+         id="line100" />
+      <line
+         x1="1.7"
+         y1="30"
+         x2="40"
+         y2="30"
+         stroke="#000000"
+         stroke-width="1"
+         id="line101" />
+      <line
+         x1="10"
+         y1="13.5"
+         x2="10"
+         y2="40"
+         stroke="#000000"
+         stroke-width="1"
+         id="line102" />
+      <line
+         x1="20"
+         y1="5"
+         x2="20"
+         y2="40"
+         stroke="#000000"
+         stroke-width="1"
+         id="line103" />
+      <line
+         x1="30"
+         y1="1.7"
+         x2="30"
+         y2="40"
+         stroke="#000000"
+         stroke-width="1"
+         id="line104" />
+      <circle
+         class="dot"
+         cx="5"
+         cy="5"
+         r="1"
+         fill="#ff0000"
+         opacity="0"
+         id="circle104" />
+    </g>
+    <g
+       id="arcw"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         d="M 0,10 A 10,10 0 0 1 10,0 v 10 z"
+         stroke="#000000"
+         stroke-width="1"
+         id="path104" />
+      <path
+         class="background"
+         d="M 0,10 A 10,10 0 0 1 10,0"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="path105" />
+    </g>
+    <g
+       id="arcw2"
+       class="center"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         d="M 0,20 A 20,20 0 0 1 20,0 v 20 z"
+         stroke="#000000"
+         stroke-width="1"
+         id="path106" />
+      <path
+         class="background"
+         d="M 0,20 A 20,20 0 0 1 20,0"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="path107" />
+      <line
+         x1="2.7"
+         y1="10"
+         x2="20"
+         y2="10"
+         stroke="#000000"
+         stroke-width="1"
+         id="line107" />
+      <line
+         x1="10"
+         y1="2.7"
+         x2="10"
+         y2="20"
+         stroke="#000000"
+         stroke-width="1"
+         id="line108" />
+      <circle
+         class="dot"
+         cx="5"
+         cy="5"
+         r="1"
+         fill="#ff0000"
+         opacity="0"
+         id="circle108" />
+    </g>
+    <g
+       id="arcw3"
+       class="center"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         d="M 0,30 A 30,30 0 0 1 30,0 v 30 z"
+         stroke="#000000"
+         stroke-width="1"
+         id="path108" />
+      <path
+         class="background"
+         d="M 0,30 A 30,30 0 0 1 30,0"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="path109" />
+      <line
+         x1="7.5999999"
+         y1="10"
+         x2="30"
+         y2="10"
+         stroke="#000000"
+         stroke-width="1"
+         id="line109" />
+      <line
+         x1="1.7"
+         y1="20"
+         x2="30"
+         y2="20"
+         stroke="#000000"
+         stroke-width="1"
+         id="line110" />
+      <line
+         x1="10"
+         y1="7.5999999"
+         x2="10"
+         y2="30"
+         stroke="#000000"
+         stroke-width="1"
+         id="line111" />
+      <line
+         x1="20"
+         y1="1.7"
+         x2="20"
+         y2="30"
+         stroke="#000000"
+         stroke-width="1"
+         id="line112" />
+      <circle
+         class="dot"
+         cx="5"
+         cy="5"
+         r="1"
+         fill="#ff0000"
+         opacity="0"
+         id="circle112" />
+    </g>
+    <g
+       id="arcw4"
+       class="center"
+       width="10"
+       transform="scale(2)">
+      <path
+         class="background"
+         d="M 0,40 A 40,40 0 0 1 40,0 v 40 z"
+         stroke="#000000"
+         stroke-width="1"
+         id="path112" />
+      <path
+         class="background"
+         d="M 0,40 A 40,40 0 0 1 40,0"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="path113" />
+      <line
+         x1="13.5"
+         y1="10"
+         x2="40"
+         y2="10"
+         stroke="#000000"
+         stroke-width="1"
+         id="line113" />
+      <line
+         x1="5"
+         y1="20"
+         x2="40"
+         y2="20"
+         stroke="#000000"
+         stroke-width="1"
+         id="line114" />
+      <line
+         x1="1.7"
+         y1="30"
+         x2="40"
+         y2="30"
+         stroke="#000000"
+         stroke-width="1"
+         id="line115" />
+      <line
+         x1="10"
+         y1="13.5"
+         x2="10"
+         y2="40"
+         stroke="#000000"
+         stroke-width="1"
+         id="line116" />
+      <line
+         x1="20"
+         y1="5"
+         x2="20"
+         y2="40"
+         stroke="#000000"
+         stroke-width="1"
+         id="line117" />
+      <line
+         x1="30"
+         y1="1.7"
+         x2="30"
+         y2="40"
+         stroke="#000000"
+         stroke-width="1"
+         id="line118" />
+      <circle
+         class="dot"
+         cx="5"
+         cy="5"
+         r="1"
+         fill="#ff0000"
+         opacity="0"
+         id="circle118" />
+    </g>
+    <g
+       id="stair"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="20"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect118"
+         x="0"
+         y="0" />
+      <line
+         x1="0"
+         y1="3"
+         x2="10"
+         y2="3"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line119" />
+      <line
+         x1="1"
+         y1="6"
+         x2="9"
+         y2="6"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line120" />
+      <line
+         x1="2"
+         y1="9"
+         x2="8"
+         y2="9"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line121" />
+      <line
+         x1="3"
+         y1="12"
+         x2="7"
+         y2="12"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line122" />
+      <line
+         x1="4"
+         y1="15"
+         x2="6"
+         y2="15"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line123" />
+    </g>
+    <g
+       id="stair-small"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="10"
+         height="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect123"
+         x="0"
+         y="0" />
+      <line
+         x1="1"
+         y1="2"
+         x2="9"
+         y2="2"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line124" />
+      <line
+         x1="2"
+         y1="4"
+         x2="8"
+         y2="4"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line125" />
+      <line
+         x1="3"
+         y1="6"
+         x2="7"
+         y2="6"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line126" />
+      <line
+         x1="4"
+         y1="8"
+         x2="6"
+         y2="8"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line127" />
+    </g>
+    <g
+       id="stair-big"
+       width="10"
+       transform="scale(2)">
+      <rect
+         width="20"
+         height="20"
+         class="background"
+         stroke="#000000"
+         stroke-width="1"
+         id="rect127"
+         x="0"
+         y="0" />
+      <line
+         x1="1"
+         y1="3"
+         x2="19"
+         y2="3"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line128" />
+      <line
+         x1="2"
+         y1="6"
+         x2="18"
+         y2="6"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line129" />
+      <line
+         x1="3"
+         y1="9"
+         x2="17"
+         y2="9"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line130" />
+      <line
+         x1="4"
+         y1="12"
+         x2="16"
+         y2="12"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line131" />
+      <line
+         x1="5"
+         y1="15"
+         x2="15"
+         y2="15"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line132" />
+      <line
+         x1="6"
+         y1="18"
+         x2="14"
+         y2="18"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="line133" />
+    </g>
+    <g
+       id="stair-big-spiral"
+       width="50"
+       transform="scale(0.4)">
+      <rect
+         width="100"
+         height="100"
+         class="background"
+         stroke="#000000"
+         stroke-width="5"
+         id="rect133"
+         x="0"
+         y="0" />
+      <circle
+         cx="50"
+         cy="50"
+         r="40"
+         fill="none"
+         stroke="#000000"
+         stroke-width="5"
+         id="circle133" />
+      <line
+         x1="0"
+         y1="50"
+         x2="99"
+         y2="50"
+         stroke="#000000"
+         stroke-width="5"
+         id="line134" />
+      <line
+         x1="50"
+         y1="0"
+         x2="50"
+         y2="100"
+         stroke="#000000"
+         stroke-width="5"
+         id="line135" />
+      <line
+         x1="15"
+         y1="30"
+         x2="85"
+         y2="70"
+         stroke="#000000"
+         stroke-width="5"
+         id="line136" />
+      <line
+         x1="15"
+         y1="70"
+         x2="85"
+         y2="30"
+         stroke="#000000"
+         stroke-width="5"
+         id="line137" />
+      <line
+         x1="30"
+         y1="15"
+         x2="70"
+         y2="85"
+         stroke="#000000"
+         stroke-width="5"
+         id="line138" />
+      <line
+         x1="30"
+         y1="85"
+         x2="70"
+         y2="15"
+         stroke="#000000"
+         stroke-width="5"
+         id="line139" />
+      <circle
+         cx="50"
+         cy="50"
+         r="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="5"
+         id="circle139" />
+    </g>
+    <g
+       id="stair-spiral"
+       width="100"
+       transform="scale(0.2)">
+      <rect
+         width="100"
+         height="100"
+         class="background"
+         stroke="#000000"
+         stroke-width="10"
+         id="rect139"
+         x="0"
+         y="0" />
+      <circle
+         cx="50"
+         cy="50"
+         r="40"
+         fill="none"
+         stroke="#000000"
+         stroke-width="7"
+         id="circle140" />
+      <line
+         x1="10"
+         y1="50"
+         x2="90"
+         y2="50"
+         stroke="#000000"
+         stroke-width="7"
+         id="line140" />
+      <line
+         x1="50"
+         y1="10"
+         x2="50"
+         y2="90"
+         stroke="#000000"
+         stroke-width="7"
+         id="line141" />
+      <line
+         x1="22"
+         y1="22"
+         x2="78"
+         y2="78"
+         stroke="#000000"
+         stroke-width="7"
+         id="line142" />
+      <line
+         x1="22"
+         y1="78"
+         x2="78"
+         y2="22"
+         stroke="#000000"
+         stroke-width="7"
+         id="line143" />
+      <circle
+         cx="50"
+         cy="50"
+         r="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="7"
+         id="circle143" />
+    </g>
+    <g
+       id="ladder"
+       width="100"
+       transform="scale(0.2)">
+      <rect
+         width="100"
+         height="100"
+         class="background"
+         stroke="#000000"
+         stroke-width="10"
+         id="rect143"
+         x="0"
+         y="0" />
+      <circle
+         cx="30"
+         cy="25"
+         r="12"
+         fill="#000000"
+         id="circle144" />
+      <line
+         x1="30"
+         y1="25"
+         x2="30"
+         y2="75"
+         stroke="#000000"
+         stroke-width="10"
+         id="line144" />
+      <circle
+         cx="30"
+         cy="75"
+         r="12"
+         fill="#000000"
+         id="circle145" />
+    </g>
+    <g
+       id="stair-spiral-down"
+       width="100"
+       class="labels"
+       transform="scale(0.2)">
+      <rect
+         width="100"
+         height="100"
+         class="background"
+         stroke="#000000"
+         stroke-width="10"
+         id="rect145"
+         x="0"
+         y="0" />
+      <circle
+         cx="50"
+         cy="50"
+         r="40"
+         fill="none"
+         stroke="#000000"
+         stroke-width="7"
+         id="circle146" />
+      <line
+         x1="10"
+         y1="50"
+         x2="90"
+         y2="50"
+         stroke="#000000"
+         stroke-width="7"
+         id="line146" />
+      <line
+         x1="50"
+         y1="10"
+         x2="50"
+         y2="90"
+         stroke="#000000"
+         stroke-width="7"
+         id="line147" />
+      <line
+         x1="22"
+         y1="22"
+         x2="78"
+         y2="78"
+         stroke="#000000"
+         stroke-width="7"
+         id="line148" />
+      <line
+         x1="22"
+         y1="78"
+         x2="78"
+         y2="22"
+         stroke="#000000"
+         stroke-width="7"
+         id="line149" />
+      <circle
+         cx="50"
+         cy="50"
+         r="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="7"
+         id="circle149" />
+      <rect
+         x="2"
+         y="2"
+         width="46"
+         height="46"
+         stroke="none"
+         stroke-width="0"
+         fill="#ffffff"
+         id="rect149" />
+      <text
+         x="6"
+         y="10"
+         fill="black"
+         transform="scale(4)"
+         id="text149"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">D</text>
+    </g>
+    <g
+       id="stair-spiral-up"
+       width="100"
+       class="labels"
+       transform="scale(0.2)">
+      <rect
+         width="100"
+         height="100"
+         class="background"
+         stroke="#000000"
+         stroke-width="10"
+         id="rect150"
+         x="0"
+         y="0" />
+      <circle
+         cx="50"
+         cy="50"
+         r="40"
+         fill="none"
+         stroke="#000000"
+         stroke-width="7"
+         id="circle150" />
+      <line
+         x1="10"
+         y1="50"
+         x2="90"
+         y2="50"
+         stroke="#000000"
+         stroke-width="7"
+         id="line150" />
+      <line
+         x1="50"
+         y1="10"
+         x2="50"
+         y2="90"
+         stroke="#000000"
+         stroke-width="7"
+         id="line151" />
+      <line
+         x1="22"
+         y1="22"
+         x2="78"
+         y2="78"
+         stroke="#000000"
+         stroke-width="7"
+         id="line152" />
+      <line
+         x1="22"
+         y1="78"
+         x2="78"
+         y2="22"
+         stroke="#000000"
+         stroke-width="7"
+         id="line153" />
+      <circle
+         cx="50"
+         cy="50"
+         r="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="7"
+         id="circle153" />
+      <rect
+         x="2"
+         y="2"
+         width="46"
+         height="46"
+         stroke="none"
+         stroke-width="0"
+         fill="#ffffff"
+         id="rect153" />
+      <text
+         x="6"
+         y="10"
+         fill="black"
+         transform="scale(4)"
+         id="text153"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">U</text>
+    </g>
+    <g
+       id="stair-big-spiral-down"
+       width="50"
+       class="labels"
+       transform="scale(0.4)">
+      <rect
+         width="100"
+         height="100"
+         class="background"
+         stroke="#000000"
+         stroke-width="5"
+         id="rect154"
+         x="0"
+         y="0" />
+      <circle
+         cx="50"
+         cy="50"
+         r="40"
+         fill="none"
+         stroke="#000000"
+         stroke-width="5"
+         id="circle154" />
+      <line
+         x1="0"
+         y1="50"
+         x2="99"
+         y2="50"
+         stroke="#000000"
+         stroke-width="5"
+         id="line154" />
+      <line
+         x1="50"
+         y1="0"
+         x2="50"
+         y2="100"
+         stroke="#000000"
+         stroke-width="5"
+         id="line155" />
+      <line
+         x1="15"
+         y1="30"
+         x2="85"
+         y2="70"
+         stroke="#000000"
+         stroke-width="5"
+         id="line156" />
+      <line
+         x1="15"
+         y1="70"
+         x2="85"
+         y2="30"
+         stroke="#000000"
+         stroke-width="5"
+         id="line157" />
+      <line
+         x1="30"
+         y1="15"
+         x2="70"
+         y2="85"
+         stroke="#000000"
+         stroke-width="5"
+         id="line158" />
+      <line
+         x1="30"
+         y1="85"
+         x2="70"
+         y2="15"
+         stroke="#000000"
+         stroke-width="5"
+         id="line159" />
+      <circle
+         cx="50"
+         cy="50"
+         r="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="5"
+         id="circle159" />
+      <rect
+         x="2"
+         y="2"
+         width="46"
+         height="46"
+         stroke="none"
+         stroke-width="0"
+         fill="#ffffff"
+         id="rect159" />
+      <text
+         x="6"
+         y="10"
+         fill="black"
+         transform="scale(4)"
+         id="text159"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">D</text>
+    </g>
+    <g
+       id="stair-big-spiral-up"
+       width="50"
+       class="labels"
+       transform="scale(0.4)">
+      <rect
+         width="100"
+         height="100"
+         class="background"
+         stroke="#000000"
+         stroke-width="5"
+         id="rect160"
+         x="0"
+         y="0" />
+      <circle
+         cx="50"
+         cy="50"
+         r="40"
+         fill="none"
+         stroke="#000000"
+         stroke-width="5"
+         id="circle160" />
+      <line
+         x1="0"
+         y1="50"
+         x2="99"
+         y2="50"
+         stroke="#000000"
+         stroke-width="5"
+         id="line160" />
+      <line
+         x1="50"
+         y1="0"
+         x2="50"
+         y2="100"
+         stroke="#000000"
+         stroke-width="5"
+         id="line161" />
+      <line
+         x1="15"
+         y1="30"
+         x2="85"
+         y2="70"
+         stroke="#000000"
+         stroke-width="5"
+         id="line162" />
+      <line
+         x1="15"
+         y1="70"
+         x2="85"
+         y2="30"
+         stroke="#000000"
+         stroke-width="5"
+         id="line163" />
+      <line
+         x1="30"
+         y1="15"
+         x2="70"
+         y2="85"
+         stroke="#000000"
+         stroke-width="5"
+         id="line164" />
+      <line
+         x1="30"
+         y1="85"
+         x2="70"
+         y2="15"
+         stroke="#000000"
+         stroke-width="5"
+         id="line165" />
+      <circle
+         cx="50"
+         cy="50"
+         r="10"
+         class="background"
+         stroke="#000000"
+         stroke-width="5"
+         id="circle165" />
+      <rect
+         x="2"
+         y="2"
+         width="46"
+         height="46"
+         stroke="none"
+         stroke-width="0"
+         fill="#ffffff"
+         id="rect165" />
+      <text
+         x="6"
+         y="10"
+         fill="black"
+         transform="scale(4)"
+         id="text165"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">U</text>
+    </g>
+    <g
+       id="rock1"
+       width="10"
+       transform="scale(2)">
+      <path
+         width="10"
+         class="background"
+         d="M 0,10 V 9 L 1,8 0,6 V 5 L 1,4 V 2 L 0,1 V 0 h 10 v 10 z"
+         stroke-miterlimit="1"
+         stroke="#000000"
+         stroke-width="1"
+         id="path165" />
+      <path
+         width="10"
+         class="rockWall"
+         d="M 0,10 V 9 L 1,8 0,6 V 5 L 1,4 V 2 L 0,1 V 0"
+         stroke-miterlimit="1"
+         stroke="#000000"
+         stroke-width="3"
+         id="path166" />
+    </g>
+    <g
+       id="rock2a"
+       width="10"
+       transform="scale(2)">
+      <path
+         width="10"
+         class="background"
+         d="M 0,10 V 9 L 1,8 V 7 L 2,5 1,4 2,2 4,1 5,2 h 2 l 3,-2 v 10 z"
+         stroke-miterlimit="1"
+         stroke-linecap="round"
+         stroke="#000000"
+         stroke-width="1"
+         id="path167" />
+      <path
+         width="10"
+         class="rockWall"
+         d="M 0,10 V 9 L 1,8 V 7 L 2,5 1,4 2,2 4,1 5,2 h 2 l 3,-2"
+         stroke-miterlimit="1"
+         stroke-linecap="round"
+         stroke="#000000"
+         stroke-width="3"
+         id="path168" />
+    </g>
+    <g
+       id="rock2b"
+       width="10"
+       transform="scale(2)">
+      <path
+         width="10"
+         class="background"
+         d="M 0,10 V 9 L 1,8 V 7 L 2,5 V 4 L 3,3 H 4 L 5,2 h 2 l 3,-2 v 10 z"
+         stroke-miterlimit="1"
+         stroke-linecap="round"
+         stroke="#000000"
+         stroke-width="1"
+         id="path169" />
+      <path
+         width="10"
+         class="rockWall"
+         d="M 0,10 V 9 L 1,8 V 7 L 2,5 V 4 L 3,3 H 4 L 5,2 h 2 l 3,-2"
+         stroke-miterlimit="1"
+         stroke-linecap="round"
+         stroke="#000000"
+         stroke-width="3"
+         id="path170" />
+    </g>
+    <g
+       id="rock3"
+       width="10"
+       transform="scale(2)">
+      <path
+         width="10"
+         class="background"
+         d="M 0,10 V 9 L 1,7 V 6 L 2,5 V 4 2 L 4,1 5,2 H 7 L 9,1 10,3 8,6 v 1 l 2,3 z"
+         stroke-miterlimit="1"
+         stroke-linecap="round"
+         stroke="#000000"
+         stroke-width="1"
+         id="path171" />
+      <path
+         width="10"
+         class="rockWall"
+         d="M 0,10 V 9 L 1,7 V 6 L 2,5 V 4 2 L 4,1 5,2 H 7 L 9,1 10,3 8,6 v 1 l 2,3"
+         stroke-miterlimit="1"
+         stroke-linecap="round"
+         stroke="#000000"
+         stroke-width="3"
+         id="path172" />
+    </g>
+    <g
+       id="rock4"
+       width="10"
+       transform="scale(2)">
+      <path
+         width="10"
+         class="background"
+         d="M 3,3 5,2 7,3 8,5 7,7 V 8 H 6 L 4,9 2,7 V 5 Z"
+         stroke-linecap="round"
+         stroke="#000000"
+         stroke-width="1"
+         id="path173" />
+      <path
+         width="10"
+         class="rockWall"
+         d="M 3,3 5,2 7,3 8,5 7,7 V 8 H 6 L 4,9 2,7 V 5 Z"
+         stroke-linecap="round"
+         stroke="#000000"
+         stroke-width="3"
+         id="path174" />
+    </g>
+    <g
+       id="rockd"
+       width="10"
+       transform="scale(2)">
+      <path
+         width="10"
+         class="background"
+         d="M 0,10 V 9 L 1,8 0,6 V 5 L 1,4 V 2 L 0,1 V 0 H 10 V 1 L 9,2 V 3 L 8,6 9,7 v 1 l 1,2 z"
+         stroke-miterlimit="1"
+         stroke="#000000"
+         stroke-width="1"
+         id="path175" />
+      <path
+         width="10"
+         class="rockWall"
+         d="M 0,10 V 9 L 1,8 0,6 V 5 L 1,4 V 2 L 0,1 V 0 M 10,0 V 1 L 9,2 V 3 L 8,6 9,7 v 1 l 1,2"
+         stroke-miterlimit="1"
+         stroke="#000000"
+         stroke-width="3"
+         id="path176" />
+    </g>
+  </defs>
+  <style
+     id="style176"><![CDATA[
+svg { overflow: visible }
+text { font: 14px 'Courier New', Courier, monospace }
+textarea { font: 10px 'Courier New', Courier, monospace }
+p { margin: 0 0 10px 0; padding: 0; }
+.line {  }
+.line svg { display: inline; vertical-align: middle }
+.labels text, #levels text, #label { text-anchor: middle; font: 10px 'Arial Narrow', sans-serif; font-weight: bold; }
+.labels text.left, #levels text.left { text-anchor: start; font-size: 14px; }
+a { color: black; text-decoration: none; }
+.link { fill: blue; text-decoration: underline }
+/* http://paletton.com/palette.php?uid=30f0u0kk8qbaaFtfwuQo4mgswhv */
+.background { fill: inherit; }
+use.red { fill: #F6A17F; }
+use.green { fill: #A1DB71; }
+use.blue { fill: #88A9C2; }
+use.colorQ { fill: #A9A9A9; }
+use.colorE { fill: #FF5733; }
+use.colorA { fill: #FFD700; }
+use.colorS { fill: #FF8C00; }
+use.colorS { fill: #A0522D; }
+use.colorD { fill: #1E90FF; }
+use.colorF { fill: #008000; }
+use { fill: white; }
+.key { color: forestgreen; fill: forestgreen; font-weight: bold; }
+.invisible { display: none; }
+.center:hover .dot { opacity: 1; }
+#ui { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+#background { transition: fill 500ms linear; }
+#help { transition: fill 500ms linear; }
+text { fill: black; }
+
+#help { fill: #fffff0; } /* ivory and light grey */
+#background { fill: #d3d3d3; }
+
+svg.black #background { fill: black; }
+
+svg.white #background { fill: white; }
+
+svg.grid  #background { fill: url(#grid); }
+
+/* http://www.color-hex.com/color/01b0f1
+   https://de.wikipedia.org/wiki/Non-Photo_Blue */
+svg.blue * { stroke: #005878; }
+svg.blue *[fill=black],
+svg.blue a,
+svg.blue text,
+svg.blue tspan { stroke: none; fill: #005878; }
+svg.blue .key { fill: white; }
+svg.blue #background,
+svg.blue #help { fill: #01b0f1; }
+
+.menu div {
+    background: white;
+    padding: 10px;
+    overflow: scroll;
+    font: 14px 'Courier New', Courier, monospace
+}
+.menu span { display: inline-block; width: 32ex }
+.menu a { color: blue }
+
+/* thick rock walls to be displayed only when autoWaller is on*/
+.rockWall { display:none }
+  ]]></style>
+  <g
+     id="background"
+     inkscape:groupmode="layer"
+     inkscape:label="Background"
+     transform="translate(-35.518889,-19)" />
+  <g
+     id="levels"
+     inkscape:groupmode="layer"
+     inkscape:label="Levels"
+     transform="translate(-35.518889,-19)">
+    <g
+       id="level2"
+       inkscape:groupmode="layer"
+       inkscape:label="Level 3"
+       opacity="0">
+      <g
+         id="arcs2" />
+      <g
+         id="floor2" />
+      <g
+         id="labels2" />
+      <g
+         id="walls2" />
+    </g>
+    <g
+       id="level1"
+       inkscape:groupmode="layer"
+       inkscape:label="Level 2"
+       opacity="0">
+      <g
+         id="arcs1" />
+      <g
+         id="floor1" />
+      <g
+         id="labels1" />
+      <g
+         id="walls1" />
+    </g>
+    <g
+       id="level0"
+       inkscape:groupmode="layer"
+       inkscape:label="Level 1">
+      <g
+         id="arcs0" />
+      <g
+         id="floor0">
+        <use
+           id="rock2a_3_6"
+           x="80"
+           y="140"
+           xlink:href="#rock2a"
+           rotate="270"
+           transform="rotate(-90,90,150)" />
+        <use
+           id="rock2b_4_6"
+           x="100"
+           y="140"
+           xlink:href="#rock2b"
+           rotate="90"
+           transform="rotate(90,110,150)" />
+        <use
+           id="rockd_3_4"
+           x="80"
+           y="100"
+           xlink:href="#rockd" />
+        <use
+           id="rock2a_3_3"
+           x="80"
+           y="80"
+           xlink:href="#rock2a"
+           rotate="90"
+           transform="rotate(90,90,90)" />
+        <use
+           id="rockd_3_5"
+           x="80"
+           y="120"
+           xlink:href="#rockd"
+           rotate="180"
+           transform="rotate(180,90,130)" />
+        <use
+           id="rockd_4_7"
+           x="100"
+           y="160"
+           xlink:href="#rockd"
+           rotate="180"
+           transform="rotate(180,110,170)" />
+        <use
+           id="rock2a_3_8"
+           x="80"
+           y="180"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="empty_4_8"
+           x="100"
+           y="180"
+           xlink:href="#empty" />
+        <use
+           id="empty_4_9"
+           x="100"
+           y="200"
+           xlink:href="#empty" />
+        <use
+           id="rock1_5_8"
+           x="120"
+           y="180"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,130,190)" />
+        <use
+           id="rock2b_6_8"
+           x="140"
+           y="180"
+           xlink:href="#rock2b"
+           rotate="90"
+           transform="rotate(90,150,190)" />
+        <use
+           id="empty_4_10"
+           x="100"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="empty_5_9"
+           x="120"
+           y="200"
+           xlink:href="#empty" />
+        <use
+           id="empty_4_11"
+           x="100"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="empty_5_10"
+           x="120"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="empty_4_12"
+           x="100"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="empty_5_11"
+           x="120"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="rock3_1_15"
+           x="40"
+           y="320"
+           xlink:href="#rock3"
+           rotate="180"
+           transform="rotate(180,50,330)" />
+        <use
+           id="rock2a_1_14"
+           x="40"
+           y="300"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="rock1_3_14"
+           x="80"
+           y="300"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,90,310)" />
+        <use
+           id="rockd_2_14"
+           x="60"
+           y="300"
+           xlink:href="#rockd"
+           rotate="90"
+           transform="rotate(90,70,310)" />
+        <use
+           id="rock1_3_13"
+           x="80"
+           y="280"
+           xlink:href="#rock1"
+           rotate="0" />
+        <use
+           id="rockd_3_15"
+           x="80"
+           y="320"
+           xlink:href="#rockd"
+           rotate="180"
+           transform="rotate(180,90,330)" />
+        <use
+           id="rockd_3_16"
+           x="80"
+           y="340"
+           xlink:href="#rockd" />
+        <use
+           id="rockd_3_17"
+           x="80"
+           y="360"
+           xlink:href="#rockd"
+           rotate="180"
+           transform="rotate(180,90,370)" />
+        <use
+           id="rock3_4_18"
+           x="100"
+           y="380"
+           xlink:href="#rock3"
+           rotate="90"
+           transform="rotate(90,110,390)" />
+        <use
+           id="rock2a_3_18"
+           x="80"
+           y="380"
+           xlink:href="#rock2a"
+           rotate="270"
+           transform="rotate(-90,90,390)" />
+        <use
+           id="empty_5_12"
+           x="120"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="rock1_4_13"
+           x="100"
+           y="280"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,110,290)" />
+        <use
+           id="rock1_5_13"
+           x="120"
+           y="280"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,130,290)" />
+        <use
+           id="rock1_6_13"
+           x="140"
+           y="280"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,150,290)" />
+        <use
+           id="rock2b_6_14"
+           x="140"
+           y="300"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,150,310)" />
+        <use
+           id="rock2a_7_14"
+           x="160"
+           y="300"
+           xlink:href="#rock2a"
+           rotate="90"
+           transform="rotate(90,170,310)" />
+        <use
+           id="rock2a_7_15"
+           x="160"
+           y="320"
+           xlink:href="#rock2a"
+           rotate="270"
+           transform="rotate(-90,170,330)" />
+        <use
+           id="rock2b_8_15"
+           x="180"
+           y="320"
+           xlink:href="#rock2b"
+           rotate="90"
+           transform="rotate(90,190,330)" />
+        <use
+           id="rock2b_8_16"
+           x="180"
+           y="340"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,190,350)" />
+        <use
+           id="rock2a_9_16"
+           x="200"
+           y="340"
+           xlink:href="#rock2a"
+           rotate="90"
+           transform="rotate(90,210,350)" />
+        <use
+           id="rock1_9_18"
+           x="200"
+           y="380"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,210,390)" />
+        <use
+           id="rockd_9_17"
+           x="200"
+           y="360"
+           xlink:href="#rockd"
+           rotate="180"
+           transform="rotate(180,210,370)" />
+        <use
+           id="rock2b_8_18"
+           x="180"
+           y="380"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock2a_9_19"
+           x="200"
+           y="400"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,210,410)" />
+        <use
+           id="rock1_8_19"
+           x="180"
+           y="400"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,190,410)" />
+        <use
+           id="rock2a_7_19"
+           x="160"
+           y="400"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="rock2b_6_20"
+           x="140"
+           y="420"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock2a_7_20"
+           x="160"
+           y="420"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,170,430)" />
+        <use
+           id="rock3_6_21"
+           x="140"
+           y="440"
+           xlink:href="#rock3"
+           rotate="180"
+           transform="rotate(180,150,450)" />
+        <use
+           id="empty_6_11"
+           x="140"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="empty_6_10"
+           x="140"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="rock2a_7_9"
+           x="160"
+           y="200"
+           xlink:href="#rock2a"
+           rotate="90"
+           transform="rotate(90,170,210)" />
+        <use
+           id="empty_6_9"
+           x="140"
+           y="200"
+           xlink:href="#empty" />
+        <use
+           id="rock1_7_10"
+           x="160"
+           y="220"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,170,230)" />
+        <use
+           id="rock2a_7_12"
+           x="160"
+           y="260"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,170,270)" />
+        <use
+           id="empty_6_12"
+           x="140"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="empty_3_9"
+           x="80"
+           y="200"
+           xlink:href="#empty" />
+        <use
+           id="empty_3_10"
+           x="80"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="rock2b_2_9"
+           x="60"
+           y="200"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="empty_3_11"
+           x="80"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="rock1_2_10"
+           x="60"
+           y="220"
+           xlink:href="#rock1"
+           rotate="0" />
+        <use
+           id="empty_3_12"
+           x="80"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="rock2b_2_11"
+           x="60"
+           y="240"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,70,250)" />
+        <use
+           id="empty_7_11"
+           x="160"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="rockd_8_11"
+           x="180"
+           y="240"
+           xlink:href="#rockd"
+           rotate="90"
+           transform="rotate(90,190,250)" />
+        <use
+           id="rockd_9_11"
+           x="200"
+           y="240"
+           xlink:href="#rockd"
+           rotate="270"
+           transform="rotate(-90,210,250)" />
+        <use
+           id="rock2b_10_11"
+           x="220"
+           y="240"
+           xlink:href="#rock2b"
+           rotate="90"
+           transform="rotate(90,230,250)" />
+        <use
+           id="rock2b_10_12"
+           x="220"
+           y="260"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,230,270)" />
+        <use
+           id="rockd_11_12"
+           x="240"
+           y="260"
+           xlink:href="#rockd"
+           rotate="270"
+           transform="rotate(-90,250,270)" />
+        <use
+           id="rock2b_12_10"
+           x="260"
+           y="220"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock2a_13_9"
+           x="280"
+           y="200"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="rock2b_14_7"
+           x="300"
+           y="160"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock1_14_8"
+           x="300"
+           y="180"
+           xlink:href="#rock1"
+           rotate="0" />
+        <use
+           id="rock1_15_7"
+           x="320"
+           y="160"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,330,170)" />
+        <use
+           id="rock1_16_7"
+           x="340"
+           y="160"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,350,170)" />
+        <use
+           id="rock2b_18_3"
+           x="380"
+           y="80"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,390,90)" />
+        <use
+           id="rock2a_17_2"
+           x="360"
+           y="60"
+           xlink:href="#rock2a"
+           rotate="270"
+           transform="rotate(-90,370,70)" />
+        <use
+           id="empty_19_2"
+           x="400"
+           y="60"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_2"
+           x="380"
+           y="60"
+           xlink:href="#empty" />
+        <use
+           id="rock1_19_3"
+           x="400"
+           y="80"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,410,90)" />
+        <use
+           id="rock1_20_2"
+           x="420"
+           y="60"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,430,70)" />
+        <use
+           id="rock2b_22_2"
+           x="460"
+           y="60"
+           xlink:href="#rock2b"
+           rotate="180"
+           transform="rotate(180,470,70)" />
+        <use
+           id="rock1_21_2"
+           x="440"
+           y="60"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,450,70)" />
+        <use
+           id="rock2b_16_1"
+           x="340"
+           y="40"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,350,50)" />
+        <use
+           id="rock3_15_0"
+           x="320"
+           y="20"
+           xlink:href="#rock3"
+           rotate="270"
+           transform="rotate(-90,330,30)" />
+        <use
+           id="empty_17_1"
+           x="360"
+           y="40"
+           xlink:href="#empty" />
+        <use
+           id="rock1_16_0"
+           x="340"
+           y="20"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,350,30)" />
+        <use
+           id="empty_18_1"
+           x="380"
+           y="40"
+           xlink:href="#empty" />
+        <use
+           id="rock1_17_0"
+           x="360"
+           y="20"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,370,30)" />
+        <use
+           id="empty_19_1"
+           x="400"
+           y="40"
+           xlink:href="#empty" />
+        <use
+           id="rock1_18_0"
+           x="380"
+           y="20"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,390,30)" />
+        <use
+           id="empty_20_1"
+           x="420"
+           y="40"
+           xlink:href="#empty" />
+        <use
+           id="rock1_19_0"
+           x="400"
+           y="20"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,410,30)" />
+        <use
+           id="empty_21_1"
+           x="440"
+           y="40"
+           xlink:href="#empty" />
+        <use
+           id="rock1_20_0"
+           x="420"
+           y="20"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,430,30)" />
+        <use
+           id="empty_22_1"
+           x="460"
+           y="40"
+           xlink:href="#empty" />
+        <use
+           id="rock1_21_0"
+           x="440"
+           y="20"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,450,30)" />
+        <use
+           id="rock1_22_0"
+           x="460"
+           y="20"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,470,30)" />
+        <use
+           id="rock2a_23_1"
+           x="480"
+           y="40"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,490,50)" />
+        <use
+           id="rock3_24_0"
+           x="500"
+           y="20"
+           xlink:href="#rock3"
+           rotate="90"
+           transform="rotate(90,510,30)" />
+        <use
+           id="rock1_23_0"
+           x="480"
+           y="20"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,490,30)" />
+        <use
+           id="rock1_17_7"
+           x="360"
+           y="160"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,370,170)" />
+        <use
+           id="rock2b_18_7"
+           x="380"
+           y="160"
+           xlink:href="#rock2b"
+           rotate="90"
+           transform="rotate(90,390,170)" />
+        <use
+           id="rock1_18_8"
+           x="380"
+           y="180"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,390,190)" />
+        <use
+           id="empty_17_8"
+           x="360"
+           y="180"
+           xlink:href="#empty" />
+        <use
+           id="rock1_18_9"
+           x="380"
+           y="200"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,390,210)" />
+        <use
+           id="empty_16_8"
+           x="340"
+           y="180"
+           xlink:href="#empty" />
+        <use
+           id="empty_17_9"
+           x="360"
+           y="200"
+           xlink:href="#empty" />
+        <use
+           id="empty_15_8"
+           x="320"
+           y="180"
+           xlink:href="#empty" />
+        <use
+           id="empty_15_9"
+           x="320"
+           y="200"
+           xlink:href="#empty" />
+        <use
+           id="empty_14_9"
+           x="300"
+           y="200"
+           xlink:href="#empty" />
+        <use
+           id="empty_16_9"
+           x="340"
+           y="200"
+           xlink:href="#empty" />
+        <use
+           id="empty_16_10"
+           x="340"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="empty_17_10"
+           x="360"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="rock1_18_10"
+           x="380"
+           y="220"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,390,230)" />
+        <use
+           id="rock2a_21_11"
+           x="440"
+           y="240"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,450,250)" />
+        <use
+           id="rock2a_21_10"
+           x="440"
+           y="220"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="rock2b_22_10"
+           x="460"
+           y="220"
+           xlink:href="#rock2b"
+           rotate="180"
+           transform="rotate(180,470,230)" />
+        <use
+           id="rock2b_22_9"
+           x="460"
+           y="200"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock2a_23_9"
+           x="480"
+           y="200"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,490,210)" />
+        <use
+           id="rockd_23_8"
+           x="480"
+           y="180"
+           xlink:href="#rockd" />
+        <use
+           id="rock2a_23_7"
+           x="480"
+           y="160"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="rock2b_24_7"
+           x="500"
+           y="160"
+           xlink:href="#rock2b"
+           rotate="180"
+           transform="rotate(180,510,170)" />
+        <use
+           id="rockd_24_6"
+           x="500"
+           y="140"
+           xlink:href="#rockd" />
+        <use
+           id="rockd_24_5"
+           x="500"
+           y="120"
+           xlink:href="#rockd"
+           rotate="180"
+           transform="rotate(180,510,130)" />
+        <use
+           id="rock2b_24_4"
+           x="500"
+           y="100"
+           xlink:href="#rock2b"
+           rotate="90"
+           transform="rotate(90,510,110)" />
+        <use
+           id="rockd_23_4"
+           x="480"
+           y="100"
+           xlink:href="#rockd"
+           rotate="270"
+           transform="rotate(-90,490,110)" />
+        <use
+           id="rock2b_22_4"
+           x="460"
+           y="100"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock2b_22_5"
+           x="460"
+           y="120"
+           xlink:href="#rock2b"
+           rotate="180"
+           transform="rotate(180,470,130)" />
+        <use
+           id="rock2a_21_5"
+           x="440"
+           y="120"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="rock2a_21_6"
+           x="440"
+           y="140"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,450,150)" />
+        <use
+           id="rockd_19_4"
+           x="400"
+           y="100"
+           xlink:href="#rockd" />
+        <use
+           id="rock2a_19_6"
+           x="400"
+           y="140"
+           xlink:href="#rock2a"
+           rotate="270"
+           transform="rotate(-90,410,150)" />
+        <use
+           id="rockd_19_5"
+           x="400"
+           y="120"
+           xlink:href="#rockd"
+           rotate="180"
+           transform="rotate(180,410,130)" />
+        <use
+           id="rockd_20_6"
+           x="420"
+           y="140"
+           xlink:href="#rockd"
+           rotate="90"
+           transform="rotate(90,430,150)" />
+        <use
+           id="empty_14_10"
+           x="300"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="empty_13_10"
+           x="280"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="rock1_12_11"
+           x="260"
+           y="240"
+           xlink:href="#rock1"
+           rotate="0" />
+        <use
+           id="empty_13_11"
+           x="280"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="empty_13_12"
+           x="280"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="rock2b_12_13"
+           x="260"
+           y="280"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,270,290)" />
+        <use
+           id="empty_12_12"
+           x="260"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="rock2a_13_14"
+           x="280"
+           y="300"
+           xlink:href="#rock2a"
+           rotate="270"
+           transform="rotate(-90,290,310)" />
+        <use
+           id="rock2b_14_15"
+           x="300"
+           y="320"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,310,330)" />
+        <use
+           id="rock2b_14_17"
+           x="300"
+           y="360"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock3_14_18"
+           x="300"
+           y="380"
+           xlink:href="#rock3"
+           rotate="180"
+           transform="rotate(180,310,390)" />
+        <use
+           id="rock1_15_17"
+           x="320"
+           y="360"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,330,370)" />
+        <use
+           id="rock1_15_16"
+           x="320"
+           y="340"
+           xlink:href="#rock1"
+           rotate="0" />
+        <use
+           id="rock2b_16_17"
+           x="340"
+           y="360"
+           xlink:href="#rock2b"
+           rotate="180"
+           transform="rotate(180,350,370)" />
+        <use
+           id="rock2b_18_17"
+           x="380"
+           y="360"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,390,370)" />
+        <use
+           id="rock2b_20_17"
+           x="420"
+           y="360"
+           xlink:href="#rock2b"
+           rotate="90"
+           transform="rotate(90,430,370)" />
+        <use
+           id="rock2b_20_18"
+           x="420"
+           y="380"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,430,390)" />
+        <use
+           id="rock2a_21_18"
+           x="440"
+           y="380"
+           xlink:href="#rock2a"
+           rotate="90"
+           transform="rotate(90,450,390)" />
+        <use
+           id="rockd_21_19"
+           x="440"
+           y="400"
+           xlink:href="#rockd"
+           rotate="180"
+           transform="rotate(180,450,410)" />
+        <use
+           id="rock2a_21_20"
+           x="440"
+           y="420"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,450,430)" />
+        <use
+           id="rock2b_20_20"
+           x="420"
+           y="420"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock2b_20_21"
+           x="420"
+           y="440"
+           xlink:href="#rock2b"
+           rotate="180"
+           transform="rotate(180,430,450)" />
+        <use
+           id="rock2a_19_21"
+           x="400"
+           y="440"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="rock2a_17_22"
+           x="360"
+           y="460"
+           xlink:href="#rock2a"
+           rotate="0" />
+        <use
+           id="rock1_18_22"
+           x="380"
+           y="460"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,390,470)" />
+        <use
+           id="rock1_19_22"
+           x="400"
+           y="460"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,410,470)" />
+        <use
+           id="rock2a_21_23"
+           x="440"
+           y="480"
+           xlink:href="#rock2a"
+           rotate="90"
+           transform="rotate(90,450,490)" />
+        <use
+           id="rock1_20_23"
+           x="420"
+           y="480"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,430,490)" />
+        <use
+           id="empty_19_23"
+           x="400"
+           y="480"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_23"
+           x="380"
+           y="480"
+           xlink:href="#empty" />
+        <use
+           id="empty_17_23"
+           x="360"
+           y="480"
+           xlink:href="#empty" />
+        <use
+           id="rock2b_16_23"
+           x="340"
+           y="480"
+           xlink:href="#rock2b"
+           rotate="0" />
+        <use
+           id="rock1_16_24"
+           x="340"
+           y="500"
+           xlink:href="#rock1"
+           rotate="0" />
+        <use
+           id="empty_17_24"
+           x="360"
+           y="500"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_24"
+           x="380"
+           y="500"
+           xlink:href="#empty" />
+        <use
+           id="empty_19_24"
+           x="400"
+           y="500"
+           xlink:href="#empty" />
+        <use
+           id="empty_20_24"
+           x="420"
+           y="500"
+           xlink:href="#empty" />
+        <use
+           id="rock1_21_24"
+           x="440"
+           y="500"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,450,510)" />
+        <use
+           id="rock1_21_25"
+           x="440"
+           y="520"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,450,530)" />
+        <use
+           id="empty_20_25"
+           x="420"
+           y="520"
+           xlink:href="#empty" />
+        <use
+           id="rock2a_21_26"
+           x="440"
+           y="540"
+           xlink:href="#rock2a"
+           rotate="180"
+           transform="rotate(180,450,550)" />
+        <use
+           id="empty_19_25"
+           x="400"
+           y="520"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_25"
+           x="380"
+           y="520"
+           xlink:href="#empty" />
+        <use
+           id="empty_17_25"
+           x="360"
+           y="520"
+           xlink:href="#empty" />
+        <use
+           id="rock2b_16_26"
+           x="340"
+           y="540"
+           xlink:href="#rock2b"
+           rotate="270"
+           transform="rotate(-90,350,550)" />
+        <use
+           id="rock1_16_25"
+           x="340"
+           y="520"
+           xlink:href="#rock1"
+           rotate="0" />
+        <use
+           id="empty_17_26"
+           x="360"
+           y="540"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_26"
+           x="380"
+           y="540"
+           xlink:href="#empty" />
+        <use
+           id="empty_19_26"
+           x="400"
+           y="540"
+           xlink:href="#empty" />
+        <use
+           id="rock1_18_27"
+           x="380"
+           y="560"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,390,570)" />
+        <use
+           id="rock2a_17_27"
+           x="360"
+           y="560"
+           xlink:href="#rock2a"
+           rotate="270"
+           transform="rotate(-90,370,570)" />
+        <use
+           id="rock2b_20_27"
+           x="420"
+           y="560"
+           xlink:href="#rock2b"
+           rotate="180"
+           transform="rotate(180,430,570)" />
+        <use
+           id="empty_20_26"
+           x="420"
+           y="540"
+           xlink:href="#empty" />
+        <use
+           id="rock1_19_27"
+           x="400"
+           y="560"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,410,570)" />
+        <use
+           id="rock1_19_11"
+           x="400"
+           y="240"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,410,250)" />
+        <use
+           id="rock1_20_11"
+           x="420"
+           y="240"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,430,250)" />
+        <use
+           id="rock1_20_12"
+           x="420"
+           y="260"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,430,270)" />
+        <use
+           id="rock2b_22_14"
+           x="460"
+           y="300"
+           xlink:href="#rock2b"
+           rotate="90"
+           transform="rotate(90,470,310)" />
+        <use
+           id="rock1_21_14"
+           x="440"
+           y="300"
+           xlink:href="#rock1"
+           rotate="90"
+           transform="rotate(90,450,310)" />
+        <use
+           id="rock1_22_15"
+           x="460"
+           y="320"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,470,330)" />
+        <use
+           id="rock2a_21_16"
+           x="440"
+           y="340"
+           xlink:href="#rock2a"
+           rotate="270"
+           transform="rotate(-90,450,350)" />
+        <use
+           id="empty_21_15"
+           x="440"
+           y="320"
+           xlink:href="#empty" />
+        <use
+           id="rock2b_22_16"
+           x="460"
+           y="340"
+           xlink:href="#rock2b"
+           rotate="180"
+           transform="rotate(180,470,350)" />
+        <use
+           id="rock1_19_17"
+           x="400"
+           y="360"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,410,370)" />
+        <use
+           id="empty_18_16"
+           x="380"
+           y="340"
+           xlink:href="#empty" />
+        <use
+           id="rock1_20_15"
+           x="420"
+           y="320"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,430,330)" />
+        <use
+           id="rock1_19_16"
+           x="400"
+           y="340"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,410,350)" />
+        <use
+           id="empty_20_14"
+           x="420"
+           y="300"
+           xlink:href="#empty" />
+        <use
+           id="empty_19_15"
+           x="400"
+           y="320"
+           xlink:href="#empty" />
+        <use
+           id="rock1_20_13"
+           x="420"
+           y="280"
+           xlink:href="#rock1"
+           rotate="180"
+           transform="rotate(180,430,290)" />
+        <use
+           id="empty_19_13"
+           x="400"
+           y="280"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_11"
+           x="380"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="empty_19_12"
+           x="400"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="empty_17_11"
+           x="360"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_12"
+           x="380"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_14"
+           x="380"
+           y="300"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_13"
+           x="380"
+           y="280"
+           xlink:href="#empty" />
+        <use
+           id="empty_19_14"
+           x="400"
+           y="300"
+           xlink:href="#empty" />
+        <use
+           id="empty_18_15"
+           x="380"
+           y="320"
+           xlink:href="#empty" />
+        <use
+           id="rock1_17_16"
+           x="360"
+           y="340"
+           xlink:href="#rock1"
+           rotate="270"
+           transform="rotate(-90,370,350)" />
+        <use
+           id="empty_17_15"
+           x="360"
+           y="320"
+           xlink:href="#empty" />
+        <use
+           id="empty_16_16"
+           x="340"
+           y="340"
+           xlink:href="#empty" />
+        <use
+           id="empty_17_14"
+           x="360"
+           y="300"
+           xlink:href="#empty" />
+        <use
+           id="empty_16_15"
+           x="340"
+           y="320"
+           xlink:href="#empty" />
+        <use
+           id="empty_17_13"
+           x="360"
+           y="280"
+           xlink:href="#empty" />
+        <use
+           id="empty_17_12"
+           x="360"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="empty_14_11"
+           x="300"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="empty_15_10"
+           x="320"
+           y="220"
+           xlink:href="#empty" />
+        <use
+           id="empty_16_11"
+           x="340"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="empty_15_11"
+           x="320"
+           y="240"
+           xlink:href="#empty" />
+        <use
+           id="empty_16_12"
+           x="340"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="empty_15_12"
+           x="320"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="empty_16_13"
+           x="340"
+           y="280"
+           xlink:href="#empty" />
+        <use
+           id="empty_14_13"
+           x="300"
+           y="280"
+           xlink:href="#empty" />
+        <use
+           id="empty_13_13"
+           x="280"
+           y="280"
+           xlink:href="#empty" />
+        <use
+           id="empty_14_12"
+           x="300"
+           y="260"
+           xlink:href="#empty" />
+        <use
+           id="empty_15_14"
+           x="320"
+           y="300"
+           xlink:href="#empty" />
+        <use
+           id="empty_14_14"
+           x="300"
+           y="300"
+           xlink:href="#empty" />
+        <use
+           id="empty_15_13"
+           x="320"
+           y="280"
+           xlink:href="#empty" />
+        <use
+           id="empty_16_14"
+           x="340"
+           y="300"
+           xlink:href="#empty" />
+        <use
+           id="empty_15_15"
+           x="320"
+           y="320"
+           xlink:href="#empty" />
+        <use
+           id="rock3_1_3"
+           x="40"
+           y="80"
+           xlink:href="#rock3"
+           rotate="270"
+           transform="rotate(-90,50,90)" />
+        <use
+           id="rockd_2_3"
+           x="60"
+           y="80"
+           xlink:href="#rockd"
+           rotate="90"
+           transform="rotate(90,70,90)" />
+      </g>
+      <text
+         id="label_4_10"
+         x="110"
+         y="234"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">12</text>
+      <text
+         id="label_15_12"
+         x="330"
+         y="274"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">13</text>
+      <text
+         id="label_18_25"
+         x="409.61877"
+         y="533.02124"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">14</text>
+      <text
+         id="label_19_1"
+         x="410"
+         y="54"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Arial Narrow', sans-serif">15</text>
+      <g
+         id="walls0">
+        <use
+           id="secret_1_3"
+           x="40"
+           y="80"
+           xlink:href="#secret"
+           rotate="0" />
+      </g>
+      <path
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 325.20717,19.300492 c 4.1306,2.882876 5.96271,9.611711 12.82933,9.091063 11.24536,2.256977 22.72402,0.605968 34.07932,1.238569 10.09652,-1.179098 20.5282,-1.00431 30.08522,2.84475 6.64333,1.382048 12.9758,3.708402 18.56566,7.603437 5.61301,3.188466 12.23383,4.360349 17.13386,8.776935 6.36178,3.819899 13.93142,2.731826 20.99464,3.367826 8.39202,0.134956 16.31739,-3.188533 24.33052,-5.111236 5.94999,-1.778272 10.96063,-5.263975 16.03826,-8.739657 5.0345,-4.27646 8.3814,-10.037503 13.67876,-14.154243 1.15844,-1.388733 1.99894,-2.971444 2.3546,-4.738724"
+         id="path2" />
+      <path
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 389.90128,22.493078 c -6.08971,2.973345 -16.06823,10.83404 -19.30421,16.745312 -1.66868,4.553793 -1.77805,4.987381 -3.02555,10.715696 5.47627,-0.625686 9.05677,-0.89189 11.98294,-1.937047 6.81244,-3.00326 16.43021,-10.636175 20.64734,-16.779293 -1.08884,-3.122846 -1.37654,-3.918325 -3.49887,-5.966949 -1.9028,-2.274306 -3.55739,-3.15342 -6.80165,-2.777719 z"
+         id="path4"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 309.62947,168.2029 c 0.68715,1.02171 1.30549,2.09323 2.06144,3.06513 1.1707,1.50511 0.91844,0.38745 1.88214,1.8552 0.96878,1.47551 1.20726,3.68941 1.97183,5.32366 0.67907,1.45149 0.88352,2.44276 0.89626,2.41983 0.53499,-0.96258 0.29922,-1.99357 1.16514,-3.06513"
+         id="path5" />
+      <path
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 304.07259,180.14078 c 4.84033,-4.69834 10.21595,-9.6948 16.67065,-12.01855"
+         id="path6" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 94.165507,194.25651 c -5.290956,7.77134 -13.803196,11.19152 -20.939071,16.43149 -7.692767,7.54 -5.469194,19.41361 0.584712,27.17264 4.142249,7.88468 12.534114,13.43657 13.406074,22.82483 0.982026,9.08571 1.862575,21.21225 12.320154,24.38886 12.771014,5.59654 28.051464,3.13031 39.531394,-4.34885 6.77685,-11.35331 17.6046,-19.68947 30.46811,-22.50405 10.06927,-4.73694 5.51427,-15.639 -2.39825,-19.63499 -9.54647,-4.59227 -6.62065,-13.97146 -5.97465,-22.24 -1.10271,-10.19459 -12.36888,-12.48696 -19.98483,-16.21037 -7.56039,-8.6766 -20.09572,-6.50118 -29.2898,-12.01174 -6.22558,-3.75966 -15.501153,-1.12286 -17.723843,6.13218 z"
+         id="path7" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 92.55222,209.42086 c -4.247679,5.5394 -14.980636,5.5318 -14.248078,14.75436 2.275401,7.77397 9.353821,13.3729 10.543752,21.79205 0.372006,7.15594 5.137697,11.41309 8.735421,16.87832 2.477385,9.33276 13.478285,14.98435 22.516415,11.53471 9.83813,-3.56127 15.88343,-13.37681 26.03445,-16.42811 7.39916,-2.73908 10.27007,-11.89326 3.63548,-17.13056 -6.42994,-8.22262 7.72191,-16.66603 -0.30029,-24.74065 -8.0887,-4.7798 -20.46976,-2.00585 -25.08973,-12.15403 -4.67002,-6.75035 -14.91,-8.65251 -21.19645,-3.05113 -3.298627,3.06416 -9.791288,3.39577 -10.63097,8.54504 z"
+         id="path8" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 372.27895,483.54848 c -9.02682,10.97065 -30.90194,14.45863 -25.02348,33.59668 -0.20729,15.21241 9.38453,33.26522 26.58408,32.55014 9.55665,-0.27458 24.89921,-8.79717 23.1816,8.19376 3.50102,15.76435 26.5254,9.94496 32.21772,-2.00217 9.55305,-7.78257 28.2844,-13.93039 22.67278,-30.63639 0.0389,-11.78237 0.02,-28.33539 -14.15278,-32.01547 -14.99263,0.78053 -24.27838,-7.56819 -28.34792,-20.94426 -11.00129,-10.79848 -33.99562,-3.70395 -37.132,11.25771 z"
+         id="path9" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 384.82676,485.00037 c -9.46725,5.69398 -20.1135,10.13554 -24.2659,21.32725 -7.79873,11.04992 -3.13879,28.42601 10.85628,31.42991 9.89931,5.68838 28.79629,-6.82831 30.62864,9.60578 1.697,14.79719 17.56337,6.04584 22.10058,-2.00601 10.07151,-4.26917 18.69572,-12.87739 18.2413,-24.78807 3.44522,-17.68309 -18.63551,-18.48639 -29.28618,-24.66218 -6.10948,-7.86997 -14.12591,-25.33873 -25.81855,-13.75709 l -1.32324,1.3776 z"
+         id="path10" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 65.260915,92.808793 c 0.348569,-0.08555 0.691385,-0.199428 1.045707,-0.256661 0.273409,-0.04416 1.567857,0.229384 1.901284,0.256661 1.074616,0.08791 2.051866,-0.206163 3.105422,-0.285181 0.228057,-0.0171 1.485648,0.03184 1.679468,-0.14259 0.08993,-0.08093 -0.03169,-0.746118 -0.03169,-0.85554 0,-1.565164 0.105788,-3.24234 0.443634,-4.762525 0.0049,-0.02207 0.131551,-0.89201 0.06338,-0.941091 -0.496808,-0.357685 -6.122948,-0.142598 -7.288247,-0.142598 -0.137643,0 0.274687,-0.01822 0.411945,-0.02851"
+         id="path11" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 85.00256,91.325853 c 0.536498,1.042572 -0.179483,3.089525 0.728822,3.906978 0.05047,0.04542 -0.03519,0.295509 0.03169,0.370738 0.415927,0.467881 3.628345,-0.948257 3.929311,-1.083688 0.311758,-0.140288 0.737566,-0.0039 1.045706,-0.14259 0.104471,-0.04701 -0.03168,-0.227659 -0.03168,-0.34222 0,-0.243819 0.07547,-0.501987 0.06338,-0.741469 -0.06698,-1.326504 -0.07914,-3.129785 -0.887268,-4.220677 -0.138535,-0.18701 -0.642918,-0.3317 -0.855586,-0.48481"
+         id="path12" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 87.030594,106.64007 c 0.57401,1.07986 -0.07887,1.88996 -0.285195,2.88033 -0.218012,1.04646 -0.630499,2.1568 -0.950639,3.19403 -0.07627,0.24711 -0.316827,0.63693 -0.09507,0.76999 0.464421,0.27864 1.44661,-0.19621 2.028034,0.0856 0.329372,0.15961 1.543308,1.14917 1.869595,0.85554 0.954103,-0.85864 1.64689,-2.2721 2.123094,-3.45069 0.212394,-0.52567 0.646931,-0.90297 0.887268,-1.39739 0.09742,-0.20042 0.198295,-1.44341 0.06338,-1.62553 -0.151398,-0.20436 -0.560135,0.34966 -0.665451,0.45629 -0.147972,0.14982 -0.496525,0.0913 -0.697132,0.19962"
+         id="path13" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 87.791105,127.20162 c 0.252136,0.86516 -0.886016,5.36255 -0.285195,5.90325 0.395996,0.35637 1.722737,-0.36409 2.218169,-0.42778 0.994357,-0.12783 2.48286,0.37727 3.390617,-0.14259 0.210627,-0.12062 0.625335,-0.32749 0.697132,-0.59888 0.101683,-0.38435 0.221817,-0.82372 0.221817,-1.22628 0,-0.29515 -0.224589,-0.59315 -0.285195,-0.88406 -0.189204,-0.90818 -0.0452,-2.50544 -0.475316,-3.27957"
+         id="path14" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 89.058628,149.47426 c 1.788624,-0.68896 3.165298,1.82626 4.879957,1.31184 0.275144,-0.0825 0.139162,-0.16438 0.19012,-0.37075 0.243395,-0.98569 0.719447,-1.94179 1.140766,-2.8518 0.125446,-0.27095 0.515485,-0.64455 0.570391,-0.94111 0.128903,-0.69622 -4.889507,-2.07322 -5.070077,-1.91071 -0.28996,0.26096 0.0979,0.47464 0.253498,0.6274"
+         id="path15" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 104.42731,152.98198 c 0.25351,0.37074 0.50701,0.74148 0.76051,1.11221 0.0422,0.0285 0.0889,0.0514 0.12676,0.0856 0.41637,0.37471 0.84106,0.80089 1.10908,1.28331 0.0521,0.0938 1.16164,-0.42169 1.17245,-0.42777 0.47269,-0.26587 0.84774,-1.02667 1.23584,-1.4259 0.31651,-0.32557 0.86222,-0.46528 1.10909,-0.79851 0.0863,-0.11653 0.0135,-0.36276 -0.0317,-0.48481 -0.23798,-0.64242 -0.98627,-1.89856 -1.42596,-2.45254 -0.18662,-0.23512 -1.19451,-0.20651 -1.64778,-1.22629"
+         id="path16" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 108.86364,167.64028 c 0.18246,0.14956 -1.19989,4.11045 -0.76051,4.50587 0.11427,0.10284 1.4168,-0.47404 1.5844,-0.48481 0.73085,-0.047 2.43665,0.20263 2.97868,-0.28518 0.31826,-0.28643 0.3377,-0.93326 0.41193,-1.31184 0.30076,-1.53386 0.16441,-1.85542 -0.15844,-3.3081"
+         id="path25" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 48.466261,314.55935 c -0.105475,-1.45039 0.336242,-2.60522 1.109085,-3.76439 0.188772,-0.28313 0.20766,-1.60332 0.507005,-1.71108 0.03306,-0.0119 1.963963,0.56415 2.091412,0.65591 0.298724,0.21508 0.536096,0.48153 0.887268,0.6274 0.157605,0.0655 1.977222,0.77043 1.932966,0.96961 -0.100635,0.45293 -0.544864,0.85288 -0.728822,1.28332 -0.247532,0.5792 -0.267896,1.19169 -0.411944,1.79664 -0.16989,0.71348 -0.727433,1.30934 -1.077396,1.93923"
+         id="path26" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 64.690532,307.62946 c 0.701393,0.64252 7.168983,-0.27845 7.224868,-0.22815 0.139216,0.1253 0.04523,0.62381 0.03169,0.76999 -0.101484,1.09594 0.05227,2.8548 -0.126749,3.82142 -9.72e-4,0.005 -0.382394,-0.13835 -0.443634,-0.14259 -0.689309,-0.0477 -1.546166,-0.10423 -2.218161,0.057 -0.799112,0.19178 -1.608546,0.35091 -2.3766,0.6274 -0.254197,0.0915 -0.471686,0.18373 -0.69714,0.28518 -0.0337,0.0152 -0.09506,0.094 -0.09506,0.057 0,-0.10926 0.06337,-0.20913 0.09506,-0.3137"
+         id="path27" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 87.60097,332.78241 c -0.403061,-0.56714 0.298481,-0.9584 0.348573,-1.45441 0.08693,-0.86079 -0.30506,-2.68217 0.221817,-3.39367 0.139328,-0.18815 0.463792,-0.0665 0.697133,-0.0856 0.731584,-0.0598 1.71569,-0.34071 2.408289,-0.57036 0.279726,-0.0927 0.586418,-0.35857 0.855586,-0.42777 0.05606,-0.0144 0.753719,-0.0977 0.792192,-0.0285 0.08228,0.14808 0.130818,2.3392 0.190136,2.76625 0.07556,0.544 0.518276,1.0102 0.665451,1.53998 0.106662,0.38394 0.253498,2.47999 0.253498,1.51145"
+         id="path28" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 85.88982,352.26028 c 0.266672,-0.67108 -0.362438,-4.96569 -0.03168,-5.56103 0.139916,-0.25183 0.867732,-0.10968 1.140758,-0.17111 0.666811,-0.15005 1.250697,-0.43158 1.901293,-0.59887 0.131205,-0.0337 0.528078,0.15736 0.66545,0.1711 0.375295,0.0375 0.886145,-0.18096 1.204145,-0.0856 0.783807,0.23515 0.277117,1.79614 0.475315,2.50959 0.22432,0.80748 1.172463,1.37042 1.172463,2.30996 0,0.3248 0.0197,1.64568 0.221802,0.82702"
+         id="path29" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 86.713717,373.53478 c 0.05281,-0.35172 0.119162,-0.70167 0.158439,-1.05517 0.152472,-1.37226 0.03168,-2.80804 0.03168,-4.19216 0,-0.22314 0.06338,-0.43212 0.06338,-0.65591 0,-0.10457 -0.100161,-0.28367 0,-0.31371 0.169666,-0.0509 1.862842,0.74148 2.249851,0.74148 0.404993,0 2.74061,-0.39236 3.105421,-0.22816 0.05264,0.0237 -0.179051,0.71022 -0.19012,0.76999 -0.127227,0.68698 -0.199763,1.46061 -0.158438,2.16738 0.0191,0.32661 0.759545,3.20767 0.19012,2.82329"
+         id="path30" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 92.512624,391.33007 c -0.871903,-0.44593 -1.621941,-1.11905 -2.471668,-1.59702 -0.07549,-0.0425 -0.253499,0.0296 -0.253499,-0.057 0,-0.13464 2.754903,-3.71898 3.1688,-4.27772 0.08196,-0.11064 1.33692,0.71512 1.48934,0.76999 0.156641,0.0564 2.010907,0.82703 1.521022,0.82703"
+         id="path31" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 167.1356,315.63179 c 0.10806,-1.17483 -0.87082,0.0596 -1.20415,-0.17111 -0.48179,-0.33354 -0.84965,-0.94933 -1.36258,-1.22628 -0.0974,-0.0526 -0.58739,-0.15852 -0.57038,-0.34221 0.0635,-0.68599 1.73341,-2.52398 2.12309,-3.10847 0.16796,-0.25193 0.8139,-1.76587 1.0774,-1.82516 0.32915,-0.0741 2.75314,3.09168 2.82023,3.05144 0.12186,-0.0731 0.20524,-0.19727 0.31688,-0.28518"
+         id="path32" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 168.52987,331.0886 c 0.26221,-0.0843 -0.26519,-4.58616 0,-4.70549 0.22645,-0.10189 2.01901,-0.17415 2.47167,-0.19962 0.7101,-0.0399 1.45153,-0.61821 2.21816,-0.34222 0.11318,0.0408 0.80638,3.57171 0.95065,4.22068 0.0817,0.36769 -0.13716,0.84017 -0.19014,1.19776 -0.0111,0.0752 0.008,0.30381 0,0.22815 -0.0134,-0.13283 -0.0211,-0.26617 -0.0317,-0.39926"
+         id="path33" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 188.11307,335.45187 c -3.71261,-0.93759 -4.5413,0.0379 -3.20048,-4.30623 0.21968,-0.71175 0.004,-1.55248 0.66543,-2.08182 0.34766,-0.2781 1.07553,0.37192 1.39428,0.45629 0.2904,0.0769 0.60294,-0.0397 0.88727,0.0285 0.16177,0.0388 0.37039,0.40316 0.47532,0.51333 0.22316,0.23431 0.73144,0.14739 0.91895,0.48481 0.0824,0.14826 -0.24514,0.23629 -0.34856,0.37073"
+         id="path34" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 192.58109,350.82313 c -0.15844,-0.4753 -0.312,-0.95226 -0.47533,-1.4259 -0.23463,-0.6804 -0.72882,-1.25108 -0.72882,-1.99627 0,-0.11585 -0.55342,-1.13631 -0.44363,-1.16925 0.715,-0.21451 1.43702,-0.40679 2.12309,-0.76999 0.2976,-0.15754 1.04597,-0.83638 1.39428,-0.62739 0.5921,0.35525 0.21365,2.08151 0.66544,2.62366"
+         id="path35" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 204.90773,354.67307 c -0.0687,-0.24596 -0.9574,-2.61726 -0.72883,-2.9944 0.25178,-0.41544 3.76692,-0.55036 4.46801,-0.59888 0.17226,-0.0119 0.57123,-0.23507 0.72883,-0.19963 0.26305,0.0592 0.20869,1.17613 0.28519,1.36887 0.28488,0.71779 0.9234,1.2932 1.23583,1.99627 0.2392,0.53829 -0.11095,0.1425 -0.2535,-0.19963"
+         id="path36" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 207.75965,372.01208 c 0.0492,-0.11809 1.19155,-4.79964 1.23583,-4.81957 0.963,-0.43344 2.20053,-0.0526 3.2005,-0.14259 0.32172,-0.029 0.76708,-0.34973 1.07738,-0.25666 0.28383,0.0851 -0.15225,0.963 -0.22181,1.19776 -0.38903,1.31288 -0.11959,3.44425 -1.14077,4.36328"
+         id="path37" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 195.2868,252.46983 c -1.02278,-0.68167 -1.56858,-0.72814 -2.72517,-0.6274 -1.31054,0.11415 -2.75982,0.0603 -4.02438,0.37074 -0.0277,0.007 -0.40735,0.0643 -0.41195,0.057 -0.41621,-0.65551 -0.0695,-3.99939 0.19013,-4.67697 0.14535,-0.37933 0.48039,-0.70039 0.60207,-1.08368 2.4e-4,-7.4e-4 0.0802,-0.52845 0.0951,-0.54185 0.0588,-0.0529 0.29084,0.10431 0.31688,0.11408 0.57914,0.21717 1.09297,0.18125 1.67947,0.25666 0.45323,0.0583 0.94184,0.36915 1.42596,0.45629 0.67268,0.12107 2.89049,-0.6771 3.1688,0.19962"
+         id="path38" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 212.65184,253.58204 c -0.33179,-0.71822 -5.90318,0.24421 -6.27423,-0.25667 -0.3876,-0.52322 -0.16693,-2.17655 -0.0951,-2.82329 0.048,-0.43171 -0.0375,-1.97289 0.0634,-2.08182 0.66561,-0.71884 2.75812,0.0855 3.61243,0.0855 0.86805,0 2.02392,-1.62517 1.48934,-0.34222"
+         id="path39" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 226.40444,256.69051 c -0.26098,-0.17636 -3.10543,-2.07069 -3.10543,-2.50959 0,-0.33447 0.44965,-0.491 0.66545,-0.71296 0.21407,-0.22018 0.29816,-0.5023 0.47533,-0.74147 0.29792,-0.40218 0.94827,-0.82378 1.36258,-1.14072 0.47116,-0.36043 1.13328,-0.56363 1.55271,-0.9411 0.15728,-0.14154 0.26743,-0.38327 0.41194,-0.51333 0.11429,-0.10285 0.66288,0.55205 0.72883,0.65592 0.54826,0.86348 2.0105,2.14778 1.80622,3.25107"
+         id="path40" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 233.09062,271.20622 c -0.43304,-1.12985 -1.11626,-2.23498 -1.80622,-3.25106 -0.0363,-0.0535 -0.72883,-0.77335 -0.72883,-0.79851 0,-0.21024 0.81204,-0.83329 1.01402,-0.96962 0.23285,-0.15717 0.57714,-0.24731 0.82389,-0.39925 0.27966,-0.17221 0.79917,-0.99221 1.20414,-0.85554 0.44751,0.15102 0.99598,1.17344 1.26752,1.53998 0.21787,0.29408 0.84999,0.30362 1.04571,0.65591 0.1188,0.21383 0.12756,0.37146 -0.0951,0.17111"
+         id="path41" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 253.52938,273.71581 c -0.91078,-0.73314 -1.56894,-0.7677 -2.6301,-0.79851 -0.49797,-0.0145 -4.38237,0.30525 -4.56307,0.14259 -0.31059,-0.27959 0.20769,-1.56384 0.28518,-1.99626 0.11135,-0.62128 0.10545,-1.42335 -0.0951,-2.02478 -0.002,-0.006 -0.33294,-0.51614 -0.19012,-0.54185 1.11234,-0.20023 2.81599,0.0621 4.02437,-0.0285 0.77244,-0.0579 1.91011,-0.58065 2.69349,-0.22814"
+         id="path42" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 505.52163,146.45814 c 0.033,1.129 0.17018,1.7047 0,2.62367 -0.0943,0.50947 -0.61833,4.26015 -0.44363,4.44882 0.30349,0.32777 5.57581,0.91482 5.95736,0.22814 0.37591,-0.67653 -0.39114,-1.96217 -0.44364,-2.62366 -0.12949,-1.63187 0.507,-3.19291 0.507,-4.734"
+         id="path43" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 507.86656,129.80357 c -0.67014,1.01775 -2.17574,3.91696 -1.45766,5.53252 0.086,0.19352 1.20325,-0.27233 1.26751,-0.28518 0.76563,-0.15313 1.69337,0.057 2.47168,0.057 0.61856,0 2.11647,0.35944 2.66177,0.11407 0.0772,-0.0347 0.221,-3.26702 0.25352,-3.76438 0.0404,-0.61765 0.89034,-2.39144 0.50702,-2.90886 -0.17959,-0.24242 -0.50774,-0.40032 -0.69714,-0.68442"
+         id="path44" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 488.66361,112.92086 c 2.59207,2.12012 1.9205,1.74334 4.11943,1.08368 2.01178,-0.60351 0.89431,-1.37482 1.01402,-3.42216 6.8e-4,-0.0117 0.41772,-1.84849 0.25352,-1.99627 -0.0798,-0.0718 -1.51831,0.22168 -1.64778,0.22815 -0.89875,0.0449 -1.76098,-0.28518 -2.66181,-0.28518 -0.65198,0 -1.58953,0.12788 -1.58441,0.11407 0.0493,-0.13313 0.16901,-0.22815 0.25351,-0.34222"
+         id="path45" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 443.60323,389.49174 c 0.7606,0.77198 -0.33139,4.59407 0.19012,5.53253 0.035,0.0629 1.36964,-0.72563 2.40829,-0.91259 0.62674,-0.11282 1.96496,0.37057 2.40829,0.17113 0.30563,-0.13749 0.40521,-2.92953 0.44363,-3.13701 0.0919,-0.49632 -0.0363,-1.09974 0.12676,-1.53998 0.0468,-0.12636 0.12883,-0.51705 0.0634,-0.39926 -0.0591,0.10635 -0.0845,0.22816 -0.12676,0.34224"
+         id="path46" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 445.44113,405.91817 c -0.0423,0.72247 -0.0845,1.44493 -0.12676,2.16739 0,0.13309 0.006,0.26633 0,0.39926 -0.0548,1.13357 -0.77126,2.45117 -0.57036,3.53624 0.0604,0.32608 2.93794,-0.43184 3.1688,-0.45628 1.77678,-0.18813 3.35892,0.83824 3.35892,0.74146 0,-1.45117 0.69243,-2.94381 1.3309,-4.22068 0.29643,-0.59282 1.28965,-1.75274 0.88727,-1.82515"
+         id="path47" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 445.8214,424.62604 c -0.0634,0.72246 -0.13655,1.44413 -0.19012,2.16739 -0.041,0.553 -0.65865,2.6583 -0.12676,3.13698 0.10331,0.093 0.24855,-0.12666 0.38024,-0.1711 0.32341,-0.10914 0.75187,-0.057 1.07739,-0.057 0.33382,0 0.83805,-0.11325 1.14078,0.057 0.50177,0.28222 1.64163,0.6508 2.15478,0.057 0.83757,-0.96917 0.82378,-2.69933 1.14078,-3.93549 0.54459,-2.12372 0.88877,-0.88984 -0.12676,0.28518"
+         id="path48" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 432.25893,428.67561 c -0.46477,0.74148 -0.91944,1.48937 -1.3943,2.22442 -0.63059,0.97612 -2.33427,0.91724 -3.04204,2.5096 -0.0209,0.0471 1.36111,0.53271 2.21817,1.08369 0.38902,0.25009 1.51694,2.19684 1.90126,2.11034 1.16716,-0.2627 1.1972,-2.95328 2.53505,-3.19403"
+         id="path49" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 425.85794,444.58873 c -0.83121,0.55868 -0.93461,2.01505 -1.58442,2.79475 -0.53657,0.64383 2.22274,4.31298 2.6618,4.04958 1.32862,-0.79709 1.38468,-3.18891 2.66181,-3.87845 0.51106,-0.27593 2.57908,-2.11034 1.58438,-2.11034"
+         id="path50" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round"
+         d="m 410.14066,449.89308 c -0.6399,0.74045 -0.0918,2.28562 -0.38024,3.19403 -0.0248,0.0781 -0.39627,0.5646 -0.38027,0.57036 0.80352,0.28928 2.12648,0.0289 2.97868,0.11408 0.20473,0.0205 1.88914,0.63468 1.90129,0.62738 1.31363,-0.788 -0.12157,-5.13519 1.14075,-5.58952"
+         id="path51" />
+    </g>
+  </g>
+</svg>

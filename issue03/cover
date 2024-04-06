@@ -1,0 +1,36 @@
+.rs
+.fam BM
+.ll 12.8c
+.pl 21c 
+.sp 2c
+.vs 54
+.ps 54
+.ad c
+.ft BMB
+Grenzland
+\l'12.8c'
+.ps 11
+.vs 13
+.ft BMR
+.nf
+.ta 6.8cC 12.8cR
+No. 3	Worse Things Happen at Sea	Jan 2024
+.sp
+.ta 12.8cR
+.\" let's have a macro for table of contents items
+.de CI
+\fB\\$1\fP\\$2
+\fI\\$3\fP
+..
+.CI "Editorial" "1"
+.CI "Eingekerkert" "3" "Ein Piratenabenteuer für Stufe 1-3"
+.CI "The Crown of Neptune" "x" "A One-Page Dungeon for High-Level Characters"
+.CI "Jolly Roger" "x" "A timetested battlemap for on board swashbuckling"
+.CI "Salt'n'Tar" "x" "Rules for sailed movement on the tabletop"
+.CI "Drachenschildkröten" "x" "Ein Spielbericht aus der Grenzlandkampagne"
+.CI "Feedback" "x"
+.CI "Save the Date!" "x"
+.CI "Ausblick" "x"
+.fi
+.ad b
+.2C

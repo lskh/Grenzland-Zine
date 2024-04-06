@@ -1,0 +1,371 @@
+.1C
+.H1
+Salt'n'Tar
+.PP
+These rules for sailed movement on gaming tables are inspired by the
+1968 3M Game 
+.I Regatta . 
+Numbers are adjusted to work well with the
+original fantasy role-playing games of the 1970's: speed is always given
+in tabletop inches (").
+.H2
+Initial Wind strength and direction
+.PP
+On a playing surface without a grid, or a square grid, use 8 points of
+wind directions:
+.TS
+center;
+cblb
+cl.
+1d8	Wind Direction
+1	North
+2	Northeast
+3	East
+4	Southeast
+5	South
+6	Southwest
+7	West
+8	Northwest
+.TE
+.PP
+on a hexagonal grid, use 6 points of wind directions, if hexagons are
+aligned vertically: 
+.TS
+center;
+cblb
+cl.
+1d6	Wind Direction
+1	North
+2	Northeast
+3	Southeast
+4	South
+5	Southwest
+6	Northwest
+.TE
+.PP
+or, if hexagons are aligned horizontally: 
+.TS
+center;
+cblb
+cl.
+1d6	Wind Direction
+1	Northwest
+2	Northeast
+3	East
+4	Southeast
+5	Southwest
+6	West
+.TE
+.PP
+Thus, the initial Wind Direction may be diced for with a d6 or d8.
+.PP
+The initial Wind Speed may be determined by rolling on this table:
+.PP
+.TS
+center,tab(&);
+cbcb
+cl.
+1d6 & Wind Speed (WS)
+1 & Wind Speed = 1 (light breeze)
+2 & Wind Speed = 1
+3 & Wind Speed = 2 (moderate breeze)
+4 & Wind Speed = 2
+5 & Wind Speed = 3 (strong breeze)
+6 & Wind Speed = 3
+.TE
+.H2
+Ship types
+.H3 "Large Galley"
+A Trireme or Quadrireme, ships with three to four rowing benches and
+probably more then one lateen rigged mast:
+.\".\"\smallmap{img/Trireme.jpg"
+.TS
+center,tab(&);
+cbcb
+cl.
+Bearing & Bearing Number (BN)
+Running & 9
+Broad Reaching & 10
+Quarter Reaching & 8
+Beating & 3
+Luffing & 1 (backwards)
+.TE
+
+.H3 "Small Galley"
+A Bireme or smaller, ships with one or two rowing benches and a single
+lateen rigged mast.
+.TS
+center,tab(&);
+cbcb
+cl.
+Bearing & Bearing Number (BN)
+Running & 8
+Broad Reaching & 9
+Quarter Reaching & 7
+Beating & 2
+Luffing & 1 (backwards)
+.TE
+
+.H3 "Viking Longship"
+A fast square rigged sailer, one mast:
+.\"\smallmap{img/Longship.png"
+.TS
+center,tab(&);
+cbcb
+cl.
+Bearing & Bearing Number (BN)
+Running & 11
+Broad Reaching & 12
+Quarter Reaching & 9
+Beating & 4
+Backing & 2 (backwards)
+.TE
+
+.H3 "Large Merchant"
+A square rigged trading vessel with full lines and two to three masts. A
+Hulk, Carrack or Caravel.
+
+.\"\smallmap{img/Galleon.png"
+
+.TS
+center,tab(&);
+cbcb
+cl.
+Bearing & Bearing Number (BN)
+Running & 9
+Broad Reaching & 10
+Quarter Reaching & 8
+Beating & 3
+Backing & 1 (backwards)
+.TE
+
+.H3 "Small Merchant"
+A small trading vessel with full lines, and usually just one mast. A
+Cog.
+.\"\smallmap{img/Cog.jpg"
+Bearing & Bearing Number (BN)
+Running & 8
+Broad Reaching & 9
+Quarter Reaching & 7
+Beating & 3
+Backing & 1 (backwards)
+.TE
+
+.H3 "Sailed Warship"
+A Galleon or Man-'o-War, a massive ship with three or four masts, the
+fore- and mainmast are always square rigged. One or more gun decks or at
+least multiple catapults.
+
+.\"\smallmap{img/Carrack.png"
+
+.TS
+center,tab(&);
+cbcb
+cl.
+Bearing & Bearing Number (BN)
+Running & 10
+Broad Reaching & 11
+Quarter Reaching & 10
+Beating & 4
+Backing & 1 (backwards)
+.TE
+
+.H3 "Cutter"
+A fore-n-aft rigged single masted boat.
+.\"\smallmap{img/Cutter.jpg"
+.TS
+center,tab(&);
+cbcb
+cl.
+Bearing & Bearing Number (BN)
+Running & 6
+Broad Reaching & 8
+Quarter Reaching & 7
+Beating & 5
+Luffing & 1 (backwards)
+.TE
+
+.H3 "Schooner"
+A fore-n-aft rigged boat with two or more masts. The foremast may have
+square sails.
+.\"\smallmap{img/Schooner.jpg"
+.TS
+center,tab(&);
+cbcb
+cl.
+Bearing & Bearing Number (BN)
+Running & 10
+Broad Reaching & 12
+Quarter Reaching & 11
+Beating & 8
+Luffing & 1 (backwards)
+.TE
+
+.H2 
+Movement
+.PP
+Each ships speed in tabletop inches is derived by multiplying Wind Speed
+(WS) and Bearing Number (BN). The latter refers to each ships bearing
+relative to the direction of the wind:
+.EQ
+Mv = WS \[mu] BN
+.EN
+Bearings in the 8 point wind system:
+
+.\"\smallmap{img/movemnt8pt.png"
+
+Bearings in the 6 point wind system:
+
+.\"\smallmap{img/movemnt6pt.png"
+
+When moving ships may normally change direction by one point per turn.
+Changing direction by two points per turn is dangerous and causes Strain
+(see below).
+
+
+.H3 "Examples"
+At Wind Speed 2 a quarter reaching small galley would sail at speed 14''
+per round.
+.PP
+At that same wind speed a viking long ship would be at an advantage and
+make 18'' per round.
+.PP
+At Wind Speed 3 a proud Galleon would have a hard time beating with no
+more then 12'', while the fore-n-aft rigged Schooner would race to
+windward making 24''.
+.H2 
+Playing the Game
+.H3 "Game Turn when Racing and Chasing"
+.IP 1. 3
+One player or the referee rolls a d6 to determine wind speed and
+possible change in wind direction (see Wind Roll below).
+.IP 2. 3
+Each side \emph{may} roll a luck die (see Luck Roll below)
+.IP 3. 3
+Each vessel that has marked Strain \emph{must} do a Strain Roll (see
+below).
+.IP 4. 3
+Both sides move their full move according to the movement rules,
+possibly changing direction by one point.
+.IP 5. 3
+Next turn starts at 1.
+.H3 "Game Turn in Naval Combat"
+.IP 1. 3
+One player or the referee does the Wind Roll.
+.IP 2. 3
+Each side \emph{may} roll a Luck Roll.
+.IP 3. 3
+Each vessel that has marked Strain \emph{must} do a Strain Roll.
+.IP 4. 3
+If some kind of initiative system is being used, roll for initiative
+now!
+.IP 5. 3
+Both sides make their first half move, possibly changing direction by
+one point. In case of initiative being used, sides move in reverse
+order of initiative. The side with the highest initiative moves last.
+.IP 6. 3
+Both sides may launch missile attacks, magic spells in the order of
+initiative.
+.IP 7. 3
+Both sides move the second half of their move in reverse initiative
+order, possibly changing direction by 1 point. Any ship that does a
+second change of direction must mark 1 Strain!
+.IP 8. 3
+Roll for ramming, boarding and any kind of other actions allowed by
+the combat system being used.
+.IP 9. 3
+  Next turn starts at 1.
+.PP
+.H3 "Maneuvers"
+Optionally, at the end of each game turn ships may declare a maneuver:
+.DF "Reef:" 
+reduce speed by half. It takes another turn to unreef the sails.
+.DF "Furl:" 
+drop sails, the vessel is now adrift, down wind at Wind Speed.
+It takes two game turns to set sails again.
+.DF "Anchor:" 
+the ship drops it's anchor, and will stop drifting. Only ships
+with furled sails can anchor, lest they have to do an immediate Strain
+Roll. It takes two game turns to thus come to a full stop, and three
+game turns to light the anchor and set sail again.
+
+.H3 "The Wind Roll"
+A single roll of the d6 decides, how the wind changes in direction and
+strength.
+.TS
+center,tab(&);
+cbcb
+cl.
+1d6 & Effect
+1 & Direction change clockwise
+2 & Wind Speed = 1
+3 & Wind Speed = 2
+4 & Wind Speed = 2
+5 & Wind Speed = 3
+6 & Direction change counter clockwise
+.TE
+.H3 "The Luck Roll"
+A gust of wind might prove fortuitous to gain that extra speed needed,
+then again, bad things happen at see ...
+.TS
+center,tab(&);
+cbcb
+cl.
+1d6 & Effect
+1 & Sails luff: Wind Speed -1
+2 & no change
+3 & no change
+4 & no change
+5 & a fortuitous gust: Wind Speed +1
+6 & Wind Speed +2, mark 1 Strain
+.TE
+.PP
+Wind Changes due to Luck Rolls usually only apply to the ship the die
+was rolled for. However Luck Rolls may change things for everyone, if
+two or more sides roll the same result:
+.BU
+Two or more rolls of a 1: ``Sails luff ...'' cause the wind to
+reduce by 1 for \emph{everyone}.
+.BU
+Two or more rolls of a 6: ``Wind Speed +2 ...'' increases the
+overall windspeed by 1 for \emph{everyone} (thus, those who rolled a
+six still have the advantage of Wind Speed +1 compared to those who
+didn't roll a 6).
+.PP
+By way of a cumulation of luck rolls, wind speeds of 0 = Calm, or 4+ =
+Storm are possible. In case no other rules are provided for these
+situations use these:
+.DF Calm
+no sailing is possible, ships drift. Oared movement, or
+some other kind of propulsion may be possible.
+.DF Gale 
+Wind Speed of four or more (4+) makes sailing difficult
+and dangerous. With sails furled or masts broken, ships drift downwind
+at Wind Speed. Ships with their sails still up may sail downwind at Wind
+Speed plus (!) Bearing Number for Running, but have to mark 1 Strain
+every round.
+.H3 "The Strain Roll"
+The forces of wind and waves are taxing on ships and crew. It's
+dangerous to overstrain. Any ships that have marked Strain, have to roll
+a d6 every turn and add their current Strain to the roll:
+.TS
+center,tab(&);
+cbcb
+cl.
+d6 + Strain & Effect
+5- & no effect ... not yet!
+6 & spars and stays creak: mark 1 extra strain
+7 & ship makes water: reduce all speed by 3'' ongoing
+8 & stays snap, mark 1 extra strain
+9 & deck's awash, reduce active crew by 10\%
+10 & sails tear, reduce all speed by 3'' ongoing
+11 & a mast breaks, reduce all speed by 3'' or drift
+12+ & it's over, ship's sinking in 1d6 turns
+.TE
+.PP
+With an effective Strain Roll of 12 it depends on whether it's a one
+masted ship or not. Naturally one masted ships without a mast can only
+drift. A ship with more masts may still sail downwind at reduced speed.
+Whenever the resultant speed reaches 0 or less, the ship can only drift
+downwind at Wind Speed.
+.Au lkh
