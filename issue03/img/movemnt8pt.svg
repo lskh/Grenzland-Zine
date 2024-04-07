@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="148mm"
-   height="210mm"
-   viewBox="0 0 148 210"
+   width="94.580261mm"
+   height="53.127148mm"
+   viewBox="0 0 94.580261 53.127148"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="movemnt6pt.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="movemnt8pt.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -75,45 +75,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
-    <marker
-       style="overflow:visible"
-       id="marker1237"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path1235" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow2"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="arrow2L" />
-    </marker>
+       only_selected="false"
+       uniform="false" />
     <inkscape:path-effect
        effect="bspline"
        id="path-effect1016"
@@ -124,7 +87,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
     <inkscape:path-effect
        effect="bspline"
        id="path-effect458"
@@ -135,7 +99,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
     <inkscape:path-effect
        effect="bspline"
        id="path-effect454"
@@ -146,7 +111,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
     <inkscape:path-effect
        effect="bspline"
        id="path-effect342"
@@ -157,7 +123,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
     <inkscape:path-effect
        effect="bspline"
        id="path-effect242"
@@ -168,7 +135,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
     <marker
        style="overflow:visible"
        id="Arrow2-3"
@@ -217,45 +185,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
-    <marker
-       style="overflow:visible"
-       id="Arrow2-3-6"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="arrow2L-6-2" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker1237-7-9"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path1235-5-1" />
-    </marker>
+       only_selected="false"
+       uniform="false" />
     <inkscape:path-effect
        effect="bspline"
        id="path-effect1016-3-2"
@@ -266,7 +197,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
     <marker
        style="overflow:visible"
        id="Tail-0"
@@ -315,7 +247,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
     <marker
        style="overflow:visible"
        id="Tail-2"
@@ -364,7 +297,8 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
     <marker
        style="overflow:visible"
        id="Tail-20"
@@ -413,45 +347,201 @@
        helper_size="0"
        apply_no_weight="true"
        apply_with_weight="true"
-       only_selected="false" />
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2-3-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-6-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1237-7-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path1235-5-5" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1016-3-3"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2-3-3-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-6-6-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1237-7-7-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path1235-5-5-1" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1016-3-3-2"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2-3-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L-6-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1237-7-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path1235-5-6" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1016-3-0"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
   </defs>
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-28.369421,-59.473473)">
     <rect
-       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;paint-order:fill markers stroke;stop-color:#000000"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.258003;stroke-linecap:round;stroke-miterlimit:0;paint-order:fill markers stroke;stop-color:#000000"
        id="rect3570"
-       width="121.29549"
-       height="56.010151"
-       x="20.034246"
-       y="57.595119"
+       width="94.580261"
+       height="53.127148"
+       x="28.369421"
+       y="59.473473"
        ry="0"
-       inkscape:export-filename="movemnt6pt.png"
+       inkscape:export-filename="movemnt8pt.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200" />
-    <g
-       id="g1700"
-       transform="translate(31.2647,19.589345)">
-      <path
-         style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.328158;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;marker-start:url(#Arrow2);marker-end:url(#marker1237);paint-order:fill markers stroke;stop-color:#000000"
-         d="m 52.406986,46.901601 c 7.438215,12.883366 14.876284,25.76648 22.31421,38.649346"
-         id="path1014"
-         inkscape:path-effect="#path-effect1016"
-         inkscape:original-d="m 52.406986,46.901601 c 7.438465,12.883221 14.876534,25.766335 22.31421,38.649346" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.328158;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;marker-start:url(#Arrow2-3);marker-end:url(#marker1237-7);paint-order:fill markers stroke;stop-color:#000000"
-         d="m 41.249882,66.226274 c 14.876428,0 29.752567,0 44.628419,0"
-         id="path1014-5"
-         inkscape:path-effect="#path-effect1016-3"
-         inkscape:original-d="m 41.249882,66.226274 c 14.876428,-2.89e-4 29.752567,-2.89e-4 44.628419,0" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.328158;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;marker-start:url(#Arrow2-3-6);marker-end:url(#marker1237-7-9);paint-order:fill markers stroke;stop-color:#000000"
-         d="M 74.721196,46.901601 C 67.282981,59.784967 59.844913,72.66808 52.406986,85.550947"
-         id="path1014-5-7"
-         inkscape:path-effect="#path-effect1016-3-2"
-         inkscape:original-d="M 74.721196,46.901601 C 67.282731,59.784822 59.844663,72.667936 52.406986,85.550947" />
-    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.328158;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;marker-start:url(#Arrow2-3-3);marker-end:url(#marker1237-7-7);paint-order:fill markers stroke;stop-color:#000000"
+       d="m 78.906722,70.18195 c 10.614919,10.422649 21.229638,20.845098 31.844138,31.26734"
+       id="path1014-5-5"
+       inkscape:path-effect="#path-effect1016-3-3"
+       inkscape:original-d="m 78.906722,70.18195 c 10.615122,10.422442 21.229838,20.844889 31.844138,31.26734" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.328158;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;marker-start:url(#Arrow2-3);marker-end:url(#marker1237-7);paint-order:fill markers stroke;stop-color:#000000"
+       d="m 72.514582,85.815619 c 14.876428,0 29.752568,0 44.628418,0"
+       id="path1014-5"
+       inkscape:path-effect="#path-effect1016-3"
+       inkscape:original-d="m 72.514582,85.815619 c 14.876428,-2.89e-4 29.752568,-2.89e-4 44.628418,0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.283177;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;marker-start:url(#Arrow2-3-0);marker-end:url(#marker1237-7-3);paint-order:fill markers stroke;stop-color:#000000"
+       d="m 94.828791,102.43184 c 0,-11.077697 0,-22.155177 0,-33.23244"
+       id="path1014-5-6"
+       inkscape:path-effect="#path-effect1016-3-0"
+       inkscape:original-d="m 94.828791,102.43184 c -2.89e-4,-11.077697 -2.89e-4,-22.155177 0,-33.23244" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.328158;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;marker-start:url(#Arrow2-3-3-6);marker-end:url(#marker1237-7-7-9);paint-order:fill markers stroke;stop-color:#000000"
+       d="M 110.75086,70.181948 C 100.13594,80.604596 89.521229,91.027044 78.906721,101.44929"
+       id="path1014-5-5-7"
+       inkscape:path-effect="#path-effect1016-3-3-2"
+       inkscape:original-d="M 110.75086,70.181948 C 100.13574,80.60439 89.521025,91.026837 78.906721,101.44929"
+       inkscape:transform-center-x="-6.5572629"
+       inkscape:transform-center-y="-8.8899278" />
     <g
        id="g3135"
        transform="matrix(-1,0,0,1,189.82357,0.52916663)">
@@ -541,47 +631,89 @@
     <text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:60.4%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
-       x="81.105782"
-       y="63.711075"
+       x="71.227119"
+       y="66.86554"
        id="text3053"><tspan
          sodipodi:role="line"
          id="tspan3051"
          style="font-size:3.52778px;stroke-width:0.3"
-         x="81.105782"
-         y="63.711075">beating</tspan></text>
+         x="71.227119"
+         y="66.86554">beating</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:60.4%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
-       x="79.847992"
-       y="110.37009"
+       x="72.127861"
+       y="106.71755"
        id="text3053-2"><tspan
          sodipodi:role="line"
          id="tspan3051-8"
          style="font-size:3.52778px;stroke-width:0.3"
-         x="79.847992"
-         y="110.37009">beating</tspan></text>
+         x="72.127861"
+         y="106.71755">beating</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.52778px;line-height:60.4%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
-       x="108.91608"
-       y="63.3405"
+       style="font-size:3.52778px;line-height:100%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
+       x="114.64391"
+       y="63.637169"
        id="text3084"><tspan
          sodipodi:role="line"
          id="tspan3082"
          style="font-size:3.52778px;stroke-width:0.3"
-         x="108.91608"
-         y="63.3405">reaching</tspan></text>
+         x="114.64391"
+         y="63.637169">broad</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;stroke-width:0.3"
+         x="114.64391"
+         y="67.164948"
+         id="tspan3072">reaching</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.52778px;line-height:60.4%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
-       x="109.95177"
-       y="110.48334"
+       style="font-size:3.52778px;line-height:100%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
+       x="114.57252"
+       y="106.98597"
+       id="text3084-2"><tspan
+         sodipodi:role="line"
+         id="tspan3082-6"
+         style="font-size:3.52778px;stroke-width:0.3"
+         x="114.57252"
+         y="106.98597">broad</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;stroke-width:0.3"
+         x="114.57252"
+         y="110.51375"
+         id="tspan3072-1">reaching</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:100%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
+       x="94.638817"
+       y="107.31588"
        id="text3084-9"><tspan
          sodipodi:role="line"
          id="tspan3082-7"
          style="font-size:3.52778px;stroke-width:0.3"
-         x="109.95177"
-         y="110.48334">reaching</tspan></text>
+         x="94.638817"
+         y="107.31588">beam</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;stroke-width:0.3"
+         x="94.638817"
+         y="110.84366"
+         id="tspan3074">reaching</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:100%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
+       x="94.195351"
+       y="63.056522"
+       id="text3084-9-8"><tspan
+         sodipodi:role="line"
+         id="tspan3082-7-7"
+         style="font-size:3.52778px;stroke-width:0.3"
+         x="94.195351"
+         y="63.056522">beam</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;stroke-width:0.3"
+         x="94.195351"
+         y="66.584305"
+         id="tspan3074-9">reaching</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:60.4%;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic';text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"

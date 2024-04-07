@@ -1,5 +1,8 @@
+.\" vim: filetype=groff nu relativenumber
 .H1
 Editorial
+.sp -.6c
+.2C
 .PP
 Hurra, die dritte Ausgabe des Grenzland ist da. Kürzlich schickte mir
 .I phf

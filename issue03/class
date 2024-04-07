@@ -1,8 +1,14 @@
-.H1
-The Anointed of Abyssal Slaughter (NPC class)
+.\" vim: filetype=groff nu relativenumber
+.1C
+.H1 
+The Anointed of 
+Abyssal Slaughter
+.sp 0.2cm
 .PP
 .ft NI
-Thence came the dread pirate Stinkebarter, who had been making the shipping
+Thence came the dread pirate 
+.I Stinkebarter , 
+who had been making the shipping
 lanes in this part of the world unsafe for close to a century. Like ravenous
 beasts these monsters threw themselves at their victims. They stank of the sea,
 their skins were full of scales, and their beards were mottled with seaweed and
@@ -11,8 +17,14 @@ anyone in their path and threw their bodies to the sharks. That was the way of
 the pirates that had laired in those islands for generations. Some said they
 were the cursed of the sea.
 .ft
-     - from the anonymous (and justifiably forgotten) novel Scourge of the Sea
-       Beasts
+
+.ad r
+\[em] from the anonymous (and justifiably forgotten) novel Scourge of the Sea
+Beasts
+
+.sp -.4cm
+.ad b
+.2C
 .PP 
 In the depths there are things sleeping for untold aeons. Occasionally one of
 them reaches up from the darkest reaches and touches the existence of the light
@@ -49,7 +61,7 @@ gods of the sea. And of course they are only half-wrong.
 if intelligent beings are killed and given to the sea in one of
 the holy places of the Coelacanth god, they are counted as sacrifices. The ways
 of the god are unknownable, but in general about 1000 unintelligent beings, 100
-intelligent ones, or 10 Anointed of the Coelacanth god1 will be enough to grant
+intelligent ones, or 10 Anointed of the Coelacanth god will be enough to grant
 the Blessing of Form. It does not matter if they are killed in the water or
 outside, as long as their fresh blood and meat ends as a feast for the ocean
 dwellers. 
@@ -72,18 +84,28 @@ soul to a demon or other being is a surefire way though, so there's that.  The
 blessing of form also grants the character an unnaturally long life-span,
 however useful that is. Most afflicted disappear after a few years, some hold
 on for a few hundred years, but ultimately most disappear into the waves.
-(mechanically their lifespan increases to natural lifespan * level of Anointed)
+(mechanically their lifespan increases to 
+.I "natural lifespan" 
+\[mu] 
+.I "level of Anointed" ).
 .PP
-                  Saving Throws 
-   Level XP HD THAC0 D W P B S 
-   1 0 1d6 19 [0] 11 12 14 16 15 
-   2 2000 2d6 19 [0] 11 12 14 16 15 
-   3 4000 3d6 19 [0] 11 12 14 16 15 
-   4 8000 4d6 19 [0] 11 12 14 16 15 
-   5 16,000 5d6 17 [+2] 9 10 12 14 12 
-   6 30,000 6d6 17 [+2] 9 10 12 14 12 
-   7 60,000 7d6 17 [+2] 9 10 12 14 12 
-   8 120,000 8d6 17 [+2] 9 10 12 14 12 
+.1C
+.TS
+center;
+llllcissss
+licicilililililili
+lrccccccc.
+				Saving Throws 
+Level	XP	HD	THAC0	D	W	P	B	S	
+1	0	1d6	19 [0]	11	12	14	16	15	
+2	2000	2d6	19 [0]	11	12	14	16	15	
+3	4000	3d6	19 [0]	11	12	14	16	15	
+4	8000	4d6	19 [0]	11	12	14	16	15	
+5	16,000	5d6	17 [+2]	9	10	12	14	12	
+6	30,000	6d6	17 [+2]	9	10	12	14	12	
+7	60,000	7d6	17 [+2]	9	10	12	14	12	
+8	120,000	8d6	17 [+2]	9	10	12	14	12	
+.TE
 .LP
 Every level roll 1 ability of Coelacanth form, also following changes
 .IP "Level 1:"
@@ -94,46 +116,68 @@ cannot enter dry land anymore (100 paces past the shore)
 needs to spend half of time breathing water
 .IP "Level 8:"
 cannot breathe air anymore, unavoidable urge to travel to Coelacanth god
+.2C
 .PP
 Every level past the first a character has to make a saving roll against
-Spells or be drawn to the next holy site of the Coelacanth god. (if not yet
+Spells or be drawn to the next holy site of the Coelacanth god. If not yet
 they will become an NPC and spend the rest of their time in the vicinity
 "guarding" the non-existent site. Most of the rare Anointed are just living
 there as hermits, only going out for hunting, some of the larger sites have
 small villages or the equivalent to monasteries of these blood-thirsty
-hermits, others might be more enterprising (raiding the surrounding
-settlements and trade routes as pirates).
+hermits, others might be more enterprising \[em] raiding the surrounding
+settlements and trade routes as pirates.
 .PP
 At level 8 they are drawn to the depths where the Coelacanth god dwells. This
 is an ancient, near-ruined city of the elder adherents of the god, and there
 they are matched against other Anointed ones until they either die a
 sacrifice, or gain the right to challenge the god himself. What happens if
 they kill the god is not quite clear. It might be this already has happened. 
-
-
-Traits of Form (1d8) 
-1. Silvery Scales AC +1
-2. Bulbous Eyes Cha -1, darksight if underwater
-3. Pointy Teeth Bite 1d6 damage
-4. Extra Fins - Double Swim Speed (when undressed)
-5. Webbed hands  Swimming speed like land movement
-6.  Unhinged Jaw
-7. Aquatic Predator Smell Cha -1 (except for cats)
-8. Hollow Spine: +1 attack if in water
-
+.KS
+.H2 
+Traits of Form (1d8)
+.IP 1. 3
+Silvery Scales AC +1
+.IP 2. 3
+Bulbous Eyes Cha -1, darksight if underwater
+.IP 3. 3 
+Pointy Teeth Bite 1d6 damage
+.IP 4. 3 
+Extra Fins - Double Swim Speed (when undressed)
+.IP 5. 3 
+Webbed hands  Swimming speed like land movement
+.IP 6. 3 
+Unhinged Jaw
+.IP 7. 3 
+Aquatic Predator Smell Cha -1 (except for cats)
+.IP 8. 3 
+Hollow Spine: +1 attack if in water
+.KE
+.KS
+.H2 
 Quests of the Abyssal Slaughter God (1d10)
-1. Destroy shrine of other religion
-2. Destroy heretics of the Slaughter God
-3. Slaughter criminals
-4. Slaughter innocents
-5. Feast on raw meat
-6. Slaughter land dwellers
-7. Slaughter sea dwellers
-8. Slaughter air dwellers
-9. Challenge other Anointed
-10. Challenge higher level Anointed
-
+.IP 1. 3 
+Destroy shrine of other religion
+.IP 2. 3 
+Destroy heretics of the Slaughter God
+.IP 3. 3 
+Slaughter criminals
+.IP 4. 3 
+Slaughter innocents
+.IP 5. 3 
+Feast on raw meat
+.IP 6. 3 
+Slaughter land dwellers
+.IP 7. 3 
+Slaughter sea dwellers
+.IP 8. 3 
+Slaughter air dwellers
+.IP 9. 3 
+Challenge other Anointed
+.IP 10. 5 
+Challenge higher level Anointed
+.KE
 .PP
+.ne 999
 Note: I recently have come to reevaluate NPC classes as a useful concept. My
 main idea is to see them as the equivalent for specific monsters, but in
 social settings. The idea of the Anointed is similar to the presentation of

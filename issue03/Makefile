@@ -1,11 +1,11 @@
-SRC=macros cover forward crown abenteuer class report minigame ausblick
+SRC=macros cover forward crown class report minigame abenteuer ausblick
 
-all: Grenzland3.pdf Cover.pdf
+all: Grenzland3.pdf Cover.pdf img
 
 img: Makefile
 	make -C img all
 
-Grenzland3.pdf: ${SRC} img Makefile
+Grenzland3.pdf: ${SRC} Makefile
 	groff -ms -mde -e -t -p -Tpdf -Kutf8 -dpaper=a5 -P -pA5 ${SRC} > $@
 
 Cover.pdf: Cover.svg Makefile
