@@ -4310,19 +4310,24 @@ svg.blue #help { fill: #01b0f1; }
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:7.55906;stroke-linecap:round"
-         x="583.91644"
-         y="456.91953"
+         x="572.0993"
+         y="444.0412"
          id="text1"><tspan
            sodipodi:role="line"
-           id="tspan1"
-           x="583.91644"
-           y="456.91953"
-           style="font-size:13.3333px;line-height:1;text-align:start;text-anchor:start">continues </tspan><tspan
-           sodipodi:role="line"
-           x="583.91644"
-           y="470.25284"
+           x="572.0993"
+           y="444.0412"
            id="tspan2"
-           style="font-size:13.3333px;line-height:1;text-align:start;text-anchor:start">to caves</tspan></text>
+           style="font-size:13.3333px;line-height:1;text-align:start;text-anchor:start">Hier geht es</tspan><tspan
+           sodipodi:role="line"
+           x="572.0993"
+           y="457.37451"
+           style="font-size:13.3333px;line-height:1;text-align:start;text-anchor:start"
+           id="tspan4">in Richtung </tspan><tspan
+           sodipodi:role="line"
+           x="572.0993"
+           y="470.70779"
+           style="font-size:13.3333px;line-height:1;text-align:start;text-anchor:start"
+           id="tspan5">Höhlen</tspan></text>
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.26772;stroke-linecap:round;stroke-dasharray:none"
          d="m 242.60726,359.63559 c -4.54089,6.53298 -10.79164,0.38839 -16.23342,-1.69467 -6.40291,-2.11897 -13.859,-3.86737 -20.35465,-1.93974 -7.98243,6.33581 -19.17173,4.47754 -27.57344,9.75638 -3.53077,4.93573 -7.35577,10.02954 -9.16156,15.95632 -0.29995,5.04975 -0.44556,11.29572 3.60051,14.9669 3.34625,5.9945 9.54786,12.94387 5.68851,20.32403 -3.57133,7.6172 -9.58996,13.68366 -15.11475,19.86676 -4.75576,4.54416 -10.26426,8.65822 -14.82861,14.03487 -7.3569,1.29322 -12.53802,7.03738 -14.45118,14.05149 -1.38601,6.66761 -3.4505,13.2705 -4.85208,19.98351 0.0232,1.66131 -1.11416,5.37188 0.7991,5.07636"
@@ -4369,13 +4374,13 @@ svg.blue #help { fill: #01b0f1; }
            sodipodi:role="line"
            x="229.32536"
            y="256.72635"
-           id="tspan2-6"
-           style="font-size:13.3333px;line-height:1;text-align:start;text-anchor:start">Small Beach, </tspan><tspan
+           style="font-size:13.3333px;line-height:1;text-align:start;text-anchor:start"
+           id="tspan6">Kleiner Strand</tspan><tspan
            sodipodi:role="line"
            x="229.32536"
            y="270.05966"
            style="font-size:13.3333px;line-height:1;text-align:start;text-anchor:start"
-           id="tspan6">landing pier</tspan></text>
+           id="tspan3">mit Landebrücke</tspan></text>
     </g>
   </g>
 </svg>

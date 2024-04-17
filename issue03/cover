@@ -23,13 +23,14 @@ No. 3	Worse Things Happen at Sea	Apr 2024
 \fB\\$1\fP\\$2
 \fI\\$3\fP
 ..
-.CI "Editorial" "1"
-.CI "The Crown of Neptune" "3" "A One-Page Dungeon for High-Level Characters"
-.CI "The Anointed of Abyssal Slaughter" "7" "An NPC Class"
-.CI "Schiffbruch" "11" "Ein Spielbericht aus der Grenzlandkampagne"
-.CI "Salt'n'Tar" "13" "Rules for sailed movement on the tabletop"
-.CI "Eingekerkert" "23" "Ein Piratenabenteuer für Stufe 1-3"
-.CI "Save the Date!" "28"
-.CI "Ausblick" "29"
+.CI "Zine-Kultur" "1" "Editorial"
+.CI "The Crown of Neptune" "4" "A One-Page Dungeon for High-Level Characters"
+.CI "The Anointed of Abyssal Slaughter" "8" "An NPC Class"
+.CI "Schiffbruch" "12" "Ein Spielbericht aus der Grenzlandkampagne"
+.CI "Salt'n'Tar" "14" "Rules for sailed movement on the tabletop"
+.CI "Eingekerkert" "24" "Ein system-agnostisches Piratenabenteuer"
+.CI "Save the Date!" "33"
+.CI "Ausblick" "33"
+.CI "Impressum" "34"
 .fi
 .ad b

@@ -1,4 +1,4 @@
-SRC=macros cover forward crown class report minigame abenteuer ausblick
+SRC=macros cover forward crown class report minigame abenteuer ausblick imprint
 
 all: Grenzland3.pdf Cover.pdf img
 

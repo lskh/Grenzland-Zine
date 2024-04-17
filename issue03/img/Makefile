@@ -5,8 +5,8 @@ all: ${PDF}
 %.pdf: %.svg
 	convert $< $@
 
-%.pdf: %.dot
-	dot -Tpdf $< > $@
+%.png: %.dot
+	dot -Tpng $< > $@
 
 %.pdf: %.jpg
 	convert $< $@
@@ -14,5 +14,5 @@ all: ${PDF}
 %.pdf: %.png
 	convert $< $@
 
-clean: 
+realclean: 
 	rm -fv *.pdf

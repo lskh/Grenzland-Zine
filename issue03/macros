@@ -1,11 +1,13 @@
 .\" vim: filetype=groff
+.nr PORPHANS 2
+.nr HORPHANS 2
 .nr PO 1c
 .nr LL 12.8c
 .nr HM 1c
 .nr FM 2.5c
 .nr PS 11
 .nr VS 11
-.nr PI 1c
+.nr PI 5n
 .OH ''''
 .EH ''''
 .OF '''%'

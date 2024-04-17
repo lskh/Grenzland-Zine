@@ -2,124 +2,338 @@
 .bp
 .1C
 .H1
-Jailed!
+Eingekerkert!
 .PP
-This is a pirate themed escape dungeon. The player characters wake up,
-each in an individual cell just with normal clothes one. Obviously they
-have been captured by pirates and are held prisoners. It's designed for
-four player characters. The GM should assign, which character starts in 
-which prison cell. If there are more than four characters, double
-occupancy would be an option. It was originally written with classic D&D
-in mind, but then play tested with GURPS 3rd Edition. I reproduce it 
-here system agnostic. It's all not that complicated.
+Eine Hand voll mehr oder weniger rechtschaffener Seeleute erwacht
+geschunden, hungrig und durstig in dunklen Einzelzellen eines
+moderigen Kerkers. Langsam kehrt die Erinnerung 
+wieder: ... ja, da waren Piraten ... und es riecht eigenartig, nach
+Fisch und nach Ziegen ...
+.KF
+.H2 
+1W6 Gründe eingekerkert zu sein
+.IP 1    
+Ihr sollt versklavt werden.
+.IP 2
+Es wurde ein lukratives Lösegeld auf Euch ausgesetzt.
+.IP 3
+Ihr kennt ein Geheimnis; der Piratenhauptmann wüsste es gerne.
+.IP 4
+Die Piraten werden sich an Euch rächen, sie überlegen noch wie ... damit ihr langsam sterbt.
+.IP 5
+Lebend seid Ihr mehr wert als tot. Eine Piratencrew 
+braucht immer Verstärkung, falls Ihr Euch bewährt.
+.IP 6
+Ihr sollt dem Kraken geopfert werden.
+.KE
+.H2
+Beginn des Abenteuers
+.PP
+Die Charaktere erwachen jeder in einer getrennten Zelle. Die Zellen
+sind dunkel und muffig die Wände aus feuchtem, groben Mauerwerk. Es
+riecht nach Meer, und seltsamerweise ist da auch eindeutig ein
+ranziger Ziegengeruch in der Luft. Niemand hat etwas anderes bei sich,
+als zerlumpte, durchfeuchtete Kleidung. Die Charaktere befinden sich
+.B "auf einer Insel" ,
+aber das wissen sie wahrscheinlich noch nicht.
 .LP
+\X'pdf: pdfpic img/marooned.pdf -C 8.5c 0 12.8c
+.sp 4c
+.KF
+.H2
+Szenenübersicht
+.LP
+\X'pdf: pdfpic img/pointcrawl.pdf -C 10c 0 12.8c
+.sp 20c
+.KE
+.H2
+Das Piratenlager
+.KF
 \X'pdf: pdfpic img/dungeon.pdf -L 12.8c 
-
-.bp
+.sp 13c
+.KE
 .2C
 .H2
-The Prison Cells
-.IP 1
-A dark and dank prison cell. Nothing special here, no loose stones 
-or anything.
-The door is made from wood and has a small barred opening, through which 
-the player character who's incarcerated here can 
-.B "see the guards and talk to them" .
-.IP 2
-Another simple jail call. When the guards talk, they can still be 
-overheard clearly from here. In the dirt under the simple wooden
-bed a 
-.B "rusty dagger"
-can be found.
-.IP 3
-This cell seems to be just the same as the first, however when the 
-character closely examines the door they find that the upper hinge is 
-quite loose. This 
-.B "door could be broken open"
-with some moderate force.
-.IP 4
-This is the darkest cell. In northeastern corner of the wall are some
-conspicuously loose stones. Careful removal of the stones will reveal
-a low 
-.B "crawlspace that leads to a natural cave system" .
-.IP 5
-An 
-.B "orcish guard" , 
-armed with an axe and clad in chainmail always sits 
-here to have an eye on the prisoners. Though 30% of the time he 
-is asleep and snores loudly.
-.IP 6
-Quarter of the orcish guards. There's some roughly made wooden 
-furniture, two beds, some stale, greasy 
-.B provisions , 
-rope, some 
-.B torches , 
-flint and steel. 30% of the time a second orcish 
-guard sleeps here. He's got a rusty sabre, and leather armor.
+Vier dunkle Zellen
+.PP
+Falls es den Abenteurern nicht gelingt sich in z.B. drei Tagen zu
+befreien, kommen plötzlich viele Piraten mit Fackeln herein, holen die
+Gefangenen aus ihren Zellen, und nehmen sie mit auf das Schiff. Dann
+geht es gleich dort weiter.
+.H3 "Zelle 1"
+Diese Zelle liegt am weitesten westlich, sie ist am hellsten, denn
+gegenüber der Zelle sitzt, im Licht einer Fackel
+auf einem niedrigen Holzschemel ein
+schnarchender, in Ziegenfell und einen Kettenpanzer gekleideter 
+Wächter (siehe auch 5). An seinem Gürtel hängt ein großer Schlüsselbund.
+Hinter ihm ist eine verschlossene Holztür. 
+.PP
+Natürlich kann mit den Wächtern gesprochen und verhandelt werden. Oder
+es kann versucht werden sie irgendwie dazu zu bringen, eine der
+Zellentüren zu öffnen.
+.H3 "Zelle 2"
+Diese Zelle ist dunkel und feucht. Das Schnarchen des Wächters ist
+gut zu hören.
+.PP 
+Im Dreck unter der Pritsche lässt sich ein rostiger Dolch
+finden.
+.H3 "Zelle 3"
+Diese Zelle ist auf den ersten Blick nicht anders als die ersten
+zwei. Die Angeln der Tür sind jedoch lose. Mit moderatem
+Krafteinsatz kann die Tür aufgebrochen werden.
+.H3 "Zelle 4"
+Diese Zelle ist sehr dunkel. Nur sehr leise ist hier das
+Schnarchen des Orks zu hören.
+.PP
+In der nordöstlichen Ecke des
+Raums sind ein paar Mauersteine verdächtig lose. Werden diese
+weiter gelockert und aus der Wand genommen, findet sich dahinter
+ein Kriechgang. Moderige, nach Seetang riechende Luft kommt einem
+entgegen. Der Gang führt in das Höhlensystem (siehe 12).
+.PP
+Leises Flüstern zwischen Zelle 3 und 4 kann vorne bei der Wache
+nicht mehr wahrgenommen werden. Leise Gespräche bei Zelle 1 wären
+aber auch hier nicht zu hören. 
+.H3 "5. Wache mit Kettehemd und Axt" 
+Hier sitzt ein einfältiger, glatzköpfiger Wächter mit dickem Wanst. 
+Je nach System und Setting könnte es sich um einen Ork
+oder auch einen sehr grobschlächtigen Menschen handeln. 
+Er ist mit einer Axt bewaffnet und trägt
+Kettenrüstung. Die meiste Zeit (66%) schläft er und schnarcht
+laut.
+.PP
+Wenn er wach ist pöbelt und kommandiert er ständig herum, benimmt
+sich unbeherrscht und ungehobelt. Eigentlich möchte er nur hier
+raus. Es könnte ja sein, dass jemand auf die Idee kommt, ihm ein 
+besseres Schicksal und ein paar Goldmünzen zu bieten.
+.H3 "6. Das Quartier der Wächter"
+Dieser Raum ist mit zwei schlichten Schemeln, zwei Pritschen und 
+einem Tisch möbliert. In einigen Krügen lagert ranzige Verpflegung, daneben
+finden sich hier einige Fackeln, Seil, Feuerstahl und Zunder. Mit 30% Wahrscheinlichkeit 
+hält sich hier ein zweiter, schlafender Wächter auf. Er hat einen rostigen 
+Säbel und trägt Lederrüstung.
+.PP
+Der zweite Wächter ist sadistisch und geizig. Er spricht leise und ist
+schwer zu durchschauen. Er sucht nach Gelegenheiten, seinem Kollegen zu
+beweisen, dass er der bessere Wächter ist.
 .H2
-The Hallway
-.IP *
-Everytime the character arrive at the marked part of the hallway 
-roll the encounter die: 1 in 6, the characters hear 
-noises from somewhere up the stairs: a
-door opening and closing, and then footsteps. Moments later
-.B "1d3 Pirates"
-and one orcisch guard come down the corridor.
-.IP 7
-.B "The Treasure Room" 
-Here's where the pirates keep their treasure. In any case, there's 
-more than the PCs could possibly carry. Look at 
-.B "treasure type E" 
-for ideas. Notably there are 
-.B "two swords and two shields"
-in the hoard.
-Each of which have a 10% chance of being magical.
+Die ungewisse Kreuzung
+.PP
+Biegen die Charaktere nach rechts/Süden ab, zur Schatzkammer, die eine
+Sackgasse ist, oder nach links/Norden in Richtung des Piratenlagers?
+.PP
+Der Gang in Richtung Schatzkammer liegt in völliger Dunkelheit und
+führt nach einer Rechtskurve eine steile Treppe hinunter. Aus dieser
+Richtung sind keine Geräusche zu hören, und kein Lichtschein
+wahrzunehmen.
+.PP
+In dem Gang nach Norden ist etwa 10 Meter weit entfernt eine Treppe nach
+oben zu erkennen. Die Wände oberhalb der Treppe reflektieren schwaches
+flackerndes Licht, und mit einer Probe auf Lauschen ist aus dieser
+Richtung leises Stimmengemurmel zu hören.
+.H3 Piraten!
+Sobald die Charaktere die mit * markierte Stelle passieren, kommen zwei
+Piraten von oben den Gang hinunter. Sie sind mit Entermessern bewaffnet.
+Käme es zu einem lautstarken
+Handgemenge, würden nach 3 Runden weitere 3 Piraten hinzukommen. Je nach 
+Regelsystem kann hier eine Probe auf 
+.I Schleichen ,
+.I Verstohlenheit
+oder ähnliches angebracht sein.
+.H2
+7. Die Schatzkammer 
+.PP
+Ein paar Schritt vor der verschlossenen, und mit Eisenbändern
+verstärkten Tür der Schatzkammer befindet sich sichtbar 
+ein dünner Stolperdraht
+über dem Boden. Wird er ausgelöst, schießen vier Armbrustbolzen aus
+kleinen Löchern in der Wand. Die Falle kann rollenspielerisch oder mit 
+einer passenden Würfelprobe einfach entschärft werden.
+.PP
+Das gleiche gilt für die Tür. Es sei denn der Schlüssel, der sich im 
+Piratenlager befindet, wurde bereits gefunden. Dann kann die Tür einfach 
+aufgeschlossen werden.
+.PP
+Lautstarke Versuche bergen natürlich das Risiko Wachen oder Piraten
+anzulocken.
+.PP
+In der Schatzkammer finden sich: 
+.BU
+zwei Fässer Rum, jeweils 1 Gallone, die Fässer wiegen jeweils 7 kg
+.BU
+eine Schatulle mit 150 Golddukaten und einem prächtigen Siegelring. Letzterer
+könnte einem bekannten Adeligen gehören.
+.BU
+An der Wand hängen drei Säbel, zwei kleine Schilde und eine 
+Main-Gauche, zu jeweils 10% haben Waffen und Schilde magische Eigenschaften.
+.H2
+Das Piratenlager
+.PP
+Im Schlafraum, 
+.B "Raum 9" ,
+liegen diverse Decken und Strohsäcke herum, und zwischen
+zwei Ecken sind Hängematten gespannt. In einer der Hängematten
+schnarcht ein dicker Pirat. Er trägt eine Lederrüstung und kämpft mit
+einem Säbel.
+.PP
+Im Aufenthaltsraum, 
+.B "Raum 10" ,
+steht ein schwerer grob gearbeiteter Holztisch mit
+10 Stühlen. Auf dem Tisch stehen einige Schüsseln mit Essensresten. An
+den Wänden hängen 3 Musketen, sowie 1 Rapier und 2 Säbel. In mehreren 
+Holzkisten die an den Wänden stehen, ist Schießpulver und Munition
+für insgesamt 30 Schuss gelagert. 
+.PP
+Am Tisch sitzen zwei Piraten und der Koch:
+.PP
+Der Koch hat ein rotes Gesicht, einen Backenbart, er ist fett und 
+leichtgläubig. Im Notfall wird er sein gutes altes Küchenbeil zur
+Verteidigung nutzen.
+.PP
+Die beiden Piraten tragen Lederrüstung und kämpfen mit Degen.
+.PP
+Aus Raum 10 führt eine Tür (der Eingang des Piratenlagers) auf einen
+kleinen Strand mit einem langen hölzernen Landesteg. Hier liegt mit 33% 
+Wahrscheinlichkeit ein Piratenschiff mit 15 weiteren Piraten. Ist das
+Schiff da, bricht es nach sechs Stunden auf, und kehrt zwei Tage später zurück.
+.PP
+Im Kontor,  
+.B "Raum 11" ,
+steht ein Holzsekretär, in dessen Schubladen mit etwas Mühe 
+der Schlüssel zur Schatzkammer entdeckt werden kann. In einer Ecke 
+des Raums liegt eine große Rolle kräftigen Hanfseils, und in einem Regal
+liegt ein große Schachtel mit Eisennägeln und ein Hammer.
+
+.H3 "12. Die Krabbenhöhle"
+.PP
+Der Boden dieser natürlichen Tropfsteinhöhle wird von einem flachen
+Teich eiskalten Wassers eingenommen. In dem Teich lauert ein Schwarm
+von Krabben, die offenbar hungrig sind, und sich über jegliche
+Lebewesen her machen (alternativ könnte hier auch eine einzelne Riesenkrabbe
+lauern).
+.H3 "13. Das Grab des alten"
+.H3 "Piraten"
+.PP
+Eine große Höhle, mit sandigem Boden. Es riecht nach Meer und
+Verwesung. Aus östlicher Richtung ist gleichmäßiges Rauschen von
+Wasser zu hören. Überall gibt es Felsvorsprünge und Nischen. Auf der
+Westseite und auf der Ostseite hat die Höhle jeweils einen Ausgang,
+und auf der Südseite zwei. Ansonsten wimmelt es in der Höhle von
+Fledermäusen.
+.PP
+In einer Nische im Norden der Höhle sitzt ein Skelett in verschimmelter
+Kleidung eines See-Offiziers. Wird das Skelett aus seiner Position
+entfernt und unter dem Skelett gesucht, kann hier eine vergrabene
+Kiste mit einem Schatz von rund 200 Golddukaten, einem goldenen Kelch,
+und drei mit Edelsteinen besetzten Schmuckstücken gefunden werden. Der
+gesamte Schatz mag gut und gerne 500 Goldukaten wert sein.
+.PP
+Das Bergen des Schatzes wird allerdings die ruhelose Seele des alten 
+Piraten verärgern: Das Skelett erwacht plötzlich zu unnatürlichem Leben, 
+und kämpft beidhändig mit Entermessern die es unter der modrigen Kleidung
+hervor zieht. Der alte Pirat hat ähnliche Kampfeigenschaften wie ein
+Gruftschrecken. Er ist zäh, macht zwei Angriffe pro Runde, die bei
+erfolgreichen Treffern zu einem Entzug von Lebensenergie (z.B. Stärke und
+Konstitution oder Stufen) führen.
+.H3 "14. Sackgasse"
+.PP
+Nach einem Abstieg durch den etwa 20 - 30 Meter langen,
+gewundenen Gang wird eine niedrige Höhle erreicht. Sie wird zum
+größten Teil von einem Gewässer eingenommen, in dem hier und da
+Bewegung von aal-artigen Fischen zu erkennen ist. Am Boden des
+Gewässers ist etwas Funkelndes zu erkennen. Es handelt sich um 30
+lose am Grund des Gewässers liegende Goldmünzen. Bei den Fischen 
+handelt es sich um Riesenneunaugen, die jeden Schwimmer angreifen, 
+sich bei erfolgreichen Treffern festsaugen und beginnen dem Opfer
+Runde für Runde Blut zu entziehen.
+.H3 "15 Die geheime Bucht"
+.PP
+Nachdem die Charaktere einen kleinen Wasserfall, der in diesem natürlichen
+Höhlengang niedergeht durchschreiten, erreichen sie eine von senkrechten
+schroffen Felswänden begrenzte kleine Sandbucht. Hier liegt den Strand hoch
+gezogen ein intaktes kleines Ruderboot. Leider ist das Boot gerade groß genug
+um die Charaktere mit dem nötigsten zu tragen. 
+Sollten die Charaktere versuchen auch ihre ggf. gefundenen Schätze mitzunehmen,
+wird das Boot offensichtlich überladen sein, und bald vollschlagen und sinken.
+Der Kraken wartet schon ...
+.PP
+Die Bucht kann durch den Tunnel unter dem Wasserfall verlassen werden,
+mit dem Boot über das Meer, oder über einen steilen Kletterpfad, der nach
+kurzer Suche im Gestrüpp gefunden werden kann.
+.PP
+Allerdings sind die ersten zehn Meter des Weges sehr steil. Ohne ein 
+Seil oder ähnliche Sicherung kann man hier leicht stürzen und sich 
+verletzen.
+.H2 
+Ziegen!
+.PP
+Oben auf der Insel leben zwischen Felsen und Dornengestrüpp
+zahlreiche Ziegen. Die Tiere sind schreckhaft und reagieren unruhig
+auf Störungen. Sollten mehrere Tiere gleichzeitig die Flucht ergreifen
+oder lautstark Meckern, könnte dies die Aufmerksamkeit der Piraten
+auf die Spielercharaktere lenken. Das Piratenlager ist nicht weit weg.
+.H2
+Die dunkle See
+.PP
+Falls die Charaktere sich entscheiden, die Bucht mit dem Ruderboot zu
+verlassen, werden sie einige Zeit durch mäßigen Seegang an der Küste
+der Insel entlang rudern. Schließlich, in der späten Abenddämmerung
+entdecken sie dann ein Schiff in einer Bucht liegen. Es handelt sich
+um das Schiff der Piraten.
+.PP
+Mutige Charaktere werden vielleicht auf die Idee kommen dass Schiff
+zu entern. 
+.PP
+Falls die Charaktere das Schiff nicht entern wollen, gibt es zwei
+Möglichkeiten. Sind sie nahe am Schiff (1-3) werden sie gesichtet.
+Die Piraten lassen schnell drei Boote zu Wasser und nehmen die
+Verfolgung auf. Sind sie fern vom Schiff (4-6), wird
+ihnen die dunkle See zum Verhängnis werden, denn plötzlich wird das
+kleine Ruderboot von unten angehoben. Kurz danach greifen gewaltige
+Tentakeln von beiden Seiten nach den Charakteren: der Kraken ist
+gekommen um sie zu holen!
+.H2
+Das Schiff
+.PP
+Entweder könnte das Schiff der Piraten in der tiefen Abenddämmerung in
+einer Bucht der Insel angetroffen werden. Dann besteht die Möglichkeit
+es zu entern, oder die Charaktere werden als Gefangene an Bord
+genommen. Oder, falls es den Charakteren gelingt den
+Piratenunterschlupf unter ihre Kontrolle zu bringen, oder sich
+irgendwie aus diesem ins Freie zu schleichen, könnte das Schiff am
+Anleger des Piratenlagers anlegen.  Nun könnten die Charaktere
+sich ebenfalls heimlich auf das Schiff begeben, oder eben als
+Gefangene an Bord gebracht werden.
+.PP
+Natürlich gibt es auf dem Schiff einen imposanten, mächtigen 
+Piratenkapitän mit schwarzem, rauchendem Bart. Außerdem rund 
+15 Piraten mit Säbeln, Enterhaken, Holzbeinen und allem was dazu 
+gehört. Der Schiffsjunge Samuel mit seinem Papagei könnte den 
+Charakteren ein Verbündeter werden, denn er ist noch nicht lange
+hier, und weiß noch gut, wie er gegen seinen Willen an Bord 
+geschleppt wurde.
+.PP
+Abschließend sollten die Begegnungen auf dem Schiff in eine der
+folgenden zwei Möglichkeiten münden:
+.BU
+Die Charaktere enden erneut als Gefangene der Piraten. Nun gibt es
+keine Gnade mehr. Sie werden über die Planke geschickt: in die Arme
+des Kraken ...
 .IP
-In front of the door there are some conspicuous holes in the walls 
-hinting quite obviously at a 
-.B "spear trap" .
-.H2
-The Pirates Hideout
-.IP 8
-.B "Empty Attic"
-This room is empty, both doors open according to the usual rules.
-.IP 9
-.B "Pirates Bedroom"
-Here is where the pirates sleep. 30% of the time a drowsy pirate sleeps
-here. There are some woolen blankets and two usable rucksacks here.
-.IP 10 
-.B "The Mess"
-This is the main room of the pirate hideout. The building is stands at
-top of a small beach, partly build into the cliffs. There's jungle all
-around the beach. 
-.IP 
-There are always two pirates present plus the cook. On the walls there
-are various and sundry sabres, spears and three crossbows.
-.IP 
-The simple landing pier is where the pirate ship will be docked 20% of 
-the time. There are 10 Pirates aboard. If the ship is here, it will 
-leave in 6 hours and return in two days.
-.IP 11
-.B "Storage Room"
-here are various pieces of wood, large coils of rope and a few boxes with 
-iron spikes and nails.
-.H2
+oder 
+.BU
+Den Charakteren gelingt es, das Schiff unter ihre Kontrolle zu
+bringen. Dann wird sich nach 1 - 3 Tagen auf See der Himmel unheimlich
+verdunkeln. Der Rumpf und die Takelage des Schiffes beginnt bedenklich
+zu knarren, und plötzlich schießen aus der Tiefe die riesigen Fangarme
+des Kraken, der das ganze Schiff mit sich in die Tiefe reißt. Doch
+Glück im Unglück: als die Charaktere zu sich kommen, liegen sie bei
+sonnigem Wetter, nur mit völlig durchnässter Kleidung am weißen
+Sandstrand einer unbekannten Insel ...
+\[em] \fIlkh\fR
 .1C
-.SH
-The Caves
+.H2
+Die Höhlen
 .LP
 \X'pdf: pdfpic img/caves.pdf -L 12.8c 
-
-.bp
-.2C
-.IP 12
-.B "Pool Slide"
-.B1
-The crawlway from the fourth prison cell leads to a natural tunnel that
-slopes downward for about 70 feet in a southerly direction. The floor is
-very slippery. At the end of the slope is a large irregular shaped water 
-filled cave, about 40 x 50 feet large. Characters who fall and slip down
-the slope plunge into the water which is cold and salty. Some 3 to 6 feet 
-above the water surface is a domed cave ceiling. There are two exits
-.B2
-
+.sp 18c

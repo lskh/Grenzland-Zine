@@ -1,3 +1,4 @@
+.\" vim: filetype=groff nu relativenumber
 .H1
 Schiffbruch
 .sp -0.6c
@@ -82,3 +83,5 @@ die
 Nachbarinsel! Den Leuten dort konnte man noch nie trauen. Alles Schlechte kommt
 von Bendai! 
 .Au lkh
+.LP
+\X'pdf: pdfpic img/Bilander.pdf -C 5.3c 0 6.3c

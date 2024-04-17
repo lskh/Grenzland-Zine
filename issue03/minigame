@@ -1,3 +1,4 @@
+.\" vim: filetype=groff nu relativenumber
 .1C
 .H1
 Salt'n'Tar
@@ -53,11 +54,11 @@ cbcb
 cl.
 1d6 & Wind Speed (WS)
 1 & Wind Speed = 1 (light breeze)
-2 & Wind Speed = 1
-3 & Wind Speed = 2 (moderate breeze)
+2 & Wind Speed = 2 (moderate breeze)
+3 & Wind Speed = 2
 4 & Wind Speed = 2
-5 & Wind Speed = 3 (strong breeze)
-6 & Wind Speed = 3
+5 & Wind Speed = 2
+6 & Wind Speed = 3 (strong breeze)
 .TE
 .KE
 .KS
@@ -67,10 +68,10 @@ Movement
 Various ship types have different 
 .I "Speed Factors"
 depending on their bearing toward the wind.
-Each ships speed in tabletop inches is then derived by multiplying 
+Each ships speed in tabletop inches (Mv) is then derived by multiplying 
 Wind Speed (WS) and Speed Factor (SF): 
 .EQ
-Mv = WS \[mu] BN
+Mv = WS \[mu] SF
 .EN
 .KE
 .KS
@@ -88,7 +89,7 @@ Bearings in the 6 point wind system:
 .sp 5.2c 
 .KE
 .PP
-When moving ships may normally change direction by one point per turn.
+When moving, ships may normally change direction by one point per turn.
 Changing direction by two points per turn is dangerous and causes Strain
 (see below).
 .H2
@@ -128,6 +129,12 @@ Beating & 2
 Luffing & -1 (backwards)
 .TE
 .KE
+.PP
+At Wind Speed 0 or 1 (no wind or light breeze) Galleys and Longships may furl sails
+and start rowing instead of sailing. Use Speed Factor for Quarter
+Reaching as Movement Speed. It takes one round to furl sails and start
+rowing. In the next round the rowing vessel may make half speed.
+It takes two rounds to come to a full stop again.
 .KS
 .H3 "Viking Longship"
 A fast square rigged sailer, one mast:
@@ -184,12 +191,15 @@ Beating & 3
 Backing & -1 (backwards)
 .TE
 .KE
+.sp 7
+\X'pdf: pdfpic img/CoastalLandscape.pdf -C 12.8c 0 12.8c
+.sp 4c
 .KS
 .H3 "Sailed Warship"
 A Galleon or Man-'o-War, a massive ship with three or four masts, the
-fore- and mainmast are always square rigged. One or more gun decks or at
-least multiple catapults.
-.sp -0.5c
+fore- and mainmast are always square rigged. One or more gun decks or 
+multiple catapults.
+.sp 0
 \X'pdf: pdfpic img/Carrack.pdf -C 9.5c 0 12.8c
 .sp 13c
 .TS
@@ -259,9 +269,13 @@ Playing the Game
 One player or the referee rolls a d6 to determine wind speed and
 possible change in wind direction (see Wind Roll below).
 .IP 2. 3
-Each side \emph{may} roll a luck die (see Luck Roll below)
+Each side 
+.I may 
+roll a luck die (see Luck Roll below)
 .IP 3. 3
-Each vessel that has marked Strain \emph{must} do a Strain Roll (see
+Each vessel that has marked Strain 
+.I must 
+do a Strain Roll (see
 below).
 .IP 4. 3
 Both sides move their full move according to the movement rules,
@@ -274,9 +288,13 @@ Next turn starts at 1.
 .IP 1. 3
 One player or the referee does the Wind Roll.
 .IP 2. 3
-Each side \emph{may} roll a Luck Roll.
+Each side 
+.I may 
+roll a Luck Roll.
 .IP 3. 3
-Each vessel that has marked Strain \emph{must} do a Strain Roll.
+Each vessel that has marked Strain 
+.I must 
+do a Strain Roll.
 .IP 4. 3
 If some kind of initiative system is being used, roll for initiative
 now!
@@ -298,6 +316,7 @@ the combat system being used.
   Next turn starts at 1.
 .KE
 .PP
+.KS
 .H3 "Maneuvers"
 Optionally, at the end of each game turn ships may declare a maneuver:
 .DF "Reef:" 
@@ -310,7 +329,7 @@ the ship drops it's anchor, and will stop drifting. Only ships
 with furled sails can anchor, lest they have to do an immediate Strain
 Roll. It takes two game turns to thus come to a full stop, and three
 game turns to light the anchor and set sail again.
-
+.KE
 .KS
 .H3 "The Wind Roll"
 A single roll of the d6 decides, how the wind changes in direction and
@@ -321,10 +340,10 @@ cbcb
 cl.
 1d6 & Effect
 1 & Direction change clockwise
-2 & Wind Speed = 1
-3 & Wind Speed = 2
-4 & Wind Speed = 2
-5 & Wind Speed = 3
+2 & Wind Speed = -1
+3 & Wind Speed = no change
+4 & Wind Speed = no change
+5 & Wind Speed = +1
 6 & Direction change counter clockwise
 .TE
 .KE
@@ -351,10 +370,13 @@ was rolled for. However Luck Rolls may change things for everyone, if
 two or more sides roll the same result:
 .BU
 Two or more rolls of a 1: ``Sails luff ...'' cause the wind to
-reduce by 1 for \emph{everyone}.
+reduce by 1 for 
+.I everyone .
 .BU
 Two or more rolls of a 6: ``Wind Speed +2 ...'' increases the
-overall windspeed by 1 for \emph{everyone} (thus, those who rolled a
+overall windspeed by 1 for 
+.I everyone 
+(thus, those who rolled a
 six still have the advantage of Wind Speed +1 compared to those who
 didn't roll a 6).
 .PP
@@ -368,7 +390,7 @@ some other kind of propulsion may be possible.
 Wind Speed of four or more (4+) makes sailing difficult
 and dangerous. With sails furled or masts broken, ships drift downwind
 at Wind Speed. Ships with their sails still up may sail downwind at Wind
-Speed plus (!) Bearing Number for Running, but have to mark 1 Strain
+Speed plus (!) Speed Factor for Running, but have to mark 1 Strain
 every round.
 .H3 "The Strain Roll"
 The forces of wind and waves are taxing on ships and crew. It's
@@ -388,10 +410,12 @@ d6 + Strain & Effect
 11 & a mast breaks, reduce all speed by 3'' or drift
 12+ & it's over, ship's sinking in 1d6 turns
 .TE
+.ta 12.8cR
 .PP
 With an effective Strain Roll of 12 it depends on whether it's a one
 masted ship or not. Naturally one masted ships without a mast can only
 drift. A ship with more masts may still sail downwind at reduced speed.
 Whenever the resultant speed reaches 0 or less, the ship can only drift
-downwind at Wind Speed.
-.Au lkh
+downwind at Wind Speed.	\[em] \fIlkh\fR
+.LP
+\X'pdf: pdfpic img/GalleyAshore.pdf -C 10.5c 0 12.8c

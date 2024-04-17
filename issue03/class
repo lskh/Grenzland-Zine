@@ -88,7 +88,8 @@ on for a few hundred years, but ultimately most disappear into the waves.
 .I "natural lifespan" 
 \[mu] 
 .I "level of Anointed" ).
-.PP
+.LP
+\X'pdf: pdfpic img/EvilWhale.pdf -C 4.3c 0 6.3c
 .1C
 .TS
 center;
@@ -98,9 +99,9 @@ lrccccccc.
 				Saving Throws 
 Level	XP	HD	THAC0	D	W	P	B	S	
 1	0	1d6	19 [0]	11	12	14	16	15	
-2	2000	2d6	19 [0]	11	12	14	16	15	
-3	4000	3d6	19 [0]	11	12	14	16	15	
-4	8000	4d6	19 [0]	11	12	14	16	15	
+2	2,000	2d6	19 [0]	11	12	14	16	15	
+3	4,000	3d6	19 [0]	11	12	14	16	15	
+4	8,000	4d6	19 [0]	11	12	14	16	15	
 5	16,000	5d6	17 [+2]	9	10	12	14	12	
 6	30,000	6d6	17 [+2]	9	10	12	14	12	
 7	60,000	7d6	17 [+2]	9	10	12	14	12	
@@ -132,6 +133,8 @@ is an ancient, near-ruined city of the elder adherents of the god, and there
 they are matched against other Anointed ones until they either die a
 sacrifice, or gain the right to challenge the god himself. What happens if
 they kill the god is not quite clear. It might be this already has happened. 
+.sp 0
+\X'pdf: pdfpic img/Junk.pdf -C 6.3c 0 6.3c
 .KS
 .H2 
 Traits of Form (1d8)
@@ -176,8 +179,11 @@ Challenge other Anointed
 .IP 10. 5 
 Challenge higher level Anointed
 .KE
-.PP
+.LP
 .ne 999
+\X'pdf: pdfpic img/FuneralShip.pdf -C 6.3c 0 6.3c
+.sp 10c
+.PP
 Note: I recently have come to reevaluate NPC classes as a useful concept. My
 main idea is to see them as the equivalent for specific monsters, but in
 social settings. The idea of the Anointed is similar to the presentation of
