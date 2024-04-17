@@ -54,12 +54,12 @@ im Anschluss an mein eigenes Abenteuer
 (Seite 23), 
 falls die Charaktere dem Kraken tatsächlich entkommen.
 .PP
-.I "Kyonshi"
-beschwert uns eine echt coole NPC Klasse. Sehr stimmungsvoll, wie ich finde.
+.I "Gottfried Neuner (kyonshi)"
+beschert uns eine echt coole NPC Klasse. Sehr stimmungsvoll, wie ich finde.
 Falls in einem meiner nächsten Spiele ein Piratenkapitän mit
 rauchendem Bart vorkommt, könnte es gut sein, dass es sich um einen 
 .I "Anointed of Abyssal Slaughter" 
-(Seite 7) handelt. O.k., das war gespoilert.
+(Seite 7) handelt. 
 .PP
 Natürlich muss auch ein bisschen aus der eigentlichen
 Grenzland-Kampagne erzählt werden. Die Geschichte mit den
@@ -76,7 +76,8 @@ sich dieses einfache Spiel nach echtem Segeln anfühlt. Ich wäre sehr
 gespannt auf jedes Feedback, was ich zu Salt'n'Tar bekomme, womit wir
 beim dritten Thema für dieses Vorwort wären:
 .PP
-Für künftige Ausgaben plane ich eine grob wiederkehrende Struktur:
+Für künftige Ausgaben, für die ich versuche einen Selbstkostenpreis von 
+5 Euro einzuhalten, plane ich eine grob wiederkehrende Struktur:
 passend zu einem Titelthema sollte mindestens ein Abenteuer dabei
 sein, ein Minigame oder einfach ein paar interessante Spielregeln, die
 Teil eines komplexeren Spiels sein könnten, ein Bericht aus der
@@ -85,7 +86,7 @@ Ankündigung für die kommende Ausgabe mit Einsendeschluss für Beiträge
 und Bestellungen.
 .PP
 Genau diese Rubriken findet Ihr in dieser Ausgabe. Nur ein wichtiger
-Abschnitt fehlt noch (mangels Inhalt), nämlich das 
+Abschnitt fehlt eben noch mangels Inhalt, nämlich das 
 .B Feedback !
 .PP
 Also, wenn Euch was gut gefällt, oder gerade nicht, oder ihr ein Thema
@@ -93,19 +94,25 @@ für eine der kommenden Ausgaben vorschlagen wollt, und Ihr
 allgemein das Gefühl habt, dass Euer Senf einfach 
 dazu gehört: schreibt es auf, steckt es
 in einen Umschlag und sagt der Post, sie soll es ins 
-.ne 999
 .I Grenzland 
 bringen (Email oder so wäre natürlich
 auch o.k., aber nicht so stimmungsvoll).
 .PP
+.ne 999
 Und wenn Ihr merken sollten, dass eine Postkarte nicht reicht, dann
 schreibt einen Artikel!
 Das Grenzland lebt von der Kreativität seiner Bewohner!
 .PP
 Aber da sind wir ja auch schon ganz gut ;-)
 .PP
+Ach ja, da war noch was. Wir nehmen mit dieser Ausgabe am vierten 
+.I "System Matters Fanzine-Wettbewerb"
+teil, der dieses Jahr zu Gunsten von 
+.I "Schule ohne Rassismus"
+stattfindet. Sehr gut, da kann man ja nur gewinnen!
+.PP
 In diesem Sinne, beste Grüße und viel Spaß!
 \[em] \fIlkh\fR
 
-.po -3.5c
-\X'pdf: pdfpic img/FightingSeamonster.pdf -L 7c
+.po -3c
+\X'pdf: pdfpic img/FightingSeamonster.pdf -L 6c
