@@ -135,6 +135,7 @@ sacrifice, or gain the right to challenge the god himself. What happens if
 they kill the god is not quite clear. It might be this already has happened. 
 .sp 0
 \X'pdf: pdfpic img/Junk.pdf -C 6.3c 0 6.3c
+.ad l
 .KS
 .H2 
 Traits of Form (1d8)
@@ -179,6 +180,7 @@ Challenge other Anointed
 .IP 10. 5 
 Challenge higher level Anointed
 .KE
+.ad b
 .LP
 .ne 999
 \X'pdf: pdfpic img/FuneralShip.pdf -C 6.3c 0 6.3c

@@ -36,7 +36,9 @@
 ..
 .de Au
 .ta 6.2cR
+.ad l
 	\[em] \fI\\$1\f
+.ad b
 ..
 .de BS
 .B1

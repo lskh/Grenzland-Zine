@@ -96,7 +96,7 @@ Changing direction by two points per turn is dangerous and causes Strain
 Ship types
 .KS
 .H3 "Large Galley"
-A Trireme or Quadrireme, ships with three to four rowing benches and
+A Trireme or Quadrireme, ships with three or four tiers of rowing benches and
 one or more masts, lateen or square rigged:
 .TS
 center,tab(&);
@@ -115,7 +115,7 @@ Luffing & -1 (backwards)
 .sp 6c
 .KS
 .H3 "Small Galley"
-A Bireme or smaller, ships with one or two rowing benches and a single
+A Bireme or smaller, ships with one or two tiers of rowing benches and a single
 lateen rigged mast.
 .TS
 center,tab(&);
@@ -176,7 +176,7 @@ Backing & -1 (backwards)
 .H3 "Small Merchant"
 A small trading vessel with full lines, and usually just one mast. A
 Cog.
-.sp -0.4c
+.sp -0.2c
 \X'pdf: pdfpic img/Cog.pdf -C 4.5c 0 12.8c
 .sp 4c
 .TS
@@ -410,12 +410,11 @@ d6 + Strain & Effect
 11 & a mast breaks, reduce all speed by 3'' or drift
 12+ & it's over, ship's sinking in 1d6 turns
 .TE
-.ta 12.8cR
 .PP
 With an effective Strain Roll of 12 it depends on whether it's a one
 masted ship or not. Naturally one masted ships without a mast can only
 drift. A ship with more masts may still sail downwind at reduced speed.
 Whenever the resultant speed reaches 0 or less, the ship can only drift
-downwind at Wind Speed.	\[em] \fIlkh\fR
+downwind at Wind Speed.\h'1.4c'\[em] \fIlkh\fR
 .LP
 \X'pdf: pdfpic img/GalleyAshore.pdf -C 10.5c 0 12.8c

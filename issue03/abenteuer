@@ -30,7 +30,7 @@ Ihr sollt dem Kraken geopfert werden.
 Beginn des Abenteuers
 .PP
 Die Charaktere erwachen jeder in einer getrennten Zelle. Die Zellen
-sind dunkel und muffig die Wände aus feuchtem, groben Mauerwerk. Es
+sind dunkel und muffig die Wände aus feuchtem, grobem Mauerwerk. Es
 riecht nach Meer, und seltsamerweise ist da auch eindeutig ein
 ranziger Ziegengeruch in der Luft. Niemand hat etwas anderes bei sich,
 als zerlumpte, durchfeuchtete Kleidung. Die Charaktere befinden sich
@@ -68,8 +68,8 @@ schnarchender, in Ziegenfell und einen Kettenpanzer gekleideter
 Wächter (siehe auch 5). An seinem Gürtel hängt ein großer Schlüsselbund.
 Hinter ihm ist eine verschlossene Holztür. 
 .PP
-Natürlich kann mit den Wächtern gesprochen und verhandelt werden. Oder
-es kann versucht werden sie irgendwie dazu zu bringen, eine der
+Natürlich kann mit dem Wächter gesprochen und verhandelt werden. Oder
+es kann versucht werden ihn irgendwie dazu zu bringen, eine der
 Zellentüren zu öffnen.
 .H3 "Zelle 2"
 Diese Zelle ist dunkel und feucht. Das Schnarchen des Wächters ist
@@ -79,7 +79,7 @@ Im Dreck unter der Pritsche lässt sich ein rostiger Dolch
 finden.
 .H3 "Zelle 3"
 Diese Zelle ist auf den ersten Blick nicht anders als die ersten
-zwei. Die Angeln der Tür sind jedoch lose. Mit moderatem
+zwei. Die obere Türangel ist jedoch lose. Mit moderatem
 Krafteinsatz kann die Tür aufgebrochen werden.
 .H3 "Zelle 4"
 Diese Zelle ist sehr dunkel. Nur sehr leise ist hier das
@@ -109,7 +109,7 @@ besseres Schicksal und ein paar Goldmünzen zu bieten.
 .H3 "6. Das Quartier der Wächter"
 Dieser Raum ist mit zwei schlichten Schemeln, zwei Pritschen und 
 einem Tisch möbliert. In einigen Krügen lagert ranzige Verpflegung, daneben
-finden sich hier einige Fackeln, Seil, Feuerstahl und Zunder. Mit 30% Wahrscheinlichkeit 
+finden sich hier einige Fackeln, Seil, Feuerstahl und Zunder. Mit 33% Wahrscheinlichkeit 
 hält sich hier ein zweiter, schlafender Wächter auf. Er hat einen rostigen 
 Säbel und trägt Lederrüstung.
 .PP
@@ -150,7 +150,7 @@ ein dünner Stolperdraht
 kleinen Löchern in der Wand. Die Falle kann rollenspielerisch oder mit 
 einer passenden Würfelprobe einfach entschärft werden.
 .PP
-Das gleiche gilt für die Tür. Es sei denn der Schlüssel, der sich im 
+Entsprechendes gilt für die Tür, es sei denn der Schlüssel, der sich im 
 Piratenlager befindet, wurde bereits gefunden. Dann kann die Tür einfach 
 aufgeschlossen werden.
 .PP
@@ -252,7 +252,7 @@ Nachdem die Charaktere einen kleinen Wasserfall, der in diesem natürlichen
 Höhlengang niedergeht durchschreiten, erreichen sie eine von senkrechten
 schroffen Felswänden begrenzte kleine Sandbucht. Hier liegt den Strand hoch
 gezogen ein intaktes kleines Ruderboot. Leider ist das Boot gerade groß genug
-um die Charaktere mit dem nötigsten zu tragen. 
+um die Charaktere mit dem Nötigsten zu tragen. 
 Sollten die Charaktere versuchen auch ihre ggf. gefundenen Schätze mitzunehmen,
 wird das Boot offensichtlich überladen sein, und bald vollschlagen und sinken.
 Der Kraken wartet schon ...
@@ -278,7 +278,7 @@ Die dunkle See
 Falls die Charaktere sich entscheiden, die Bucht mit dem Ruderboot zu
 verlassen, werden sie einige Zeit durch mäßigen Seegang an der Küste
 der Insel entlang rudern. Schließlich, in der späten Abenddämmerung
-entdecken sie dann ein Schiff in einer Bucht liegen. Es handelt sich
+entdecken sie dann ein Schiff welches nahe der Insel vor Anker liegt. Es handelt sich
 um das Schiff der Piraten.
 .PP
 Mutige Charaktere werden vielleicht auf die Idee kommen dass Schiff
@@ -330,7 +330,7 @@ des Kraken, der das ganze Schiff mit sich in die Tiefe reißt. Doch
 Glück im Unglück: als die Charaktere zu sich kommen, liegen sie bei
 sonnigem Wetter, nur mit völlig durchnässter Kleidung am weißen
 Sandstrand einer unbekannten Insel ...
-\[em] \fIlkh\fR
+\h'2.6c'\[em] \fIlkh\fR
 .1C
 .H2
 Die Höhlen
