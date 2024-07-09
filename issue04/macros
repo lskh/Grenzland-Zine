@@ -1,0 +1,104 @@
+.\" vim: filetype=groff
+.nr PORPHANS 2
+.nr HORPHANS 2
+.nr PO 1c
+.nr LL 12.8c
+.nr HM 1c
+.nr FM 2.5c
+.nr PS 10
+.nr VS 11
+.nr PI 5n
+.OH ''''
+.EH ''''
+.OF '''%'
+.EF '%'''
+.de BU
+.IP \[rh]
+..
+.\" Major section header
+.de H1
+.\".sp 3
+.1C
+.ne 10
+.ft NB
+.ps 22
+.vs 26
+.ce 2
+..
+.\" Secondary section header
+.de H2
+.SH
+..
+.\" Paragraph header
+.de H3
+.PP
+.B "\\$1"
+..
+.de Au
+.ta 6.2cR
+	\[em] \fI\\$1\f
+..
+.de BS
+.B1
+.ad l
+..
+.de BE
+.B2
+.ad b
+..
+.de DF
+.LP
+.B "\\$1"
+..
+.de Tl
+.ps 14
+.ce
+..
+.de TL
+.rs
+.fam BM
+.ll 12.8c
+.pl 21c 
+.sp 2c
+.vs 54
+.ps 54
+.ad c
+.ft BMB
+Grenzland
+\l'12.8c'
+.ps 11
+.vs 13
+.ft BMR
+.nf
+.ta 6.8cC 12.8cR
+.\" fill in Number, Title theme, Date
+No. \\$1	\\$2	\\$3
+.sp
+.\" change tabs for TOC
+.ta 12.8cR
+..
+.\" let's have a macro for table of contents items
+.de CI
+\fB\\$1\fP\\$2
+\fI\\$3\fP
+..
+.\" the "title footer"
+.de TF
+.fi
+.ad b
+..
+.\" dates listings
+.\" $1 Date, $2 Title, $3 Place, $4 URL
+.de MONT
+.IP "\fI\\$1\fP"
+..
+.de DATE
+.IP
+\fI\\$1\fP: 
+.B "\\$2" ,
+\\$3
+.hy 0
+\fC\\$4\fP
+.sp 0.2c
+.hy
+..
