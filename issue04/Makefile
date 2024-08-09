@@ -1,4 +1,4 @@
-SRC=../macros cover forward patrons massenschlachten lostprocedures fifty report grenzland feedback ausblick imprint
+SRC=../macros cover forward patrons massenschlachten lostprocedures fifty echtzeit report grenzland feedback ausblick imprint
 
 all: Grenzland4.pdf
 
