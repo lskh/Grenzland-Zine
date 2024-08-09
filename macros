@@ -32,7 +32,7 @@
 .\" Major section header
 .de H1
 .\".sp 3
-.if \\nLL<18c .1C
+.if \\n(LL<18c .1C
 .ne 10
 .ft NB
 .ps 22
@@ -49,10 +49,16 @@
 .B "\\$1"
 ..
 .de Au
-.ta 6.2cR
-.ad l
-	\[em] \fI\\$1\f
+.br
+.ds XX "  \(em \fI\\$1\fP
+.nr XX \w'\\*(XX'
+.if \\n(.n+\\n(XX<\\n(.l .sp -1
+.ad r
+.nh
+\\*(XX
+.br
 .ad b
+.hy
 ..
 .de BS
 .B1

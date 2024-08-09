@@ -1,4 +1,5 @@
 *~
+*.ps
 *.gen.png
 *.log
 *.aux
