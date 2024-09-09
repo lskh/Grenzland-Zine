@@ -34,7 +34,7 @@
 .\".sp 3
 .if \\n(LL<18c .1C
 .ne 10
-.ft NB
+.ft BMB
 .ps 22
 .vs 26
 .ce 2
@@ -142,4 +142,24 @@ Planckstr. 8
 22765 Hamburg
 
 oder: \fCgrenzland@betola.de\fR
+..
+.\" Makros für Punchlines
+.\" Punch line start
+.de PLS
+.nr PS 14
+.nr VS 18
+.QS
+.ce 10
+.hy 0
+.ft BMI
+..
+.\" Punch line end
+.de PLE
+.nr PS 10
+.nr VS 11
+.hy
+.ce 0
+.ad b
+.ft BMR
+.QE
 ..
