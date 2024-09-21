@@ -1,5 +1,5 @@
 .H1
-Verlorene Prozeduren
+Kampagnen-Prozeduren
 .PP
 Irgendwann in den letzten Monaten habe ich angefangen, zu Hause alleine
 \fIClassic Traveller\fR zu spielen. Vielleicht angeregt durch einen Artikel in
@@ -12,7 +12,7 @@ Standard-Regel aus Classic Traveller) dann habe ich eine echte Woche Zeit,
 diesen Auftraggeber zu entwickeln. Ich würfele also ein paar Attribute aus,
 gehe die Charakterentwicklung durch, und überlege, welchen Auftrag dieser
 Charakter meinem eigentlichen Spielercharakter geben könnte. In der
-Zwischenzeit - einmal am Tag - würfele ich, ob es in der Zwischenzeit noch
+Zwischenzeit - einmal am Tag - würfele ich, ob es noch
 andere Zufallsbegegnung gibt. Daraus entstehen kleine Mini-Szenarien, die ich
 in der Mittagspause oder abends nach der Arbeit schnell durchspielen kann.
 Vielleicht eine halbe Stunde am Tag. 
@@ -42,14 +42,12 @@ stehen da nicht so offensichtlich wie in Traveller, aber sie funktionieren, und
 wenn man sie anwendet, entdeckt man ein ganz eigenes Spiel, welches genauso D&D
 ist, wie das klassische Dungeon-Spiel, aber vielleicht nicht so oft als solches
 verstanden wird. In gewisser Weise möchte ich sagen: 
-.PLS
 durch das Solo-Spiel mit Classic
 Traveller habe ich gelernt besser OD&D zu spielen. 
-.PLE
 .PP
 Ich benutze das Solo-Spiel mit OD&D inzwischen häufig, um die Kampagne weiter
 zu entwickeln. Begegnungen führen zu neuen Charakteren, Siedlungen und
-natürlich auch Dungeons. Liegen letztere dicht beeinander wird das sicher zu
+natürlich auch Dungeons. Liegen letztere dicht beieinander, wird das sicher zu
 Spannungen führen, daraus könnte die nächste interessante Situation für
 Spielercharaktere werden, und so weiter. Nebenbei entfällt mit dieser Art zu
 spielen der Bedarf für "Module" oder vorgefertigte Abenteuer. Ich muss mir auch
@@ -61,7 +59,7 @@ kennen gelernt. Das Problem dabei? Diese Varianten fokussieren häufig nur auf
 das Dungeon-Spiel. Wenn es um Überlandreisen geht, werden vielleicht noch
 Begegnungstabellen angegeben, und es wird auf die Spielleitung oder
 vorgefertigte Abenteuer verwiesen. Aber Regeln die alles mit einander
-verbinden, die ein stimmiges Setting implizieren und manifestieren fehlen oder
+verbinden, die ein stimmiges Setting implizieren und manifestieren, fehlen, oder
 sind nur mit großer Mühe zu erkennen.
 .PP
 Hier sind ein paar Regeln und Prozeduren die Du anwenden kannst, wenn Du
@@ -97,8 +95,10 @@ ccss.
 6"	1 Hexfeld in 3 Tagen
 .TE
 .PP
-Bei Reisen durch Wälder, Hügel oder Sümpfe reduziert sich die 
-Geschwindigkeit um 1 Hexfeld, bei Reisen im Gebirge um 2 Hexfelder. 
+Reittiere, Wagen oder Fuhrwerke können die Reisegeschwindigkeit bei
+unkomplizierten Gelände verdoppeln, sobald das Geländer jedoch 
+schwierig wird, werden sie das Fortkommen eher behindern, wenn nicht
+gar unmöglich machen.
 .PP
 Zur See können ca. 60 Meilen oder 10 Hexfelder in 24 Stunden zurück
 gelegt werden. Wenn es genauer sein soll, kann hier ein spezialisiertes
@@ -113,6 +113,7 @@ lbcb
 lc.
 Gelände	Wahrscheinlichkeit
 Straßen, Flüsse	1:10
+zur See	1:8
 Offenes Gelände, Hügel	1:6
 Wälder, Wüste, Sümpfe	2:6
 Gebirge	2:6
@@ -196,7 +197,7 @@ der 70er Jahre herrschte noch der Geist der
 .I "War Games"
 aus denen diese Spiele hervor gegangen waren. Dementsprechend hat man nicht
 kleine Grüppchen von Gegnern angetroffen (passend für 3 bis 6 Abenteurer),
-sondern nicht selten Armeen von Kombatanten, Herden von Tieren und ganze
+sondern nicht selten Armeen von Kombattanten, Herden von Tieren und ganze
 Siedlungen von Menschen und Menschenähnlichen:
 .TS
 center;
@@ -253,6 +254,9 @@ Außerdem sind
 .I Lager
 natürlich interessant, weil sie vermutlich der Ort sind, an dem Schätze
 gehortet werden. Hier sollte Dein Regelwerk etwas passendes hergeben.
+Während ich oben gesagt hatte, dass man bei dieser Art zu spielen
+eigentlich keine "Module" braucht, hier wäre der Platz an dem man
+diese "einklinken" könnte.
 .PP
 Macht man sich klar, wie die Regeln 4, 6 und 7 zusammenspielen, wird deutlich
 wie unterschiedlich die verschiedenen Geländearten sind. Und das ist wichtig,
@@ -284,7 +288,7 @@ gegenüber stehen, und in etwa der Hälfte der Fälle wird mehr als eine normale
 Bewegungsdistanz pro Runde (120 Meter) zwischen den Einheiten liegen. Das
 eröffnet Raum für taktische Überlegungen!
 .PP
-Bei Überraschung liegt die Distanz bei und 10 - 30 Metern. Was für das
+Bei Überraschung liegt die Distanz bei 10 - 30 Metern. Was für das
 praktische Spiel bedeutet, dass die Gegner schon in Nahkampfdistanz sind,
 wenn sie wahrgenommen werden. 
 .H2
@@ -332,7 +336,7 @@ Spielleitung.
 .PP
 Größere Gruppen von Menschen sind in der Regel militärisch 
 organisiert. Humanoide meistens auch, wenn auch mit deutlich
-flacherer Hierarchiestruktur. Auch die eigenen Truppen 
+flacherer Hierarchie. Auch die eigenen Truppen 
 sollten nach den folgenden Regeln aufgestellt werden:
 .BU
 Etwa 10 Kämpfer bilden eine \fIGruppe\fR, die von einem \fIFeldwebel\fR 
@@ -362,7 +366,7 @@ Kompanie von Untoten und Ghulen befehligt.
 .H2
 12. Militärische Ausrüstung
 .PP
-Züge und Gruppen (siehe 7.) sollten jeweils gleich ausgestattet werden,
+Züge und Gruppen (siehe 11.) sollten jeweils gleich ausgestattet werden,
 was Rüstung, Bewaffnung und ggf. Reittiere angeht. Typischerweise wird eine
 Kompanie aus ähnlichen und ungefähr gleichstarken Gruppen, bestehend aus
 Fußvolk (Light Foot, Bogenschützen, Heavy Foot, Armored Foot) und Reitern
@@ -411,7 +415,7 @@ Tritt die Einheit gegen einen einzelnen ggf. hochstufigen
 Gegner oder ein größeres Monster an, sollte sie in ihre einzelnen 
 Einheiten aufgelöst werden. Aus einer Figur mit 50 Trefferpunkten
 werden also nun 10 Einheiten, die jeweils 5 Trefferpunkte haben, 
-und wieder 1W6 Schaden verursachen. Die 10 Einheiten werden nun 
+und wieder jeweils 1W6 Schaden verursachen. Die 10 Einheiten werden nun 
 durch 10 Figuren dargestellt: also Figurenmaßstab 1:1.
 
 .H2
@@ -425,8 +429,18 @@ Monat an Unterhaltskosten ausgeben. Passend zu ihrem Lebensstil
 und ihrem sozialen Rang. Traditionell bietet sich hier an,
 Goldmünzen in Höhe von 1% der Erfahrungspunkte einer Figur
 zu veranschlagen. Damit ist Kost, Logis, Reparaturen und ähnliches
-abgedeckt, sofern es nicht in einer Spielrunde aktiv durch 
-gespielt wird.
+abgedeckt, sofern es nicht in einer Spielrunde aktiv durchgespielt wird.
+
+(Fortsetung auf Seite 22)
+.bp
+.1C
+.H1
+Grenzlandkarte 1
+.bp
+.H1
+Grenzlandkarte 2
+.PP
+.bp
 .PP
 Gefolgsleute anzuheuern erfordert grundsätzlich ein Angebot
 von 100 Goldmünzen, welches von der Spielleitung angepasst
@@ -438,12 +452,80 @@ Mietlinge, Söldner und Spezialisten zu finden, kostet
 100 - 600 Goldmünzen und dauert eine Woche. Hierbei können
 so viele Personen eingestellt werden, wie sich der 
 Spielercharakter leisten kann. Es gelten die üblichen Preislisten
-für Montagslohn und Ausrüstung.
+für Monatslohn und Ausrüstung.
 .PP
 Einen einzelnen Barmann zu bestechen kostet 1-10 Goldmünzen,
 eine Kneipentour durch die einschlägigen Tavernen am Ort
 kostet 10 - 60 Goldmünzen. Hierbei können mehr oder wenig
 glaubhafte Gerüchte aufgeschnappt werden.
+.PP
+Folgende Angaben können als Orientierung für die monatlichen 
+Kosten von angeheuerten Einheiten dienen:
+.TS
+center;
+lblblblb
+l l l l.
+Einheit	Münzen	Einheit	Münzen
+Leichte Infanterie	1	Schwere Infanterie	2
+Bogenschützen	3	Armbrustschützen	4	
+Leichte Kavalerie	4	Langbogenschützen	6
+Schwere Kavallerie	8	Kämpfer(NSC)	10	
+Hero (Stufe 4 NSC)	100
+.TE
+.PP
+Je nach Setting und Gesinnung kommen auch Humanoide oder gar Monster als 
+Einheiten in Frage. Die Kosten werden dann, insbesondere wenn dadurch besondere
+Eigenschaften ins Spiel kommen, nach Ermessen der Spielleitung abweichen.
+.PP
+Die genannten Kosten pro Monat können für inszenierte Kämpfe auch als Punkte
+für die Zusammenstellung von Truppen interpretiert werden. In einem "300
+Punkte-Spiel" könnte eine Seite z.B. 80 leichte Infanterie, 20 Bogenschützen 10
+Leichte Reiter, zwei NSC-Kämpfer, und einen Stufe 4 Kämpfer als Anführer ins
+Feld führen.
+
+.H2
+15. Kampagnenereignisse
+.PP
+In \fIDave Arneson's The First Fantasy Campaign\fP wird über sogenannte
+\fIChance Cards\fP berichtet, und es wird als Beispiel eine 
+W100-Tabelle an Ereignissen gegeben.
+Die Idee ist einfach: einmal im Monat wird ein neues Ereignis 
+festgestellt, ob als gezogene Karte oder Würfelergebnis einer
+Tabelle.
+Bei diesen Ereignissen handelt es sich um Dinge, die großen Einfluss
+auf eine Kampagnenwelt haben: Naturereignisse, große Wanderungen
+von Tierherden, Bevölkerungsgruppen oder das auf den Plan treten,
+außergewöhnlicher Persönlichkeiten. Wenn Du eine solche Tabelle
+zusammenstellst, achte auf den Maßstab: raus gezoomt, 
+kampagnenweit, kontinentweit.
+.PP
+Hier ein paar konkretere Beispiele:
+.IP 1-5 8
+Ein hochstufiger Charakter mit mehreren 100 Mann Gefolgschaft erscheint.
+.IP 6-10
+30-300 Gnome tauchen auf.
+.IP 11-15
+Ein Erdbeben erschüttert das Land, jedes relevante Gebäude hat eine
+30% Chance einzustürzen.
+.IP 16-20
+Eine Seuche verbreitet sich.
+.IP 21-25
+"Wikinger" greifen an!
+.IP 26-30
+2-8 große Handelsschiffe erreichen die Küste
+.IP 31-35
+Dürre für 1-6 Monate
+.IP 36-40
+Dauerregen für 1-6 Monate
+.IP 41-45
+1-4 uralte Drachen tauchen auf. Sind es mehrere versuchen sie die
+Menschen in ihren Konflikt hinein zu ziehen.
+.PP
+Und so weiter und so fort. Diese Tabelle ist ein guter Ort für offenes
+\fIWorld Building\fP. Auch Kombinationen von Ereignissen sind möglich,
+und da in der Tabelle ja noch reichlich Platz ist, können Eregnisse 
+die in der Kampagne erspielt wurden, ihren Weg zurück in die Tabelle finden, 
+und zukünftige Kampagnenereignisse beeinflussen.
 .ce
 \[3d]
 .PP

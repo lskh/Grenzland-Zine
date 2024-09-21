@@ -110,24 +110,39 @@ braunen Heftchen von 1974 sind unser
 .B Basisregelwerk 
 und alle 
 Supplemente sind grundsätzlich in Kraft. Swords & Wizardry kann gerne
-als Referenzwerk für die Spieler·innen genutzt werden, doch insbesondere
-was die Zahlen (Angriffstabellen, Einkaufslisten etc) angeht hat
-OD&D vorrang.
+als Referenzwerk für die Spieler·innen genutzt werden, doch bezüglich
+der Zahlen (Angriffstabellen, Einkaufslisten etc) hat OD&D vorrang.
 .BU
 Wir bleiben bei d8 basierten 
 .B Trefferwürfeln.
 .BU es gilt
 .B "variabler Waffenschaden"
-und auch den Attributsmodifikatoren aus Supplement I Greyhawk. Falls Tiberius
+und den Attributsmodifikatoren aus Supplement I Greyhawk. Falls Tiberius
 also jemals von der Ebene des Feuers befreit wird, darf er also weiterhin seine
 phänomenale Stärke von 18/97 behalten. 
 .BU
-Außerdem gelten künftig \fBalle Klassen\fR die
+Es gelten \fBalle Klassen\fR die
 in OD&D, den Supplementen und im Stratgic Review beschrieben sind. Also auch
-Mönche, Assassine (Supplement II, Blackmoor), Druiden (Suppplement III,
-Eldritch Wizardry), Ranger (Strategic Review, Vol. I, No. 2, Sommer 1975),
-Illusionisten (Strategic Review, Vol I, No 4, Winter 1975) und Barden
-(Strategic Review, Vol II, No 1, Februar 1976). 
+Mönche, Assassine\**,
+.FS
+OD&D, Supplement II, Blackmoor
+.FE
+Druiden\**, 
+.FS
+OD&D, Suppplement III, Eldritch Wizardry
+.FE
+Ranger\**,
+.FS
+Strategic Review, Vol. I, No. 2, Sommer 1975
+.FE
+Illusionisten\**,
+.FS
+Strategic Review, Vol I, No 4, Winter 1975
+.FE
+und Barden\**.
+.FS
+Strategic Review, Vol II, No 1, Februar 1976
+.FE
 .BU
 Ob sich der Ebenenbruch zur
 Neuzeit irgendwann noch einmal öffnet, und erneut 
@@ -140,8 +155,10 @@ entscheiden können.
 Mietlinge und Spezialisten anzuwerben dauert 
 .B "eine Woche"
 und kostet 
-.B "100-600 Goldmünzen"
-(OD&D Vol III, The Underworld and Wilderness Adventures, Seite 23).
+.B "100-600 Goldmünzen"\**.
+.FS
+OD&D Vol III, The Underworld and Wilderness Adventures, Seite 23
+.FE
 .BU
 .B Gerüchte 
 kosten zwischen
@@ -149,24 +166,29 @@ kosten zwischen
 um einen einzelnen Barmann zu bestechen und 
 .B "10-60 Goldmünzen"
 wenn mehrere Tavernen abgeklappert werden sollen. Logischerweise wird die 
-zweite Methode grundsätzlich erfolgreicher sein. (ebenfalls OD&D Vol III, 
-Seite 23).
+zweite Methode grundsätzlich erfolgreicher sein\**.
+.FS
+ebenfalls OD&D Vol III, Seite 23
+.FE
 .BU
 Unterhalt für jeden Spielercharakter der noch nicht die Namensstufe erreicht
 hat (das sind im Moment alle):
 .B "1% der Erfahrungspunkten in Gold pro Monat" .
 Für einen Charakter mit 40.000 Erfahrungspunkten wären das also 400 GM 
-im Monat (OD&D Vol III, Seite 24).
+im Monat\**.
+.FS
+OD&D Vol III, Seite 24
+.FE
 .BU
 .B "Anwerben von Gefolgsleuten"
-erfordert grundsätzlich eine Einmalzahlung von 
+erfordert grundsätzlich eine Einmalzahlung. 
 .B "100 Goldmünzen"
-sowie ein Übereinkommen über die Aufteilung gemeinsam gefundener Schätze.
-Zwerge verlangen in der Regel mehr als 100 Goldmünzen, und Zauberkundige 
-und Elfen erwarten
-.B "einen magischen Gegenstand"
-zum Einstand. Der Erfolg der Verhandlung hängt dann natürlich noch 
-von einem Reaktionswurf ab (OD&D, Vol I, Men & Magic, Seite 12).
+gelten als Richtwert.
+Der Erfolg der Verhandlung hängt natürlich noch 
+von einem Reaktionswurf ab\**.
+.FS
+OD&D, Vol I, Men & Magic, Seite 12
+.FE
 .BU
 Intelligente Monster 
 .I "gleicher Gesinnung"
@@ -177,9 +199,13 @@ können durch
 .I "Unterwerfung"
 oder durch 
 .I "Bezauberung"
-(Charm Person, Charm Monster) in Dienst genommen werden. Siehe Vol I für
+(Charm Person, Charm Monster) in Dienst genommen werden\**. 
+.FS
+Siehe Vol I für
 die Zaubersprüche und Vol II, Monsters & Treasure, Seite 12 für die 
-Unterwerfung von Drachen. Insbesondere 
+Unterwerfung von Drachen.
+.FE
+Insbesondere 
 .I "Charm Person"
 ist geeignet um Charaktere höherer Stufen unter Spielerkontrolle gelangen
 zu lassen.
@@ -218,3 +244,4 @@ verstanden werden: durch die Magie ermittelt der Zauberkundige in welchem
 Wesen der betreffende Charakter reinkarniert wurde, und er bewirkt, dass
 die Fügung den bereits ins Leben zurück gekehrten Charakter seinen früheren
 Gefährten zuführt, und dass diese ihn wieder erkennen.
+.Au lkh
