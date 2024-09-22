@@ -42,16 +42,16 @@ Den Bösewichten kann man nur auf dem offenen Schlachtfeld die Stirn
 bieten.
 .PP
 Um die Idee der Massenschlacht nach und nach einzuführen, gibt es bei
-Begegnungen mit potentiellen Freunden Hinweise auf den Expansionswille
+Begegnungen mit potentiellen Freunden Hinweise auf den Expansionswillen
 der Gegenseite und auf den mangelnden Kooperationswillen neutraler
 Parteien. Daraus ergeben sich diplomatische Missionen, um den
 Zusammenhalt der eigenen Seite zu stärken. Zudem fallen der Gruppe bei
 unabhängigen Abenteuern Pläne und Hinweise in die Hände, die den
-Expansionswillen belegen. Auf der eigenen Seite hat es Machthaber,
+Expansionswillen der Gegner belegen. Auf der eigenen Seite hat es Machthaber,
 denen man diese Hinweise überbringen kann, was dann zu
 Spionagemissionen führt. Auf diesen Missionen findet die Gruppe Belege
 für die Grösse und die Organisation der Gegenseite und es wird klar,
-dass die eigene Gegenseite ebenfalls organisiert werden muss.
+dass die eigene Seite ebenfalls organisiert werden muss.
 .PP
 Ab diesem Moment sind die Weichen auf Krieg gestellt. Idealerweise
 gibt es nun einen Zeitplan, der so aufgebaut ist, dass man in der
@@ -60,7 +60,7 @@ machen kann. Damit ist die Gruppe gezwungen, Entscheidungen zu fällen.
 Wen will man auf der eigenen Seite? Wer läuft Gefahr, zur Gegenseite
 überzulaufen? Wer ist besonders wertvoll?
 .PP
-Den Zeitdruck wird der Spielerschaft klar kommuniziert. Wird mit einem
+Der Zeitdruck wird der Spielerschaft klar kommuniziert. Wird mit einem
 1:1 Kalender gespielt, vergeht zwischen wöchentlichen Spielabenden
 auch ein Woche in der Spielwelt, in der die Gegenseite sich
 vorbereiten kann. Es lohnt sich nicht, dies zu simulieren. Ist die
@@ -99,8 +99,8 @@ Dunkelklauenechsen unterdrückt werden.
 .IP \[bu]
 .B Edelbauch
 ist Anführerin der Goldaugenkobolde. Diese wurden von Gorgas
-angeheuert, um die Belagerungsmaschinen zu bauen, um die Burg vom
-Blausee zu schleifen.
+angeheuert, um die Belagerungsmaschinen zu bauen, 
+welche die Burg vom Blausee schleifen sollen.
 .IP \[bu]
 .B Purdefel
 der Weise ist Burgherr von Blausee und Anführer der Menschen. Damit
@@ -128,7 +128,7 @@ fliesst. Er meint, dass alle Schätze im Wald Teil seines Schatzes
 sind.
 .IP \[bu]
 .B Kaia
-ist die ehemalige Zwerging der Steinherzfestung. Sie und alle anderen
+ist die ehemalige Anführerin der Steinherzfestung. Sie und alle anderen
 Familienoberhäupter sind einem Kettenteufel verfallen.
 .IP \[bu]
 .B Treibniz
@@ -271,7 +271,7 @@ erkennen und so kommt es zum Nahkampf.
 .PP
 Die Oger schützen die Ogermagier. Matacabra würfelt 5W20 und trifft
 für 1 TW Schaden (Gewicht für 1). Die Echsen würfeln 2W20 und
-verfehlen. Die Superechsen würfeln eine 4W20 und treffen für 1 TW×7
+verfehlen. Die Superechsen würfeln  4W20 und treffen für 1 TW×7
 Schaden (Gewicht für 50). Da die Oger TW 4+1 haben, bedeuten 8 TW, dass
 2 Oger erschlagen wurden.
 .PP
@@ -283,7 +283,7 @@ wurden.
 .PP
 Die Oger und die Schwarzflussechsen müssen einen Moralwurf bestehen
 oder sie brechen und werden handlungsunfähig. Solange sie das Feld
-nicht verlassen haben, können Anführer mit einer eigenen Aktion
+nicht verlassen haben, können Anführer sie mit einer eigenen Aktion
 sammeln. Die anwesenden Einheiten dürfen dann einen erneuten Moralwurf
 machen.
 .PP

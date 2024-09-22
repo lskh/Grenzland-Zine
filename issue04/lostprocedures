@@ -160,6 +160,7 @@ Wüsten, auf See, in der Luft	1:6
 Hier sollten natürlich in erster Linie die Begegnungstabellen aus dem benutzten
 Regelwerk verwendet werden. Falls Dein Regelwerk keine passenden Tabellen hat
 sind hier ein paar generische Begegnungstabellen:
+.KS
 .TS
 center;
 lbslbslbs
@@ -184,6 +185,7 @@ Berge	Meer
 6	Flieger	6	Flieger
 .TE
 .PP
+.KE
 Mit "Monster" sind jegliche Art von mythischen Monstern, Feenwesen, Untote etc.
 gemeint. "Flieger" sind entsprechend jede Art von Vogel, aber auch fliegende 
 Echsen, Drachen und Ähnliche. Welche Art von Kreatur wird natürlich auch vom 
@@ -242,7 +244,7 @@ Flieger	1:6
 Monster	4:6
 .TE
 .PP
-Aber was genau sind Lager? Bei Menschlichen "Lagern" könnte es sich um
+Aber was genau sind Lager? Bei menschlichen "Lagern" könnte es sich um
 \fBBurgen\fR, Dörfer oder gar Städte handeln. Wenn es dort größere Gebäude
 gibt, haben diese sehr wahrscheinlich \fBKeller\fR oder \fBVerliese\fR.
 Humanoide werden ebenfalls in Burgen, Festungen oder auch \fBHöhlenkomplexen\fR

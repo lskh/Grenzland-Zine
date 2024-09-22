@@ -10,7 +10,8 @@ Grenzland4.pdf: Grenzland4.ps
 
 
 Grenzland4-final.pdf: Grenzland4.pdf img/Grenzlandkarte1.pdf img/Grenzlandkarte2.pdf
-	pdfjam Grenzland4.pdf 1-19 img/Grenzlandkarte1.pdf img/Grenzlandkarte2.pdf 1\
-	    Grenzland4.pdf 22- -o Grenzland4-final.pdf
+	pdfjam Grenzland4.pdf 1-19 img/Grenzlandkarte1.pdf \
+	img/Grenzlandkarte2.pdf 1 \
+	Grenzland4.pdf 22- --paper a5paper -o Grenzland4-final.pdf
 clean:
 	rm -f *~
