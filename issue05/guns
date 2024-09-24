@@ -1,0 +1,26 @@
+.H1
+Piu piu!!
+.PP
+Laserpistolen? Plasmakanonen? Kein Problem! Irgendwo zwischen
+.I "magic missile"
+und
+.I "lightning bolt"
+findet man die Lösung.
+Wenn es sich um Explosionen oder den Beschuss einer Fläche handelt,
+ist ein Rettungswurf (RW) erlaubt. Bei Explosionen wird ein
+.I "save vs.\ dragon breath"
+verwendet, bei Beschuss wird ein
+.I "save vs.\ death ray"
+verwendet. In diesen Fällen ist kein Angriffswurf erforderlich. Alle
+Gegner im Zielgebiet sind getroffen.
+.PP
+.TS
+l c c r l .
+Waffe	Schaden	RW	Reichweite	Bereich
+Laserpistole	1w6	Nein	90 Fuss	Ziel
+Sturmgewehr	2w6	Nein	900 Fuss	Ziel
+Schrotflinte	4w6	Ja	90 Fuss	Ziel
+Maschinengewehr	2w6	Ja	3000 Fuss	Kegel
+Splittergranate	3w6	Ja	120 Fuss	Kreis r=10 Fuss
+Plasmagewehr	5w6	Ja	9000 Fuss	Linie
+.TE
