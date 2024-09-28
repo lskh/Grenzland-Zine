@@ -1,4 +1,4 @@
-SRC=../macros cover forward adventure guns report minigame feedback outlook imprint
+SRC=../macros cover forward adventure guns report minigame review.ms feedback outlook imprint
 
 all: Grenzland5.pdf
 
