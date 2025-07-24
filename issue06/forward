@@ -1,0 +1,54 @@
+.\" vim: filetype=groff
+.H1
+Who are we?
+.ad b
+.sp -.5cm
+.2C
+.PP
+<hier kommt das Editorial>
+.Au lkh
+.ad l
+.sp .4cm
+.LP
+.BS
+.sp .3cm
+.ps 14
+.vs 16
+.ft BMB
+.nf
+.ce 20
+Grenzland 7
+.ft BMI
+Traveller
+.ft BMR
+.ps 10
+.vs 13
+.sp .2cm
+Die kommende Ausgabe ist für 
+April 2026 geplant. 
+.br
+.B 
+Beiträge, Leserbriefe 
+und Inserate an:
+.R
+.br
+grenzland@betola.de
+.br
+.B Einsendeschluss : 
+15. März 2026
+.br
+.B "Gedrucktes Heft bestellen bis" :
+.br
+31. März 2026
+
+.B Und:
+wir brauchen 
+Themenvorschläge 
+für Heft 8!
+.sp .5cm
+.ce 0
+.BE
+.fi
+.vs 11
+.ad b
+.PSPIC img/alrik.eps

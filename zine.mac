@@ -1,0 +1,167 @@
+.\" vim: filetype=groff
+.nr PORPHANS 2
+.nr HORPHANS 2
+.\" A5 zine style is the default
+.nr PO 1c
+.nr LL 12.8c
+.pl 21c 
+.nr HM 1c
+.nr FM 2.5c
+.nr PS 10
+.nr VS 11
+.nr PI 5n
+.OH ''''
+.EH ''''
+.OF '''%'
+.EF '%'''
+.\" settings for A4, three column layout
+.\" call .A4 for the alternative setting
+.de A4
+.nr LL 19c
+.pl 29.7c
+.\" here's a nested macro. 3C is undefined as long as
+.\" .A4 hasn't been called
+.de 3C !!
+.MC 6.2c 0.13c
+.!!
+..
+.\" bullets
+.de BU
+.IP \[rh]
+..
+.\" Major section header
+.de H1
+.\".sp 3
+.if \\n(LL<18c .1C
+.ne 10
+.ft BMB
+.ps 22
+.vs 26
+.ce 2
+..
+.\" Secondary section header
+.de H2
+.SH
+..
+.\" Paragraph header
+.de H3
+.PP
+.B "\\$1"
+..
+.de Au
+.br
+.ds XX "  \(em \fI\\$1\fP
+.nr XX \w'\\*(XX'
+.if \\n(.n+\\n(XX<\\n(.l .sp -1
+.ad r
+.nh
+\\*(XX
+.br
+.ad b
+.hy
+..
+.de BS
+.B1
+.ad l
+..
+.de BE
+.B2
+.ad b
+..
+.de DF
+.LP
+.B "\\$1"
+..
+.de Tl
+.ps 14
+.ce
+..
+.de TL
+.rs
+.fam BM
+.ll \\n(LLu
+.sp 2c
+.vs 54
+.ps 54
+.ad c
+.ft BMB
+Grenzland
+\l'\\n(LLu'
+.ps 11
+.vs 13
+.ft BMR
+.nf
+.ta \\n(LLu/2uC \\n(LLuR
+.\" fill in Number, Title theme, Date
+\\$1	\\$2	\\$3
+.sp
+.\" change tabs for TOC
+.ta \\n(LLuR
+..
+.\" let's have a macro for table of contents items
+.de CI
+\fB\\$1\fP\\$2
+\fI\\$3\fP
+..
+.\" the "title footer"
+.de TF
+.fi
+.ad l
+.if \\nLL<18c .ad b
+..
+.\" dates listings
+.\" $1 Date, $2 Title, $3 Place, $4 URL
+.de MONT
+.IP "\fI\\$1\fP"
+..
+.de DATE
+.IP
+\fI\\$1\fP: 
+.B "\\$2" ,
+\\$3
+.hy 0
+\fC\\$4\fP
+.sp 0.2c
+.hy
+..
+.de Imp
+.H1
+Impressum
+.PP
+.I Grenzland
+wird herausgegeben von Laurens Kils-Hütten
+.I lkh ). (
+Abgesehen von den unten genannten Ausnahmen stehen alle Inhalte
+unter Creative Commons BY-SA 4.0 Lizenz.
+.PP
+Zuschriften gerne unter:
+.nf
+Grenzland
+c/o Laurens Kils-Hütten
+Planckstr. 8
+22765 Hamburg
+
+oder: \fCgrenzland@betola.de\fR
+..
+.\" Makros für Punchlines
+.\" Punch line start
+.de PLS
+.nr PS 14
+.nr VS 18
+.sp
+.QS
+.ce 10
+.hy 0
+.ft BMI
+..
+.\" Punch line end
+.de PLE
+.nr PS 10
+.nr VS 11
+.hy
+.ce 0
+.ad b
+.ft BMR
+.QE
+.sp
+..

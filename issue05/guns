@@ -1,3 +1,4 @@
+.\" vim: filetype=groff
 .H1
 Piu piu!!
 .PP
@@ -15,6 +16,7 @@ verwendet. In diesen Fällen ist kein Angriffswurf erforderlich. Alle
 Gegner im Zielgebiet sind getroffen.
 .PP
 .TS
+lbcbcbrblb
 l c c r l .
 Waffe	Schaden	RW	Reichweite	Bereich
 Laserpistole	1w6	Nein	90 Fuss	Ziel
@@ -25,3 +27,5 @@ Splittergranate	3w6	Ja	120 Fuss	Kreis r=10 Fuss
 Plasmagewehr	5w6	Ja	9000 Fuss	Linie
 .TE
 .Au alex
+.sp -.3cm
+.PSPIC img/laserwizard_bw.eps

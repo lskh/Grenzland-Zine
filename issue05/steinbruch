@@ -1,0 +1,222 @@
+.\" vim: filetype=groff
+.nr VS 11
+.H1
+Aus dem Steinbru.ch
+.H2
+1W20 spezialisierte Werkzeuge in einer Droiden-/Raumschiffwerkstatt
+.PP
+"Reich mir doch mal den Bi-Bopperluhler! Nicht den, den anderen!"
+.IP 1.
+Ventildrosselschrauber (handelsüblich in den Größen 4 bis 320) 
+.IP 2.
+Androidenandockadapter, erlaubt es, auch Droiden anderer Sternensysteme aufzuladen 
+.IP 3.
+Bio-Nano-Phasendiskriminator (die normalen Größen sind 50, 100, 200, 300, 500.) 
+.IP 4.
+Konvexer LMPT-LASERschrauber – bloß nicht mit dem konkaven LMPT-LASERschrauber verwechseln!
+.IP 5.
+Konvex-Konkav-Wechsler-Adapter 
+.IP 6.
+Iso-linearer Quetta-Schrauber (für Schrauben im Quetta- (= Quintillionen-)Bereich) 
+.IP 7.
+Vibra-Hammer (zur Bearbeitung von Schwerstmetallen, eigentlich nur an Schiffshüllen) 
+.IP 8.
+Senkblei an 20m Kabel, zur Ölstandsmessung an großen Raumkreuzern. Das Senkblei wird von den Handwerker*innen oft individuell kunstvoll gestaltet. 
+.IP 9.
+Quekto-Quetta-Leitungsprüfer (Damit können Leitungen in allen Größen geprüft werden) (das Führungspersonal sollte sich fernhalten – – – (Witz)) 
+.IP 10.
+Ein Glas mit übereinanderwuselnden Elektrowanzen (käferförmige Nanoroboter, die in die Androiden reinkriechen können und dort kleinere Wartungen durchführen, Platinenschäden löten und Fehlerprotokolle erstellen) 
+.IP 11.
+Ein großer Wassertank mit Rostfressern: Raumschiffe können darin versenkt werden und die fleißigen, welsartigen Wesen machen sich sofort über die Patina her. 
+.IP 12.
+Operator remote. Damit lassen sich auch aus der Ferne (maximal 5 Parsecs) Wartungsarbeiten und Reparaturen vornehmen. Man sollte dennoch spätestens eine Woche nach der Fern-OP in die Werkstatt kommen, damit nach justiert werden kann. 
+.IP 13.
+Surrealitätsspindel – Um Mikrorisse des Raumzeitkontinuums am Raumschiff zu flicken 
+.IP 14.
+Maximal-Schmier für Droiden-Gelenke – nur ganz, ganz vorsichtig verwenden, sonst werden Bewegungen mit dem Gelenk unkontrollierbar. Ist auch extrem rutschig. 
+.IP 15.
+Der Akustiksiegler versiegelt alle Spalten und Risse. 
+.IP 16.
+Altwaffenupcycler verschaffen alten ausgedienten, entschärften Waffen einen neuen sinnvollen Lebenszyklus. 
+.IP 17.
+der Universaladapter verbindet alle möglichen und unmöglichen kompatible und inkompatible Geräte und Systeme miteinander. 
+.IP 18.
+Mit dem Quekto-Tool kann, man wie der Name schon vermuten lässt, im Quekto-Bereich arbeiten. Es ist zwar recht unwahrscheinlich, aber: Lieber haben und nie brauchen als brauchen und nicht haben! 
+.IP 19.
+Gimel-Gammler: Klingt komisch, ist aber praktisch, um Gimeln von Oberflächen wegzugammeln. 
+.IP 20.
+Der generische, thermodynamisch-anpassbare Universalkoffer – für alle, die ihr Werkzeug aufgeräumt mögen. 
+.LP
+\fChttps://steinbru.ch/1w20-spezialisierte-werkzeuge-in-einer-droiden-raumschiffwerkstatt/\fP
+
+.Au "Jonas, Nym/Katha, Tristan, Nicrey/Tim, dr_phil_nagi, Klaudia"
+
+.PSPIC img/steinbruch.eps
+
+.H2
+1W8 Raumschiffkonzepte für Science Fiction
+.IP 1.
+.B
+Sphärenflotte: 
+.R
+Mehrere kugelförmige Schiffe reisen als Verbund; dabei imitieren sie mit Umkreisungen untereinander wie ein Orrery/eine Planetenmaschine die Bewegungen ihres heimischen Sonnensystems. 
+.IP 2.
+.B
+Schwarmflotte: 
+.R
+die Flotte besteht aus kleinen bis mittelgroße Raumschiffen mit jeweils eigenem
+Captain und Crew. Die Anzahl der Raumschiffe beträgt von wenigen 100.000 bis zu
+mehreren Millionen. Die Raumschiffe können sich je nach Bedarf zu größeren
+Raumschiffen (bis zu einem mega- bis giga-Raumschiff) zusammenklinken. Es gibt
+immer ein Führungsraumschiff in einer Schwarmflotte. 
+.IP 3.
+.B
+Sat-Scrap:
+.R
+Kleines, fast vollständig aus Weltraummüll gebautes Schiff. Neben einigen
+größeren Teilen sind vor allem handtellergroße Schrottteile verbaut. 
+.IP 4.
+Auf den gewaltigen 
+.B
+Agrar-Archen 
+.R
+gibt es verschiedene Bio-Reservate, in denen sehr diverse Pflanzen und Tiere
+ideale Lebensbedingungen finden. Vollautomatische Roboter bestellen Felder,
+kümmern sich um Tiere und verwerten Eindringling zu Dünger. 
+.IP 5.
+Die 
+.B
+Hyperraum-Barke 
+.R
+wird oft als „Debarkel“ oder als „Draufgänger“ verunglimpft, weil schon so
+viele im Hyperraum draufgegangen sind. Ohne Bojen, die den Raum mit dem
+Hyperraum verbinden und als Orientierungspunkte dienen, ist Navigation mit
+Hyperraum-Barken quasi nicht möglich. Reisende sind den Hyperströmungen
+bedingungslos ausgesetzt und können nicht lenken. Bei Heißluftballonfahrten
+kann man wenigstens sehen, wo man ist und wohin man treibt, und man kann die
+Flughöhe (und damit Landung) beeinflussen. In der Hyperraum-Barke kannst du
+(halbwegs) steuern, wann du den Hyperraum verlässt, aber da du keine
+verlässlichen Raumkoordinaten bekommst, ist es Glückssache, ob du irgendwo
+ankommst, wo du eine Überlebenschance hast. 
+.IP 6.
+Im 
+.B
+Jump-Taxi
+.R
+haben höchstens zehn Personen ohne Gepäck Platz. Das Taxi hat keinen eigenen
+Antrieb; dafür kann es unsagbar schnell zwischen ganz wenigen Stationen durch
+den Hyperraum reisen. Leider gibt es erst vier dieser Stationen. Bis die
+nächsten dieser Stationen weitere Systeme des Föderationsraumes an das Taxinetz
+anschließen, wird es noch Jahre dauern, obwohl alle von der Bedeutung dieser
+Technologie überzeugt sind. 
+.IP 7.
+Die 
+.B
+Micro-Makro-Schiffe
+.R
+sind von außen gerade mal so groß, wie man sie braucht. Von maximal faustgroß
+bis schwebefliegengroß ist alles machbar, in Ausnahmefällen sogar staubkorngroß
+(-klein). Daher kann ein Micro-Makro-Schiff fast immer überall mit hingenommen
+werden, ob von anderen Schiffen oder z.B. anderen Personen. An Bord kommt man
+durch eine spezielle Beam-Vorrichtung indem man nicht nur gebeamt wird, sondern
+auch gleichzeitig geschrumpft. (Beim Verlassen wird man wieder vergrößert.) Auf
+so einem Schiff funktioniert alles wie auf normal großen Raumschiffen.
+Natürlich hat solch ein Raumschiff Vor- und Nachteile. Zum Beispiel kann man es
+immer mitnehmen, aber dadurch kann es eventuell auch leicht gestohlen werden,
+es kann dadurch, dass es so klein ist, quasi unsichtbar agieren und fast
+überall hinkommen aber ist auch mit Schild viel schneller zerstörbar. 
+.IP 8.
+.B
+Das Affix 
+.R
+ist eine röhrenförmige Fähre oder, wie die Betreiberin sagt, ein
+Träger-Sprinter. Bis zu 48 Raumschiffe können an den Stationen an der Innen-
+und Außenseite der Röhrenfähre andocken und sich mitnehmen lassen. Weil die
+Affix selbst äußerst spartanisch eingerichtet ist, öffnen meist ein oder zwei
+der größeren, angedockten Schiffe ihre Decks für Besatzungsmitglieder der
+anderen Schiffe, die auf der langen Reise Unterhaltung und Socialising
+wünschen. 
+.LP
+\fChttps://steinbru.ch/1w8-raumschiffkonzepte-science-fiction/\fP
+
+.Au "Jonas, Tristan, Seba"
+
+.H2
+1W8 Raumschiffkonzepte für Space Fantasy
+.IP 1.
+.B
+Fliegender Vulkan
+.R
+als Raumschiff mit Antrieb, der sich aus Magma-Energie speist. Die Crew lebt in
+künstlichen Höhlen und Gängen im Inneren des Bergs. 
+.IP 2.
+.B
+Ein Segelschiff
+.R
+, die Segel sind Sonnensegel, das Schiff ist riesig groß, die Besatzung lebt
+unter Deck in einer künstlichen Welt und weiß nichts von einem Schiff. 
+.IP 3.
+.B
+Schildkrötenschiff
+.R
+, inspiriert von dem historischen koreanischen Schildkrötenschiff (auch
+Geobukseon genannt), ist dieses Schiff äußerst schwer gepanzert. Das Schiff
+ähnelt vom Design ebenfalls dem historischen Modell. Vorne dran ist ein
+Drachenkopf montiert, das ganze Schiff ummantelt von Hexagonplatten und an
+jeder Seite prangen Kanonen aus dem dicken Panzer. Es wird gemunkelt, dass
+selbst eine frontale Kollision mit einem Planeten dem Schildkrötenschiff nichts
+anhaben könne! 
+.IP 4.
+.B
+Ein Erdensplitter
+.R
+: Seit Zerspringen des Planeten Erde treiben ihre Teilstücke durch den Kosmos.
+Den Überlebenden auf einigen dieser Splitter ist es gelungen Methoden zu
+entwickeln um sie zu steuern. Je nachdem, aus welchem Teil der Erde der
+Splitter gebrochen ist, kann er von ganz unterschiedlicher Gestalt sein:
+Riesige urbane Metropolen, unkontrollierbar wuchernde uralte Wälder oder
+riesige Meere, die vom Rand des Splitters stürzen und dort zu Eiszapfen
+erstarrt ins Universum ragen… 
+.IP 5.
+.B
+Die Biosphäre
+.R
+ist eigentlich ein gigantisches Lebewesen, dass einem Bienenstock nicht
+unähnlich ist. Sie kann Teile ihrer selbst in verschiedenen Größen und Formen
+abspalten und verschiedene Aufträge ausführen lassen. Sie kann andere Spezies
+transportieren, wenn es einen entsprechenden Anreiz gibt. Letztlich ist sie
+stets auf Suche nach radioaktivem Material, von dem sie sich ernährt. 
+.IP 6.
+.B
+Das Affenbrot’sche Unschärfe-Shuttle
+.R
+: Ein Mammutbaum, der ins All fliegen kann. Von Hohlräumen im Stamm gibt es
+einen Tunnel, der in die Baumkrone führt, wo insektoide Lemuren das Obst von
+den Zweigen pflücken. (Inspiriert von „Saga“ von Brian K. Vaughan und Fiona
+Staples) 
+.IP 7.
+.B
+Sonnenegel
+.R
+sind gigantische Würmer, die sich von Solarenergie ernähren, indem sie ihr
+Stoma mit der Oberfläche eines Sterns verbinden. Dort bleiben sie für mehrere
+Tage bis Wochen, bevor sie weiterziehen. Einige nomadische Gemeinschaften
+reisen mit ihnen, indem sie sich mit ihren kleinen Schiffen am Körper der
+Sonnenegel festsaugen und nur in Sonnennähe von ihnen lösen, um sicheren
+Abstand zur Sternenoberfläche einzuhalten. 
+.IP 8.
+.B
+Die „goldene Acht“
+.R
+ist ein oktaedrisches Raumschiff, das vor Jahrhunderten die Trilliardärin Karen
+Rijks von Mindestlohnarbeiter*innen aus Edelmetallen bauen ließ, obwohl diese
+Materialien einen übersteigerten Energiebedarf des Schiffs bedeuteten. Wenige
+Jahrzehnte später wurden die sozialen Systeme umgebaut, um Superreichtum
+abzuschaffen. Heute ist die „goldene Acht“ als Ausstellungsstück im
+historischen Museum der Raumstation Beta Mani Deva zu besichtigen. Der Eintritt
+ist kostenlos. 
+.LP
+\fChttps://steinbru.ch/1wx-raumschiffkonzepte-space-fantasy/\fP
+.Au "Jonas, Tristan, Lyght, Nym/Katha, Seba"
+
+.PSPIC img/WerbungGenerator.eps

@@ -1,4 +1,4 @@
-SRC=../macros toc forward adventure guns report minigame review.ms feedback outlook imprint
+SRC=../macros toc forward guns landscapes minicon technosaurier steinbruch  droyne review report outlook imprint
 
 all: Grenzland5.pdf
 

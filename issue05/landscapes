@@ -1,0 +1,301 @@
+.\" vim: filetype=groff
+.H1
+46.656 Psychedelic Landscapes
+.PP
+Back in 2021 when I was preparing for a 
+.I "Traveller5"
+campaign I binge watched
+.I "Star Trek", 
+the original series and read
+.I "Dune"
+and a couple of other novels by
+.I "Poul Anderson" , 
+.I "Jack Vance" ,
+and parts of the
+.I
+Darkover Series
+.R
+by 
+.I "Marion Zimmer Bradley" . 
+As to the visuals that go along with these stories, just do an image search for “science fiction landscapes” or
+“psychedelic landscape” ... see what I mean?
+I just adore those retro-futuristic, quite possibly substance induced visions of the
+future, conceived in our own 1960ies to 1980ies.
+This is Science Fantasy to me!
+To inject these awesome visuals into our gaming I came up with the following
+d66 table. My idea was to roll on this table when ever the characters would
+land on a new world. I'm not sure if I used it even once while we played, but I still like it, and I feel it's a perfect fit for this issue.
+.PP
+Interestingly back then AI generated art hadn't caught on yet. Midjourney was
+only released in 2022. But looking at the options we have today, rolling up a
+couple of descriptions might make for interesting prompts. Personally I'd much rather
+just imagine how this would lool like, or work out a shared imagination together with 
+our gaming group. That's the best!
+.ad l
+.TS
+cblblblb
+c lxlxlx.
+d66 	The land … 	The sky … 	Over the horizon …
+11 	T{
+coagulated caramel 
+T}	T{
+greyish purple 
+T}	T{
+a spherical station
+T}
+12 	T{
+spined blood colored hills 
+T}	T{
+color of thick dark blood 
+T}	T{
+a majestic dragonlike flyer
+T}
+13 	T{
+blockish hills like colorful toffees
+T}	T{
+a deeper blue 
+T}	T{
+the hazy view of a ringed planet
+T}
+14 	T{
+green rolling hills 
+T}	T{
+foggy anthrazite dust 
+T}	T{
+a distant tubular structure
+T}
+15 	T{
+lush tropical forrest 
+T}	T{
+a freakish green 
+T}	T{
+myriads of tiny insects
+T}
+16 	T{
+endless patterns of industrial structures 
+T}	T{
+a gradient of cobalt blue to sparkling cyan 
+T}	T{
+a moon that appears too close
+T}
+21 	T{
+endless waves of industrial waste 
+T}	T{
+the color of sulfur 
+T}	T{
+shuttles trafficking
+T}
+22 	T{
+flat with occasional polyhedral shapes 
+T}	T{
+monotonous light blue 
+T}	T{
+a disk shaped station
+T}
+23 	T{
+like the rendering in an 8 bit computer game 
+T}	T{
+sepia colored with feathery pink clouds 
+T}	T{
+some batlike flyers
+T}
+24 	T{
+a rough desert 
+T}	T{
+like colored inks bleeding into each other 
+T}	T{
+foreboding dark clouds
+T}
+25 	T{
+swampy with occasional cone shaped hills 
+T}	T{
+almost white 
+T}	T{
+the cube like silhuette of the high port
+T}
+26 	T{
+a sea of turquois doted with myriads of steep hilled islands 
+T}	T{
+a crisp blue with floating ice crystals 
+T}	T{
+egg shaped pods traveling silently along invisible lanes
+T}
+31 	T{
+an endless storm beaten ocean 
+T}	T{
+a cold blue mist 
+T}	T{
+a distant air ship
+T}
+32 	T{
+a sprawling metropolis 
+T}	T{
+hazy red 
+T}	T{
+large birdlike creatures, homing in on their nests for sun down
+T}
+33 	T{
+wavey hills of reflecting metal 
+T}	T{
+eternally black, an endless starfield 
+T}	T{
+streaks of toxic industrial smoke
+T}
+34 	T{
+oddly peaceful rural idyll 
+T}	T{
+overcast with dense clouds 
+T}	T{
+a massive globular structure
+T}
+35 	T{
+a maze of deep gorges and canjons 
+T}	T{
+purple with yellow clouds 
+T}	T{
+a perfect rainbow
+T}
+36 	T{
+hills like burned sienna and a meandering river of quicksilver 
+T}	T{
+a wierd multicolored haze 
+T}	T{
+a strip of green light
+T}
+41 	T{
+a lattice of multilayered longitudinal structures 
+T}	T{
+a perfect gradient of blues 
+T}	T{
+two disks of setting suns
+T}
+42 	T{
+a decaying primordial forrest 
+T}	T{
+soaked with moisture 
+T}	T{
+the waning crescent of a close moon
+T}
+43 	T{
+vast yellow steppe smelling of creosote 
+T}	T{
+a turmoil of reddish clouds and gases 
+T}	T{
+silhuettes of floating islands in the far distance
+T}
+44 	T{
+iridescent vastness of transparent foilage 
+T}	T{
+filled with floating seeds 
+T}	T{
+the bright shining of the galactic core
+T}
+45 	T{
+an endless plain of fine white sand 
+T}	T{
+purple and black 
+T}	T{
+a veil of rain in the distance
+T}
+46 	T{
+hills of purple grass dotted with hulking grazers 
+T}	T{
+a canopy of stars 
+T}	T{
+colorful reflections
+T}
+51 	T{
+rust colored steep mountains 
+T}	T{
+a foggy purple to dark blue gradient 
+T}	T{
+feathery floating particles that reflect a distant light
+T}
+52 	T{
+towering pillars piercing through the mist 
+T}	T{
+scatterd grey clouds and beams of sun light 
+T}	T{
+a hazy premonition of what might be tomorrow
+T}
+53 	T{
+dusty rubble and harsh craters 
+T}	T{
+a perfect gradient from dark blue to almost white 
+T}	T{
+some fog far in the distance
+T}
+54 	T{
+dunes of colorful sands like ground marble 
+T}	T{
+a dull grey 
+T}	T{
+multicolored clouds bathed in sunlight
+T}
+55 	T{
+a sea of white dunes 
+T}	T{
+a gradient of light blue to almost black 
+T}	T{
+the plume of a space ship, rocketing into the sky
+T}
+56 	T{
+seemingly organic bulging formations 
+T}	T{
+a dazzling bright yellow 
+T}	T{
+looming cubic masses of floating habitats
+T}
+61 	T{
+semi-liquid multicolored plains 
+T}	T{
+swirls of multicolored gases 
+T}	T{
+chromium reflections of a ship passing by at low altitude
+T}
+62 	T{
+vast terrasses of grey slate 
+T}	T{
+a low haze of blue 
+T}	T{
+the notion of deep space
+T}
+63 	T{
+floating islands of rock on a sea of lava 
+T}	T{
+a dull, monotonous light blue 
+T}	T{
+some pink reptilian flyers
+T}
+64 	T{
+a large coastal delta, with mangroves and occasional villages 
+T}	T{
+a gradient from orange to red 
+T}	T{
+the hazy silhuette of a close by artificial world
+T}
+65 	T{
+a semi-liquid oily surface 
+T}	T{
+a gradient from sulfuric yellow to cobalt blue 
+T}	T{
+towering stalagmites of the arcology
+T}
+66 	T{
+monumental ice capped mountains 
+T}	T{
+criss-crossed with red stripes 
+T}	T{
+the shining swirl of the galaxy
+T}
+.TE
+.PP
+Just in case you don’t know what d66 stands for: this is a random table to be
+used with two six sided dice. Roll once for each collumn, and just roll two
+regular dice and read the first one as tens (a 5 becomes 50 for example) and
+the second die as ones (just read as is). You could use differently colored
+dice, so you can tell which one denotes the tens. I simply roll which ever two
+dice I can grab and read the one that lands more leftish of the other as tens.
+.PP
+Have fun spacing out!
+.Au lkh

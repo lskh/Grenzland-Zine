@@ -1,0 +1,103 @@
+.\" vim: filetype=groff
+.H1
+Get in Contact
+.2C
+.PP
+For a long time our unlikely community has relied on
+.I Discord
+for communication. Times are always changing however and thus we
+started to move away from Discord some time in 2025. Our preferred
+platform is now a small Internet Relay Chat (IRC) server, 
+augmented by the trusty bot
+.I Norn
+and supplemented by slow, thoughtful discussions on a handful of
+netnews groups.
+.PP
+These are old techniques for sure, but they do have their 
+advantages. Also we're quite safe from enshittification and
+other modern day hazards.
+.PP
+So if you'd like to join us, but don't know how, here are some 
+reciepes to follow and some addresses to take note of.
+.H2
+Fediverse
+.PP
+You'll find most of us on Mastodon. If you don't know whether that's
+a band or what, checkout: \fChttps://joinmastodon.org\fP. We are, 
+among others:
+.BU
+@alex@tabletop.social
+.BU
+@kyonshi@dice.camp
+.BU
+@phf@tabletop.social
+.BU
+@wandererbill@tabletop.social
+.H2
+Internet Relay Chat
+.PP
+Out main server is
+.I campaignwiki.org .
+To join the chat point your IRC client to campaignwiki.org, 
+port 6697. Alternatively you can ask @alex for an account on
+\fChttps://chat.campaignwiki.org\fP.
+.PP
+However you manage to connect to our IRC, here are some channels
+you might want to join:
+.BU
+#welcome - chit chat and hanging out, start here!
+.BU
+#next-games - here is where games are advertised
+.BU
+#sabbel-kanal - another, older general purpose channel, still bridged to the Grenzland Discord
+.BU
+#traveller - talk about that famous family of 2d6 sci-fi games. This channel is bridged to the #traveller channel on irc.undernet.org
+.PP
+Specific games may well have their own channels. It's probably best to ask around on #welcome if you're looking for a particular channel.
+.PP
+Also, with IRC being what it is, it's easy to set up a new channel in an ad-hoc fashion. Just join the new channel by typing 
+\fC/join #my-new-channel\fP. It will be created if it didn't exist already. You may set the /topic and /invite others to your new channel.
+.H2
+Netnews
+.PP
+While IRC is fast but also volatile and usually non-persistent,
+there is also netnews for lengthy, thoughtful discussions. Netnews
+messages persist as long as any one server on the network keeps a 
+copy of it. This can be quite long, in deed. Decades in case 
+.I Usenet ,
+the most famously known network of netnews servers.
+.PP
+Our network is small however. You can have a look via the web
+interface on \fChttps://campaignwiki.org/news\fP. 
+You'll find that there
+are a couple of groups from the larger usenet, but the important
+ones are \fCcampaignwiki.games\fP and \fCcampaignwiki.talk\fP.
+.PP
+You'll find that netnews is much like group email. In fact you
+can use
+.I Thunderbird
+to connect to our newsserver, and read and write to the groups 
+just as you would read and write email. Do get in touch with one
+of us if you need help setting it up.
+.H2
+Voice and Video Chat
+.PP
+Apart from
+.I Discord
+we've used
+.I Jitsi
+many times. The instances we use are:
+.BU
+\fChttps://meet.ffmuc.net/zurichmondays\fP and
+.BU
+\fChttps://meet.zrh.init7.net/MontagInZürich\fP
+.PP
+Recently we've been having good success with a software called
+Galène: \fChttps://galene.org/\fP - whoever is hosting a game
+will send you the URL and credentials to join.
+.PP
+So there you have it. There are many options to scratch that 
+gaming itch online, without relying on big money services. 
+We hope to see you join soon!
+.AU 
+lkh
